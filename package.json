@@ -1,0 +1,21 @@
+{
+    "name": "IQAnadoluScout",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "dependencies": {
+        "ejs": "^3.1.10"
+    }
+}

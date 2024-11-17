@@ -1,0 +1,96 @@
+/* frontend/styles/AuthenticationPage.css */
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a40;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .logo-container h2 {
+    color: #00d4ff;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .form-container {
+    background-color: #2e2e5c;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0f7fa;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .create-account,
+  .login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .create-account {
+    background-color: #00acc1;
+    color: #fff;
+  }
+  
+  .login {
+    background-color: #00796b;
+    color: #fff;
+  }
+  
+  .create-account:hover {
+    background-color: #00838f;
+  }
+  
+  .login:hover {
+    background-color: #004d40;
+  }
+  
