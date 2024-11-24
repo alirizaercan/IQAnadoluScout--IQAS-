@@ -1,5 +1,7 @@
 # backend/utils/database.py
-import psycopg2
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from models.user import Base
 from dotenv import load_dotenv
 import os
 
@@ -7,14 +9,15 @@ load_dotenv()
 
 class Database:
     def __init__(self):
-        self.conn = None
+        self.engine = None
+        self.Session = None
 
     def connect(self):
-        if self.conn is None:
-            self.conn = psycopg2.connect(os.getenv('DATABASE_URL'))
-        return self.conn
+        if self.engine is None:
+            self.engine = create_engine(os.getenv('DATABASE_URL'))  # DATABASE_URL .env dosyasından alınacak
+            Base.metadata.create_all(self.engine)
+            self.Session = sessionmaker(bind=self.engine)
+        return self.Session()
 
-    def close(self):
-        if self.conn:
-            self.conn.close()
-            self.conn = None
+    def close(self, session):
+        session.close()

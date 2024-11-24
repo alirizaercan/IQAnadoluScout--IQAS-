@@ -1,0 +1,42 @@
+.youth-development-container {
+    display: flex;
+    justify-content: space-between; /* Sağ ve sol boşluk için */
+    align-items: center;
+    height: 100vh;
+    background-color: #110555; /* Arka plan rengi */
+    padding: 0 100px; /* Sağ ve sol boşluk */
+    gap: calc(100px / 3); /* Butonlar arasındaki boşluk (sağ-sol boşluğun 3'te 1'i) */
+  }
+  
+  .development-button {
+    width: 480px; /* Buton genişliği */
+    height: 600px; /* Buton yüksekliği */
+    background-color: #404194; /* Buton arka plan rengi */
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+    transition: transform 0.3s ease;
+  }
+  
+  .development-button:hover {
+    transform: scale(1.05); /* Hover büyütme efekti */
+  }
+  
+  .development-button img {
+    width: 370px;
+    height: 370px;
+    object-fit: contain; /* Görsellerin düzgün görünmesi */
+    margin-bottom: 20px;
+  }
+  
+  .development-button span {
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

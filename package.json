@@ -1,21 +1,30 @@
 {
-    "name": "IQAnadoluScout",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "nodemon": "^3.1.7"
-    },
-    "dependencies": {
-        "ejs": "^3.1.10"
-    }
+  "name": "iqanadoluscout",
+  "version": "1.0.0",
+  "description": "iqas is a platform for data analysis in football industry.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "eject": "cd frontend && npm eject"
+  },
+  "keywords": [],
+  "author": "Ali Riza Ercan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "ejs": "^3.1.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "homepage": "./frontend/public"
 }

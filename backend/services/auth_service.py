@@ -1,39 +1,33 @@
 # backend/services/auth_service.py
-from argon2 import PasswordHasher
+from werkzeug.security import check_password_hash, generate_password_hash
+from models.user import User
 from utils.database import Database
-from datetime import datetime
 
-class AuthService:
-    def __init__(self):
-        self.db = Database()
-        self.conn = self.db.connect()
-        self.ph = PasswordHasher()
+db_session = Database().connect()
 
-    def register(self, data):
-        cursor = self.conn.cursor()
-        username = data['username']
-        email = data['email']
-        password = self.ph.hash(data['password'])
+def login_user(username, password):
+    user = db_session.query(User).filter(User.username == username).first()
+    if user and check_password_hash(user.password, password):
+        # Update login attempts and 'is_now_login'
+        user.login_attempt += 1
+        user.is_now_login = 'yes'
+        db_session.commit()
+        return user
+    return None
 
-        try:
-            cursor.execute("""
-                INSERT INTO users (username, email, password, created_at)
-                VALUES (%s, %s, %s, %s)
-            """, (username, email, password, datetime.now()))
-            self.conn.commit()
-            return {"message": "User registered successfully", "status": 201}
-        except Exception as e:
-            self.conn.rollback()
-            return {"message": str(e), "status": 400}
-
-    def login(self, data):
-        cursor = self.conn.cursor()
-        email = data['email']
-        password = data['password']
-
-        cursor.execute("SELECT id, password FROM users WHERE email = %s", (email,))
-        user = cursor.fetchone()
-
-        if user and self.ph.verify(user[1], password):
-            return {"message": "Login successful", "user_id": user[0], "status": 200}
-        return {"message": "Invalid credentials", "status": 401}
+def register_user(username, email, password, firstname=None, lastname=None, role=None, club=None):
+    if db_session.query(User).filter((User.username == username) | (User.email == email)).first():
+        return None  # Kullanıcı adı veya e-posta zaten kullanılmış
+    hashed_password = generate_password_hash(password)
+    new_user = User(
+        username=username,
+        email=email,
+        password=hashed_password,
+        firstname=firstname,
+        lastname=lastname,
+        role=role,
+        club=club
+    )
+    db_session.add(new_user)
+    db_session.commit()
+    return new_user

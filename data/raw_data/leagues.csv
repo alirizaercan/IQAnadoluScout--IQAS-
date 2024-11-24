@@ -1,0 +1,4 @@
+﻿league_name,league_id,league_logo_path,country,num_teams,players,foreign_players,avg_marketing_val,avg_age,most_valuable_player,total_market_value
+Süper Lig,tr1,https://tmssl.akamaized.net//images/logo/header/tr1.png?lm=1723019495,Türkiye,19 teams,562,262,€2.04m,26.5,Victor Osimhen,€1.15bn
+1.Lig,tr2,https://tmssl.akamaized.net//images/logo/header/tr2.png?lm=1691091073,Türkiye,20 teams,562,167,€255k,26.5,Efkan Bekiroğlu,€143.37m
+PKO BP Ekstraklasa,pl1,https://tmssl.akamaized.net//images/logo/header/pl1.png?lm=1601990839,Poland,18 teams,522,211,€471k,25.4,Patrik Wålemark,€245.75m

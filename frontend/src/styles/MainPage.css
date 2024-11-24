@@ -1,0 +1,39 @@
+.main-page { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Butonları dikey olarak ortalar */
+  height: 100vh; /* Sayfa yüksekliğini kapsar */
+  box-sizing: border-box; /* Padding/margin dahil */
+  padding: 20px; /* Sayfa kenar boşlukları */
+  gap: 40px; /* Alt ve üst buton sıraları arasında boşluk */
+}
+
+.button-row {
+  display: flex;
+  justify-content: center; /* Butonları yatay olarak ortalar */
+  gap: 100px; /* Yatay butonlar arasındaki boşluk */
+}
+
+.custom-button {
+  width: 400px;
+  height: 320px;
+  background-color: #404194; /* Buton rengini değiştirdim */
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Buton içeriği için metin rengini beyaz yapar */
+  font-size: 18px; /* Buton yazı boyutu */
+  font-weight: bold; /* Buton yazı kalınlığı */
+  text-align: center;
+  border-radius: 0px; /* Buton köşelerini yuvarlar */
+}
+
+.custom-button img {
+  width: 290px;
+  height: 290px;
+  object-fit: contain;
+}
