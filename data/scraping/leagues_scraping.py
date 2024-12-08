@@ -27,7 +27,7 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
     writer = csv.writer(file)
     # Başlıkları yazıyoruz
     header = [
-        'league_name', 'league_id', 'league_logo_path', 'country',
+        'league_id', 'league_name', 'league_logo_path', 'country',
         'num_teams', 'players', 'foreign_players', 'avg_marketing_val',
         'avg_age', 'most_valuable_player', 'total_market_value'
     ]
@@ -80,7 +80,7 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
 
             # Verileri CSV dosyasına yazıyoruz
             writer.writerow([
-                league_name, league_id, league_logo_path, country,
+                league_id, league_name, league_logo_path, country,
                 num_teams, players, foreign_players, avg_marketing_val,
                 avg_age, most_valuable_player, total_market_value
             ])

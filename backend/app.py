@@ -5,6 +5,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from controllers.auth_controller import auth_controller
 from controllers.youth_dev_controller import youth_dev_controller
+from controllers.physical_dev_controller import physical_bp as physical_controller
 
 load_dotenv()
 
@@ -12,8 +13,10 @@ app = Flask(__name__, static_folder='frontend/build/static', template_folder='fr
 CORS(app)
 
 # Blueprint'i kayıt ediyoruz
+app.register_blueprint(physical_controller, url_prefix='/api/physical-development')
 app.register_blueprint(youth_dev_controller, url_prefix='/api/youth-development')
 app.register_blueprint(auth_controller, url_prefix='/api/auth')
+
 
 @app.route('/')
 def home():

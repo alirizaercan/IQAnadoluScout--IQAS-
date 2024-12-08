@@ -43,13 +43,13 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
 
         # Lig adı ve ID'si URL'den çıkarılabilir
         if "TR1" in url:
-            league = 'Super League'
+            league = 'Süper Lig'
             league_id = 'tr1'
         elif "PL1" in url:
             league = 'PKO BP Ekstraklasa'
             league_id = 'pl1'
         elif "TR2" in url:
-            league = 'Trendyol TFF 1. League'
+            league = '1.Lig'
             league_id = 'tr2'
         else:
             league = 'Unknown League'
@@ -79,9 +79,9 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
 
                 # num_players, avg_age, num_legionnaires
                 tds = team.find_all('td', class_='zentriert')
-                num_players = tds[0].text.strip() if len(tds) > 0 else 'N/A'
-                avg_age = tds[1].text.strip() if len(tds) > 1 else 'N/A'
-                num_legionnaires = tds[2].text.strip() if len(tds) > 2 else 'N/A'
+                num_players = tds[1].a.text.strip() if len(tds) > 1 else 'N/A'
+                avg_age = tds[2].text.strip() if len(tds) > 2 else 'N/A'
+                num_legionnaires = tds[3].text.strip() if len(tds) > 3 else 'N/A'
 
                 # Avg marketing value ve total squad value
                 financial_tds = team.find_all('td', class_='rechts')

@@ -1,0 +1,123 @@
+/* PhysicalDevelopmentPage.css */
+
+/* Genel Sayfa Ayarları */
+.physical-development-page {
+  background-color: #1e1e57; /* Arka plan rengi */
+  color: white; /* Varsayılan yazı rengi */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+/* Seçiciler ve Kontrol Elemanları */
+.selectors {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selectors select,
+.selectors input[type="date"],
+.selectors button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.selectors button {
+  background-color: #3b82f6; /* Mavi buton rengi */
+  color: white;
+  font-weight: bold;
+}
+
+.selectors select:disabled,
+.selectors input[type="date"]:disabled {
+  background-color: #ccc; /* Disabled stil */
+  cursor: not-allowed;
+}
+
+/* Grafiğin Görünümü */
+.graph-container {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+}
+
+.graph-container pre {
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Oyuncu Profil Kartı */
+.player-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #2e2e6e;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.player-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.player-profile .details {
+  font-size: 14px;
+}
+
+.player-profile .details span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Grafik Kartları */
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.stat-card.green {
+  background-color: #6fcf97; /* Yeşil */
+}
+
+.stat-card.orange {
+  background-color: #f2c94c; /* Turuncu */
+}
+
+.stat-card.red {
+  background-color: #eb5757; /* Kırmızı */
+}
+
+.stat-card .average {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat-card .target,
+.stat-card .progress {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #333;
+}

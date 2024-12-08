@@ -24,7 +24,7 @@ csv_filename = os.path.join(csv_dir, "footballers.csv")
 
 with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
     writer = csv.writer(file)
-    header = ['league_id', 'team_id', 'footballer_id', 'footballer_name', 'club', 'league_name', 'trikot_num',
+    header = ['footballer_id', 'league_id', 'team_id', 'footballer_name', 'club', 'league_name', 'trikot_num',
               'position', 'birthday', 'age', 'nationality_img_path', 'height', 'feet', 'contract', 'market_value', 'footballer_img_path']
     writer.writerow(header)
 
@@ -42,13 +42,13 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
         league_name = 'Unknown League'
         league_id = 'unknown'
         if "TR1" in url:
-            league_name = 'Super League'
+            league_name = 'Süper Lig'
             league_id = 'tr1'
         elif "PL1" in url:
             league_name = 'PKO BP Ekstraklasa'
             league_id = 'pl1'
         elif "TR2" in url:
-            league_name = 'Trendyol TFF 1. League'
+            league_name = '1.Lig'
             league_id = 'tr2'
 
         print(f"Processing URL: {url}, League: {league_name}, League ID: {league_id}")
@@ -99,11 +99,17 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
                         feet = footballer.find_all('td', class_='zentriert')[4].text.strip() if len(footballer.find_all('td', class_='zentriert')) > 4 else ''
                         contract = footballer.find_all('td', class_='zentriert')[7].text.strip() if len(footballer.find_all('td', class_='zentriert')) > 7 else ''
                         market_value = footballer.find('td', class_='rechts hauptlink').a.text.strip() if footballer.find('td', class_='rechts hauptlink') else ''
-                        footballer_img = footballer.find('img', class_='bilderrahmen-fixed')['src'] if footballer.find('img', class_='bilderrahmen-fixed') else ''
+                        footballer_img = (
+                            footballer.find('img', class_='bilderrahmen-fixed').get('data-src')
+                            if footballer.find('img', class_='bilderrahmen-fixed') and 'data-src' in footballer.find('img', class_='bilderrahmen-fixed').attrs
+                            else footballer.find('img', class_='bilderrahmen-fixed').get('src')
+                            if footballer.find('img', class_='bilderrahmen-fixed')
+                            else ''
+                        )
 
                         footballer_id += 1
 
-                        writer.writerow([league_id, team_id, footballer_id, footballer_name, team_name, league_name,
+                        writer.writerow([footballer_id, league_id, team_id, footballer_name, team_name, league_name,
                                          trikot_num, position, birthday, age, nationality_img, height, feet, contract, market_value, footballer_img])
                     except Exception as e:
                         print(f"Error processing footballer: {e}")

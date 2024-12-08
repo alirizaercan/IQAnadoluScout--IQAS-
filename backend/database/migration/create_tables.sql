@@ -14,3 +14,108 @@ CREATE TABLE IF NOT EXISTS users (
     club VARCHAR(100),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- LEAGUES TABLE
+CREATE TABLE IF NOT EXISTS leagues (
+    league_id VARCHAR(10) PRIMARY KEY,
+    league_name VARCHAR(100) NOT NULL,
+    league_logo_path VARCHAR(250),
+    country VARCHAR(50),
+    num_teams VARCHAR(25),
+    players INT,
+    foreign_players INT,
+    avg_marketing_val VARCHAR(20),
+    avg_age FLOAT,
+    most_valuable_player VARCHAR(50),
+    total_market_value VARCHAR(20)
+);
+
+-- FOOTBALL TEAMS TABLE
+CREATE TABLE IF NOT EXISTS football_teams (
+    team_id INT PRIMARY KEY,
+    league_name VARCHAR(100) NOT NULL,
+    league_id VARCHAR(10) NOT NULL REFERENCES leagues(league_id),
+    team_name VARCHAR(100) NOT NULL,
+    team_info_link VARCHAR(250),
+    img_path VARCHAR(250),
+    num_players INT,
+    avg_age FLOAT,
+    num_legionnaires INT,
+    avg_marketing_val VARCHAR(20),
+    total_squad_value VARCHAR(20)
+);
+
+-- FOOTBALLERS TABLE
+CREATE TABLE IF NOT EXISTS footballers (
+    footballer_id INT PRIMARY KEY,
+    league_id VARCHAR(10) NOT NULL REFERENCES leagues(league_id),
+    team_id INT NOT NULL REFERENCES football_teams(team_id),
+    footballer_name VARCHAR(100) NOT NULL,
+    club VARCHAR(100) NOT NULL,
+    league_name VARCHAR(100),
+    trikot_num VARCHAR(5),
+    position VARCHAR(50),
+    birthday DATE,
+    age INT,
+    nationality_img_path VARCHAR(250),
+    height VARCHAR(10),
+    feet VARCHAR(10),
+    contract VARCHAR(50),
+    market_value VARCHAR(20),
+    footballer_img_path VARCHAR(250)
+);
+
+-- PHYSICAL TABLE
+CREATE TABLE IF NOT EXISTS physical (
+    id SERIAL PRIMARY KEY,
+    footballer_id INT NOT NULL REFERENCES footballers(footballer_id),
+    muscle_mass FLOAT,
+    muscle_strength FLOAT,
+    muscle_endurance FLOAT,
+    flexibility FLOAT,
+    weight FLOAT,
+    body_fat_percentage FLOAT,
+    heights VARCHAR(10),
+    thigh_circumference FLOAT,
+    shoulder_circumference FLOAT,
+    arm_circumference FLOAT,
+    chest_circumference FLOAT,
+    back_circumference FLOAT,
+    waist_circumference FLOAT,
+    leg_circumference FLOAT,
+    calf_circumference FLOAT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CONDITIONAL TABLE
+CREATE TABLE IF NOT EXISTS conditional (
+    id SERIAL PRIMARY KEY,
+    footballer_id INT NOT NULL REFERENCES footballers(footballer_id),
+    vo2_max FLOAT,
+    lactate_levels FLOAT,
+    training_intensity FLOAT,
+    recovery_times FLOAT,
+    current_VO2_max FLOAT,
+    current_lactate_levels FLOAT,
+    current_muscle_strength FLOAT,
+    target_VO2_max FLOAT,
+    target_lactate_level FLOAT,
+    target_muscle_strength FLOAT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ENDURANCE TABLE
+CREATE TABLE IF NOT EXISTS endurance (
+    id SERIAL PRIMARY KEY,
+    footballer_id INT NOT NULL REFERENCES footballers(footballer_id),
+    running_distance FLOAT,
+    average_speed FLOAT,
+    heart_rate INT,
+    peak_heart_rate INT,
+    training_intensity FLOAT,
+    session INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
