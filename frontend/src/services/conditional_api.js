@@ -1,6 +1,6 @@
-/* frontend/src/services/api.js */
+/* frontend/src/services/conditional_api.js */
 
-const API_BASE_URL = "http://localhost:5000/api/physical-development";
+const API_BASE_URL = "http://localhost:5000/api/conditional-development";
 
 // Function to fetch all leagues
 export const fetchLeagues = async () => {
@@ -44,10 +44,10 @@ export const fetchFootballersByTeam = async (teamId) => {
   }
 };
 
-// Function to fetch physical data for a footballer within a date range
-export const fetchPhysicalData = async (payload) => {
+// Function to fetch conditional data for a footballer within a date range
+export const fetchConditionalData = async (payload) => {
   try {
-    const response = await fetch(`${API_BASE_URL}/physical-data`, {
+    const response = await fetch(`${API_BASE_URL}/conditional-data`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -55,11 +55,11 @@ export const fetchPhysicalData = async (payload) => {
       body: JSON.stringify(payload),
     });
     if (!response.ok) {
-      throw new Error("Failed to fetch physical data");
+      throw new Error("Failed to fetch conditional data");
     }
     return await response.json();
   } catch (error) {
-    console.error("Error fetching physical data:", error);
+    console.error("Error fetching conditional data:", error);
     return []; // Return an empty array or error response
   }
 };

@@ -30,8 +30,18 @@ class PhysicalService:
         # Adjust data based on graph_type
         if graph_type == "Physical Progress Tracker":
             query = query.with_entities(Physical.muscle_mass, Physical.muscle_strength, Physical.muscle_endurance, Physical.flexibility, Physical.created_at)
+        elif graph_type == "Training Progress Time Tracker":
+            query = query.with_entities(Physical.muscle_mass, Physical.muscle_strength, Physical.muscle_endurance, Physical.flexibility, Physical.created_at)
         elif graph_type == "Body Composition Progress Tracker":
-            query = query.with_entities(Physical.weight, Physical.height, Physical.muscle_mass, Physical.created_at)
-        # Add other graph types here...
+            query = query.with_entities(Physical.weight, Physical.heights, Physical.muscle_mass, Physical.created_at)
+        elif graph_type == "Athletic Performance Radar Analysis":
+            query = query.with_entities(Physical.muscle_mass, Physical.muscle_strength, Physical.muscle_endurance, Physical.flexibility, Physical.created_at)
+        elif graph_type == "BMI Distribution Analysis":
+            query = query.with_entities(Physical.weight, Physical.heights, Physical.created_at)
+        elif graph_type == "Comprehensive Physical Metrics Box Plot":
+            query = query.with_entities(Physical.muscle_mass, Physical.muscle_strength, Physical.muscle_endurance, Physical.flexibility, Physical.weight, Physical.heights, Physical.created_at)
+        elif graph_type == "Dynamic Body Metrics Tracker":
+            query = query.with_entities(Physical.thigh_circumference, Physical.shoulder_circumference, Physical.arm_circumference, Physical.chest_circumference, Physical.back_circumference, Physical.waist_circumference, Physical.leg_circumference, Physical.calf_circumference, Physical.created_at)
+        
 
         return [row._asdict() for row in query]

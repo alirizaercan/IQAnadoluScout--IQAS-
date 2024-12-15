@@ -2,9 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/YouthDevelopmentPage.css'; // CSS dosyasını bağlayın
 
-import physicalImage from '../assets/images/phyical_page_icon.png';
+import physicalImage from '../assets/images/physical_page_icon.png';
 import conditioningImage from '../assets/images/conditioning_page_icon.png';
-import enduranceImage from '../assets/images/ednurance_page_icon.png';
+import enduranceImage from '../assets/images/endurance_page_icon.png';
 
 const YouthDevelopmentPage = () => {
   const navigate = useNavigate();
