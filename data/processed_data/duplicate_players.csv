@@ -1,0 +1,650 @@
+player_id,footballer_id,footballer_name,rating,potential,position_acronym
+38,38,Filip Kostić,73,78.0,"WBL, ML, AML"
+39,38,Filip Kostić,34,34.0,ST
+73,74,João Mário,71,78.0,"MC, MR, ML, AML, AMC"
+74,74,João Mário,71,79.0,DR
+75,74,João Mário,49,55.0,"AMR, AML, ST"
+76,74,João Mário,21,22.0,DC
+93,93,Stefan Savic,71,78.0,DC
+94,93,Stefan Savic,49,55.0,"AML, AMC"
+95,93,Stefan Savic,34,37.0,MC
+125,125,Lucas Lima,61,78.0,AMC
+126,125,Lucas Lima,58,67.0,DL
+127,125,Lucas Lima,55,60.0,MC
+128,125,Lucas Lima,45,61.0,ST
+129,125,Lucas Lima,39,45.0,"AMR, AML"
+130,125,Lucas Lima,38,,DR
+131,125,Lucas Lima,38,48.0,ST
+132,125,Lucas Lima,34,38.0,"DR, DM"
+133,125,Lucas Lima,33,45.0,AMC
+136,128,Léo Duarte,60,73.0,DC
+137,128,Léo Duarte,53,60.0,DR
+146,139,Davidson,65,68.0,"AMR, AML"
+147,139,Davidson,35,48.0,ST
+148,139,Davidson,28,33.0,MC
+153,144,João Figueiredo,60,63.0,AML
+154,144,João Figueiredo,35,35.0,GK
+155,144,João Figueiredo,32,40.0,MC
+156,144,João Figueiredo,30,38.0,DC
+157,144,João Figueiredo,24,32.0,GK
+179,170,Martin Minchev,55,66.0,"AMR, AML"
+180,170,Martin Minchev,32,42.0,DC
+182,172,Mateusz Lis,55,63.0,GK
+183,172,Mateusz Lis,37,43.0,"DR, DM"
+204,195,Victor Hugo,61,,"MC, AMC"
+205,195,Victor Hugo,49,54.0,"ML, AML"
+206,195,Victor Hugo,46,59.0,GK
+207,195,Victor Hugo,41,46.0,GK
+208,195,Victor Hugo,40,57.0,AMC
+209,195,Victor Hugo,39,50.0,DR
+210,195,Victor Hugo,38,51.0,"DL, WBL"
+211,195,Victor Hugo,38,,MC
+212,195,Victor Hugo,38,,DM
+213,195,Victor Hugo,38,42.0,AMC
+214,195,Victor Hugo,35,,MC
+215,195,Victor Hugo,35,53.0,GK
+216,195,Victor Hugo,35,43.0,DC
+217,195,Victor Hugo,35,42.0,GK
+218,195,Victor Hugo,35,40.0,DM
+219,195,Victor Hugo,34,37.0,GK
+220,195,Victor Hugo,33,40.0,ST
+221,195,Victor Hugo,33,,AMR
+222,195,Victor Hugo,33,38.0,AMC
+223,195,Victor Hugo,30,40.0,AMC
+224,195,Victor Hugo,30,40.0,DC
+225,195,Victor Hugo,30,40.0,ST
+226,195,Victor Hugo,28,40.0,DR
+227,195,Victor Hugo,26,46.0,"DR, AML"
+228,195,Victor Hugo,21,40.0,MC
+229,195,Victor Hugo,17,30.0,WBL
+231,198,Rômulo,59,67.0,"MC, AMC"
+232,198,Rômulo,57,63.0,"DM, MC"
+233,198,Rômulo,55,57.0,DM
+234,198,Rômulo,55,65.0,"DM, MC"
+235,198,Rômulo,54,60.0,ST
+236,198,Rômulo,54,71.0,"WBR, MC, MR"
+237,198,Rômulo,53,71.0,DM
+238,198,Rômulo,48,57.0,ST
+239,198,Rômulo,48,55.0,ST
+240,198,Rômulo,47,53.0,ST
+241,198,Rômulo,46,45.0,ST
+242,198,Rômulo,45,,DC
+243,198,Rômulo,44,50.0,"DL, WBL"
+244,198,Rômulo,41,48.0,"DC, DM"
+245,198,Rômulo,39,53.0,AMC
+246,198,Rômulo,36,40.0,DR
+247,198,Rômulo,32,36.0,ST
+248,198,Rômulo,30,41.0,"AMC, ST"
+249,198,Rômulo,20,40.0,"DR, WBR"
+283,235,Kévin Rodrigues,63,68.0,DL
+284,235,Kévin Rodrigues,41,43.0,DC
+285,235,Kévin Rodrigues,27,28.0,"AMR, AML"
+286,235,Kévin Rodrigues,18,28.0,ST
+293,242,Aytaç Kara,58,63.0,"DM, MC"
+294,242,Aytaç Kara,1,6.0,ST
+295,243,Cafú,58,65.0,MC
+296,243,Cafú,49,61.0,AMR
+314,262,Bedirhan Çetin,38,,DC
+315,262,Bedirhan Çetin,33,,DL
+339,289,Doğukan Özkan,33,43.0,GK
+340,289,Doğukan Özkan,25,40.0,DC
+341,290,Thalisson,50,50.0,DM
+342,290,Thalisson,37,44.0,AMC
+343,290,Thalisson,33,,ST
+344,290,Thalisson,28,31.0,"DR, AMR"
+355,301,Mert Yılmaz,48,60.0,"DR, WBR"
+356,301,Mert Yılmaz,20,30.0,AMR
+376,323,Nuno Lima,55,63.0,DC
+377,323,Nuno Lima,19,21.0,ST
+381,327,Richard,60,62.0,GK
+382,327,Richard,60,67.0,DM
+383,327,Richard,56,56.0,AMC
+384,327,Richard,53,62.0,"AMR, AML, AMC"
+402,347,Filip Damjanovic,55,57.0,DC
+403,347,Filip Damjanovic,30,47.0,DC
+406,350,Guilherme,65,68.0,"DM, MC"
+407,350,Guilherme,63,65.0,AML
+408,350,Guilherme,63,65.0,"DL, WBL"
+409,350,Guilherme,58,68.0,GK
+410,350,Guilherme,52,64.0,DL
+411,350,Guilherme,46,68.0,AMC
+418,358,Emmanuel Boateng,60,63.0,MC
+419,358,Emmanuel Boateng,58,67.0,ST
+420,358,Emmanuel Boateng,54,55.0,"ML, AMR, AML"
+423,361,Pedrinho,65,69.0,"AMR, AMC"
+424,361,Pedrinho,58,69.0,"MC, AMC"
+425,361,Pedrinho,58,65.0,"AMR, AML"
+426,361,Pedrinho,57,,"DL, WBL"
+427,361,Pedrinho,55,59.0,AML
+428,361,Pedrinho,53,,AMC
+429,361,Pedrinho,48,58.0,AMR
+430,361,Pedrinho,47,,"AML, ST"
+431,361,Pedrinho,45,58.0,AMC
+432,361,Pedrinho,45,50.0,AMC
+433,361,Pedrinho,44,47.0,"AMR, AML, AMC"
+434,361,Pedrinho,44,53.0,AMC
+435,361,Pedrinho,44,48.0,"AMR, AMC"
+436,361,Pedrinho,43,45.0,ST
+437,361,Pedrinho,42,50.0,"AMR, AMC"
+438,361,Pedrinho,40,,"DR, WBR, AMR"
+439,361,Pedrinho,39,41.0,"DR, AML"
+440,361,Pedrinho,38,48.0,MC
+441,361,Pedrinho,38,45.0,DL
+442,361,Pedrinho,38,,"MC, AMC"
+443,361,Pedrinho,37,52.0,AMR
+444,361,Pedrinho,37,48.0,ST
+445,361,Pedrinho,36,,MC
+446,361,Pedrinho,35,60.0,AMC
+447,361,Pedrinho,35,,AMC
+448,361,Pedrinho,35,,"AMR, AML"
+449,361,Pedrinho,35,40.0,DR
+450,361,Pedrinho,35,41.0,AMC
+451,361,Pedrinho,35,48.0,AMR
+452,361,Pedrinho,35,59.0,AMR
+453,361,Pedrinho,35,42.0,DL
+454,361,Pedrinho,34,,AMC
+455,361,Pedrinho,34,,AMC
+456,361,Pedrinho,34,,ST
+457,361,Pedrinho,33,44.0,ST
+458,361,Pedrinho,33,,DR
+459,361,Pedrinho,33,38.0,DR
+460,361,Pedrinho,32,42.0,AML
+461,361,Pedrinho,30,40.0,"DL, WBL"
+462,361,Pedrinho,30,,AMC
+463,361,Pedrinho,30,40.0,ST
+464,361,Pedrinho,30,,AML
+465,361,Pedrinho,30,,ST
+466,361,Pedrinho,30,40.0,ST
+467,361,Pedrinho,30,40.0,AMC
+468,361,Pedrinho,30,51.0,DR
+469,361,Pedrinho,29,38.0,MC
+471,363,Yusuf Erdoğan,58,64.0,"AMR, AML"
+472,363,Yusuf Erdoğan,33,,DM
+486,378,Mehmet Albayrak,43,,"DC, DM"
+487,378,Mehmet Albayrak,38,40.0,DC
+518,414,Miguel Cardoso,60,63.0,"AML, AMC"
+519,414,Miguel Cardoso,31,30.0,ST
+520,414,Miguel Cardoso,28,33.0,"AML, ST"
+521,414,Miguel Cardoso,24,30.0,MC
+522,414,Miguel Cardoso,24,34.0,DL
+523,414,Miguel Cardoso,21,21.0,GK
+524,414,Miguel Cardoso,20,30.0,ST
+539,430,Burak Yılmaz,48,49.0,MR
+540,430,Burak Yılmaz,28,40.0,"MC, AMC"
+541,430,Burak Yılmaz,18,20.0,MC
+551,440,Ali Yıldız,40,40.0,ST
+552,440,Ali Yıldız,34,30.0,MC
+553,440,Ali Yıldız,30,,MC
+554,441,Rui Pedro,57,57.0,ST
+555,441,Rui Pedro,31,32.0,DM
+556,441,Rui Pedro,31,40.0,GK
+557,441,Rui Pedro,31,41.0,AMR
+558,441,Rui Pedro,30,43.0,GK
+559,441,Rui Pedro,30,43.0,DR
+560,441,Rui Pedro,30,40.0,MC
+561,441,Rui Pedro,28,30.0,GK
+562,441,Rui Pedro,28,33.0,MC
+563,441,Rui Pedro,27,33.0,MC
+564,441,Rui Pedro,26,30.0,MC
+565,441,Rui Pedro,26,29.0,MC
+566,441,Rui Pedro,25,33.0,AML
+567,441,Rui Pedro,24,38.0,MC
+568,441,Rui Pedro,23,30.0,ST
+569,441,Rui Pedro,23,30.0,GK
+570,441,Rui Pedro,21,24.0,GK
+571,441,Rui Pedro,21,31.0,MC
+572,441,Rui Pedro,20,40.0,DR
+573,441,Rui Pedro,20,38.0,GK
+574,441,Rui Pedro,20,28.0,GK
+575,441,Rui Pedro,19,25.0,ST
+581,447,Vincent Aboubakar,65,75.0,ST
+582,447,Vincent Aboubakar,31,40.0,DR
+601,468,Alexandru Maxim,65,72.0,AMC
+602,468,Alexandru Maxim,35,37.0,ST
+603,468,Alexandru Maxim,30,,GK
+614,479,Diogo Sousa,55,64.0,GK
+615,479,Diogo Sousa,43,46.0,DR
+616,479,Diogo Sousa,33,38.0,ST
+617,479,Diogo Sousa,33,35.0,ST
+618,479,Diogo Sousa,33,,DM
+619,479,Diogo Sousa,28,31.0,DL
+620,479,Diogo Sousa,22,30.0,MC
+621,479,Diogo Sousa,21,33.0,DL
+622,479,Diogo Sousa,21,25.0,DM
+623,479,Diogo Sousa,21,29.0,AMC
+624,479,Diogo Sousa,20,32.0,GK
+625,479,Diogo Sousa,20,28.0,MC
+626,479,Diogo Sousa,16,20.0,"MC, MR"
+627,479,Diogo Sousa,12,17.0,GK
+628,479,Diogo Sousa,10,10.0,"DR, WBR"
+629,480,Gökhan Akkan,60,65.0,GK
+630,480,Gökhan Akkan,45,53.0,DC
+643,493,Ahmet Aslan,45,,"DM, MC"
+644,493,Ahmet Aslan,20,38.0,MR
+652,501,Fredy,58,63.0,MC
+653,501,Fredy,31,33.0,AMC
+654,501,Fredy,31,45.0,AMR
+655,501,Fredy,30,35.0,MC
+656,501,Fredy,28,,AML
+657,501,Fredy,26,36.0,"AMR, AML"
+658,501,Fredy,25,26.0,"DC, DM"
+667,512,Murat Eser,35,52.0,GK
+668,512,Murat Eser,15,43.0,GK
+707,559,Luquinhas,62,66.0,"ML, AML, AMC"
+708,559,Luquinhas,46,53.0,"AMR, ST"
+709,559,Luquinhas,45,49.0,"DR, WBR"
+710,559,Luquinhas,44,51.0,AMR
+711,559,Luquinhas,37,,AMC
+712,559,Luquinhas,24,24.0,AMR
+724,571,Antonio Milic,60,63.0,"DL, DC, DM"
+725,571,Antonio Milic,28,40.0,MC
+730,578,Joel Pereira,57,60.0,DR
+731,578,Joel Pereira,48,56.0,GK
+732,578,Joel Pereira,39,40.0,GK
+736,584,Afonso Sousa,63,71.0,"MC, AMC"
+737,584,Afonso Sousa,37,,AMR
+738,584,Afonso Sousa,32,45.0,"AMR, AML"
+739,584,Afonso Sousa,31,,DC
+757,602,Gustav Berggren,62,65.0,DM
+758,602,Gustav Berggren,43,57.0,MC
+765,611,Erick Otieno,58,66.0,DL
+766,611,Erick Otieno,39,43.0,ST
+770,615,Adriano,56,67.0,"DM, MC"
+771,615,Adriano,52,63.0,"AMR, AML"
+772,615,Adriano,46,63.0,ST
+773,615,Adriano,45,57.0,MC
+774,615,Adriano,44,47.0,ST
+775,615,Adriano,43,45.0,DC
+776,615,Adriano,42,47.0,ST
+777,615,Adriano,40,43.0,DL
+778,615,Adriano,39,,GK
+779,615,Adriano,37,45.0,ST
+783,619,Jesus Diaz,50,,"MR, AMR"
+784,619,Jesus Diaz,45,50.0,MC
+785,619,Jesus Diaz,41,55.0,ST
+793,629,João Moutinho,70,77.0,"DM, MC"
+794,629,João Moutinho,53,58.0,DL
+795,629,João Moutinho,29,29.0,AML
+796,629,João Moutinho,22,30.0,DM
+800,633,Tomás Silva,59,63.0,"DR, WBR, MC"
+801,633,Tomás Silva,52,,DL
+802,633,Tomás Silva,48,61.0,AMC
+803,633,Tomás Silva,43,,"DM, MC"
+804,633,Tomás Silva,34,,GK
+805,633,Tomás Silva,28,40.0,AMR
+806,633,Tomás Silva,28,40.0,DR
+807,633,Tomás Silva,26,33.0,DC
+808,633,Tomás Silva,26,32.0,DR
+809,633,Tomás Silva,25,43.0,DC
+810,633,Tomás Silva,25,38.0,MC
+811,633,Tomás Silva,25,30.0,DR
+812,633,Tomás Silva,25,36.0,DL
+813,633,Tomás Silva,23,35.0,"DM, MC"
+814,633,Tomás Silva,15,35.0,ST
+815,633,Tomás Silva,15,33.0,GK
+816,634,Nené,63,79.0,"AML, AMC"
+817,634,Nené,59,63.0,ST
+818,634,Nené,55,57.0,"DM, MC"
+819,634,Nené,43,,"AMR, AML, AMC"
+820,634,Nené,41,48.0,"DC, DM"
+821,634,Nené,40,50.0,ST
+822,634,Nené,39,48.0,"MC, AMC"
+823,634,Nené,38,52.0,AMR
+824,634,Nené,35,38.0,DM
+825,634,Nené,30,38.0,"AMR, AML"
+826,634,Nené,25,38.0,AMR
+827,634,Nené,22,25.0,AMR
+828,634,Nené,21,29.0,MC
+829,634,Nené,14,25.0,ST
+888,713,Damian Dabrowski,59,62.0,"DM, MC"
+889,713,Damian Dabrowski,17,17.0,MC
+894,719,Luís Mata,52,58.0,"DL, AMR, AML"
+895,719,Luís Mata,33,33.0,GK
+934,765,Conrado,56,60.0,"WBL, ML"
+935,765,Conrado,51,55.0,AMC
+936,765,Conrado,41,45.0,GK
+937,765,Conrado,39,42.0,ST
+956,790,Josema,61,65.0,DC
+957,790,Josema,51,52.0,DC
+958,790,Josema,39,40.0,DC
+959,790,Josema,35,44.0,DL
+960,790,Josema,35,45.0,DC
+961,790,Josema,32,38.0,DC
+963,793,Manu Sánchez,64,75.0,DL
+964,793,Manu Sánchez,50,60.0,"DR, WBR"
+965,793,Manu Sánchez,37,63.0,"DM, MC"
+966,793,Manu Sánchez,35,43.0,AMC
+967,793,Manu Sánchez,35,44.0,MC
+989,817,Miguel Muñoz,44,48.0,DC
+990,817,Miguel Muñoz,28,30.0,ST
+1010,842,Luís Silva,55,58.0,MC
+1011,842,Luís Silva,53,61.0,DC
+1012,842,Luís Silva,38,48.0,"AMR, ST"
+1013,842,Luís Silva,31,30.0,"AMR, ST"
+1014,842,Luís Silva,28,38.0,GK
+1015,842,Luís Silva,25,30.0,DC
+1016,842,Luís Silva,25,30.0,MC
+1017,842,Luís Silva,25,35.0,DR
+1018,842,Luís Silva,21,29.0,MC
+1019,842,Luís Silva,16,21.0,GK
+1020,842,Luís Silva,16,18.0,GK
+1021,842,Luís Silva,15,23.0,MC
+1022,842,Luís Silva,15,26.0,DC
+1023,842,Luís Silva,15,28.0,GK
+1026,846,Lirim Kastrati,55,61.0,AMR
+1027,846,Lirim Kastrati,53,61.0,"DR, DC, WBR"
+1031,850,Fran Álvarez,58,66.0,MC
+1032,850,Fran Álvarez,38,45.0,"DL, WBL"
+1036,856,Fábio Nunes,55,58.0,WBL
+1037,856,Fábio Nunes,39,41.0,DC
+1038,856,Fábio Nunes,30,35.0,"DL, DC"
+1039,856,Fábio Nunes,16,38.0,MC
+1054,872,Adrian Bukowski,43,,"DM, MC"
+1055,872,Adrian Bukowski,35,38.0,"MR, AMR"
+1077,904,Nono,53,60.0,"ML, AMR, AML"
+1078,904,Nono,53,58.0,MC
+1079,904,Nono,44,45.0,"AMR, AML"
+1080,904,Nono,39,44.0,"MR, AMR"
+1081,904,Nono,33,34.0,"DL, WBL"
+1082,904,Nono,29,37.0,DC
+1084,906,Pedro Nuno,55,63.0,AMC
+1085,906,Pedro Nuno,38,48.0,DC
+1086,906,Pedro Nuno,24,34.0,DC
+1095,917,Ivan Brkic,50,60.0,GK
+1096,917,Ivan Brkic,39,51.0,DM
+1097,917,Ivan Brkic,35,45.0,ST
+1106,927,Filip Wojcik,44,50.0,"DR, MR, AMR"
+1107,927,Filip Wojcik,43,50.0,"AMR, AML"
+1120,948,Mateusz Cichocki,50,50.0,DC
+1121,948,Mateusz Cichocki,31,,DM
+1123,950,Paulo Henrique,61,63.0,"DR, DM"
+1124,950,Paulo Henrique,58,64.0,"DL, DC"
+1125,950,Paulo Henrique,51,58.0,GK
+1126,950,Paulo Henrique,48,53.0,ST
+1127,950,Paulo Henrique,48,,AML
+1128,950,Paulo Henrique,47,51.0,"DM, MC"
+1129,950,Paulo Henrique,43,,ST
+1130,950,Paulo Henrique,42,53.0,DL
+1131,950,Paulo Henrique,40,45.0,DM
+1132,950,Paulo Henrique,40,42.0,GK
+1133,950,Paulo Henrique,40,45.0,DL
+1134,950,Paulo Henrique,38,43.0,DC
+1135,950,Paulo Henrique,38,53.0,MC
+1136,950,Paulo Henrique,38,40.0,ST
+1137,950,Paulo Henrique,37,41.0,GK
+1138,950,Paulo Henrique,37,45.0,DC
+1139,950,Paulo Henrique,36,49.0,DL
+1140,950,Paulo Henrique,36,,DM
+1141,950,Paulo Henrique,35,45.0,DC
+1142,950,Paulo Henrique,35,45.0,DR
+1143,950,Paulo Henrique,32,40.0,"AMR, AML"
+1144,950,Paulo Henrique,30,53.0,DL
+1145,950,Paulo Henrique,30,40.0,MC
+1146,950,Paulo Henrique,29,37.0,AML
+1147,950,Paulo Henrique,25,27.0,DC
+1148,950,Paulo Henrique,20,41.0,GK
+1152,954,Luizão,59,74.0,DC
+1153,954,Luizão,58,68.0,MC
+1154,954,Luizão,48,65.0,DC
+1155,954,Luizão,46,56.0,DC
+1156,954,Luizão,38,45.0,ST
+1157,954,Luizão,36,47.0,DC
+1158,954,Luizão,30,,GK
+1160,957,Francisco Ramos,53,56.0,MC
+1161,957,Francisco Ramos,40,55.0,ST
+1166,965,Vagner,54,65.0,GK
+1167,965,Vagner,53,62.0,GK
+1168,965,Vagner,53,62.0,"AMR, AML"
+1169,965,Vagner,33,52.0,DC
+1170,965,Vagner,32,,GK
+1171,965,Vagner,25,30.0,GK
+1172,965,Vagner,23,26.0,ST
+1175,968,Leândro,53,67.0,ST
+1176,968,Leândro,53,59.0,"AMR, AML"
+1177,969,Leonardo Rocha,54,58.0,ST
+1178,969,Leonardo Rocha,23,30.0,ST
+1179,969,Leonardo Rocha,22,35.0,ST
+1188,982,Mateusz Kowalczyk,46,,"DM, MC"
+1189,982,Mateusz Kowalczyk,34,43.0,AMC
+1223,1021,Mateusz Stepien,47,58.0,AMR
+1224,1021,Mateusz Stepien,37,45.0,DL
+1234,1032,Diogo Coelho,43,43.0,"DL, WBL"
+1235,1032,Diogo Coelho,43,58.0,DC
+1236,1032,Diogo Coelho,23,35.0,ST
+1237,1032,Diogo Coelho,22,29.0,AMR
+1238,1032,Diogo Coelho,22,24.0,DL
+1239,1032,Diogo Coelho,15,15.0,"DM, MC"
+1240,1032,Diogo Coelho,14,30.0,DR
+1241,1032,Diogo Coelho,13,30.0,DC
+1256,1049,Kevin Varga,53,53.0,"AMR, AML"
+1257,1049,Kevin Varga,32,39.0,"AMC, ST"
+1261,1054,Emre Bilgin,50,,GK
+1262,1054,Emre Bilgin,26,40.0,ML
+1277,1072,Daniel Johnson,57,64.0,"MC, AMC"
+1278,1072,Daniel Johnson,42,46.0,ST
+1279,1072,Daniel Johnson,31,35.0,MC
+1280,1072,Daniel Johnson,28,30.0,DL
+1281,1072,Daniel Johnson,27,35.0,DC
+1319,1118,Veli Çetin,50,55.0,DC
+1320,1118,Veli Çetin,39,,DR
+1328,1126,Sinan Kurt,48,58.0,"MC, AMC"
+1329,1126,Sinan Kurt,33,53.0,"AML, AMC"
+1332,1129,Adama Traoré,69,77.0,"MR, AMR"
+1333,1129,Adama Traoré,66,68.0,"ML, AML"
+1334,1129,Adama Traoré,60,68.0,AMC
+1335,1129,Adama Traoré,51,60.0,"DL, WBL"
+1336,1129,Adama Traoré,44,,ST
+1337,1129,Adama Traoré,39,43.0,DM
+1338,1129,Adama Traoré,36,44.0,ST
+1339,1129,Adama Traoré,11,19.0,ST
+1345,1135,Bruno Lourenço,61,66.0,"AMR, AMC"
+1346,1135,Bruno Lourenço,20,30.0,ST
+1347,1135,Bruno Lourenço,13,15.0,DC
+1358,1146,Ahmet Oğuz,58,63.0,DR
+1359,1146,Ahmet Oğuz,27,33.0,DR
+1364,1151,Pedrinho,65,69.0,"AMR, AMC"
+1365,1151,Pedrinho,58,69.0,"MC, AMC"
+1366,1151,Pedrinho,58,65.0,"AMR, AML"
+1367,1151,Pedrinho,57,,"DL, WBL"
+1368,1151,Pedrinho,55,59.0,AML
+1369,1151,Pedrinho,53,,AMC
+1370,1151,Pedrinho,48,58.0,AMR
+1371,1151,Pedrinho,47,,"AML, ST"
+1372,1151,Pedrinho,45,58.0,AMC
+1373,1151,Pedrinho,45,50.0,AMC
+1374,1151,Pedrinho,44,47.0,"AMR, AML, AMC"
+1375,1151,Pedrinho,44,53.0,AMC
+1376,1151,Pedrinho,44,48.0,"AMR, AMC"
+1377,1151,Pedrinho,43,45.0,ST
+1378,1151,Pedrinho,42,50.0,"AMR, AMC"
+1379,1151,Pedrinho,40,,"DR, WBR, AMR"
+1380,1151,Pedrinho,39,41.0,"DR, AML"
+1381,1151,Pedrinho,38,48.0,MC
+1382,1151,Pedrinho,38,45.0,DL
+1383,1151,Pedrinho,38,,"MC, AMC"
+1384,1151,Pedrinho,37,52.0,AMR
+1385,1151,Pedrinho,37,48.0,ST
+1386,1151,Pedrinho,36,,MC
+1387,1151,Pedrinho,35,60.0,AMC
+1388,1151,Pedrinho,35,,AMC
+1389,1151,Pedrinho,35,,"AMR, AML"
+1390,1151,Pedrinho,35,40.0,DR
+1391,1151,Pedrinho,35,41.0,AMC
+1392,1151,Pedrinho,35,48.0,AMR
+1393,1151,Pedrinho,35,59.0,AMR
+1394,1151,Pedrinho,35,42.0,DL
+1395,1151,Pedrinho,34,,AMC
+1396,1151,Pedrinho,34,,AMC
+1397,1151,Pedrinho,34,,ST
+1398,1151,Pedrinho,33,44.0,ST
+1399,1151,Pedrinho,33,,DR
+1400,1151,Pedrinho,33,38.0,DR
+1401,1151,Pedrinho,32,42.0,AML
+1402,1151,Pedrinho,30,40.0,"DL, WBL"
+1403,1151,Pedrinho,30,,AMC
+1404,1151,Pedrinho,30,40.0,ST
+1405,1151,Pedrinho,30,,AML
+1406,1151,Pedrinho,30,,ST
+1407,1151,Pedrinho,30,40.0,ST
+1408,1151,Pedrinho,30,40.0,AMC
+1409,1151,Pedrinho,30,51.0,DR
+1410,1151,Pedrinho,29,38.0,MC
+1414,1155,Giorgi Beridze,55,63.0,AML
+1415,1155,Giorgi Beridze,25,26.0,DC
+1416,1155,Giorgi Beridze,15,30.0,"DM, WBR"
+1420,1160,Marcão,72,73.0,DC
+1421,1160,Marcão,59,64.0,DM
+1422,1160,Marcão,58,65.0,ST
+1423,1160,Marcão,50,60.0,DC
+1424,1160,Marcão,48,59.0,GK
+1425,1160,Marcão,47,56.0,GK
+1426,1160,Marcão,45,50.0,DC
+1427,1160,Marcão,44,48.0,DC
+1428,1160,Marcão,44,53.0,DC
+1429,1160,Marcão,43,63.0,ST
+1430,1160,Marcão,43,55.0,DL
+1431,1160,Marcão,43,58.0,GK
+1432,1160,Marcão,43,50.0,DC
+1433,1160,Marcão,42,60.0,DC
+1434,1160,Marcão,40,,DC
+1435,1160,Marcão,39,45.0,DC
+1436,1160,Marcão,38,45.0,GK
+1437,1160,Marcão,38,,GK
+1438,1160,Marcão,38,40.0,ST
+1439,1160,Marcão,37,,GK
+1440,1160,Marcão,37,48.0,DM
+1441,1160,Marcão,35,53.0,DC
+1442,1160,Marcão,35,38.0,GK
+1443,1160,Marcão,33,,GK
+1444,1160,Marcão,33,37.0,GK
+1445,1160,Marcão,28,30.0,GK
+1446,1160,Marcão,25,35.0,GK
+1452,1166,Mexer,50,65.0,DC
+1453,1166,Mexer,48,58.0,DR
+1454,1166,Mexer,37,38.0,DC
+1459,1175,Mehmet Özcan,53,55.0,"DM, MC"
+1460,1175,Mehmet Özcan,24,27.0,ST
+1468,1185,Paulinho,70,73.0,"AML, ST"
+1469,1185,Paulinho,70,70.0,ST
+1470,1185,Paulinho,64,73.0,"MC, AMR, AMC"
+1471,1185,Paulinho,64,65.0,"MC, AMR, AMC"
+1472,1185,Paulinho,63,77.0,MC
+1473,1185,Paulinho,63,70.0,"DL, WBL"
+1474,1185,Paulinho,55,61.0,ST
+1475,1185,Paulinho,54,65.0,"AMR, AML"
+1476,1185,Paulinho,52,60.0,"DR, WBR"
+1477,1185,Paulinho,49,68.0,"AMR, AML"
+1478,1185,Paulinho,49,,"AMR, AML"
+1479,1185,Paulinho,49,60.0,MC
+1480,1185,Paulinho,48,58.0,"DL, WBL"
+1481,1185,Paulinho,48,65.0,"AML, AMC, ST"
+1482,1185,Paulinho,47,58.0,DM
+1483,1185,Paulinho,46,54.0,ST
+1484,1185,Paulinho,46,58.0,"MC, AMC"
+1485,1185,Paulinho,46,,DR
+1486,1185,Paulinho,45,54.0,AMC
+1487,1185,Paulinho,45,48.0,DR
+1488,1185,Paulinho,45,45.0,"DR, WBR"
+1489,1185,Paulinho,43,47.0,"AMR, AML"
+1490,1185,Paulinho,43,57.0,DM
+1491,1185,Paulinho,42,53.0,ST
+1492,1185,Paulinho,42,54.0,AMC
+1493,1185,Paulinho,42,45.0,"AMR, ST"
+1494,1185,Paulinho,40,48.0,DM
+1495,1185,Paulinho,40,,DL
+1496,1185,Paulinho,40,52.0,AML
+1497,1185,Paulinho,40,45.0,"DL, WBL"
+1498,1185,Paulinho,39,50.0,AMC
+1499,1185,Paulinho,39,50.0,"MC, MR, AMR, AMC"
+1500,1185,Paulinho,39,48.0,DR
+1501,1185,Paulinho,38,45.0,DM
+1502,1185,Paulinho,38,,ST
+1503,1185,Paulinho,38,,AMC
+1504,1185,Paulinho,37,59.0,"DM, MC"
+1505,1185,Paulinho,35,45.0,MC
+1506,1185,Paulinho,35,36.0,"DR, WBR"
+1507,1185,Paulinho,33,,ST
+1508,1185,Paulinho,33,41.0,ST
+1514,1193,Kaan Arslan,43,,DC
+1515,1193,Kaan Arslan,38,45.0,DC
+1518,1196,Enes Alıç,52,62.0,DL
+1519,1196,Enes Alıç,48,55.0,DL
+1527,1204,Jefferson,57,61.0,DL
+1528,1204,Jefferson,53,55.0,"DC, DM"
+1529,1204,Jefferson,53,68.0,"DL, WBL"
+1530,1204,Jefferson,52,63.0,DM
+1531,1204,Jefferson,51,56.0,GK
+1532,1204,Jefferson,48,50.0,GK
+1533,1204,Jefferson,44,47.0,ST
+1540,1211,Idrissa Camara,55,63.0,ST
+1541,1211,Idrissa Camara,33,,MC
+1542,1211,Idrissa Camara,31,40.0,ST
+1543,1211,Idrissa Camara,28,45.0,"AMR, AML"
+1545,1213,Eren Aydın,50,,ST
+1546,1213,Eren Aydın,38,,MC
+1571,1241,Benny,54,59.0,"MC, AMC"
+1572,1241,Benny,53,60.0,AMR
+1573,1241,Benny,45,48.0,DC
+1574,1241,Benny,29,35.0,MC
+1575,1241,Benny,26,38.0,AMC
+1576,1241,Benny,24,34.0,"AMR, AMC"
+1577,1241,Benny,16,38.0,MC
+1578,1241,Benny,15,30.0,GK
+1587,1251,Gökhan Akkan,60,65.0,GK
+1588,1251,Gökhan Akkan,45,53.0,DC
+1625,1289,Emirhan Ünal,33,40.0,DR
+1626,1289,Emirhan Ünal,31,30.0,DL
+1635,1300,Amilton,53,60.0,"MR, AMR, AML"
+1636,1300,Amilton,40,,"DM, MC"
+1657,1323,Aliou Traoré,53,68.0,"AML, ST"
+1658,1323,Aliou Traoré,43,52.0,GK
+1659,1323,Aliou Traoré,43,,ST
+1677,1345,Jair,64,68.0,MC
+1678,1345,Jair,63,63.0,DC
+1679,1345,Jair,58,59.0,MC
+1680,1345,Jair,53,,DC
+1689,1357,Junior Fernandes,55,68.0,"AML, ST"
+1690,1357,Junior Fernandes,21,20.0,DC
+1694,1361,Ali Aydın,38,48.0,DL
+1695,1361,Ali Aydın,35,45.0,DC
+1696,1361,Ali Aydın,33,,GK
+1702,1369,Yusuf Öztürk,34,40.0,AMR
+1703,1369,Yusuf Öztürk,28,40.0,DL
+1705,1371,Guima,61,61.0,"DM, MC"
+1706,1371,Guima,27,28.0,DM
+1707,1371,Guima,22,29.0,MC
+1708,1371,Guima,20,30.0,DC
+1711,1374,Marcos Silva,49,54.0,"DM, MC"
+1712,1374,Marcos Silva,43,,DL
+1713,1374,Marcos Silva,15,25.0,MC
+1747,1410,Amar Catic,53,56.0,"MR, AMR"
+1748,1410,Amar Catic,21,21.0,AMR
+1750,1412,Geraldo,58,60.0,"AMR, AML, AMC, ST"
+1751,1412,Geraldo,41,47.0,ST
+1752,1412,Geraldo,35,,ST
+1761,1422,Welinton,58,63.0,DC
+1762,1422,Welinton,30,40.0,AMC
+1771,1432,Enes Keskin,48,63.0,MC
+1772,1432,Enes Keskin,23,30.0,WBL
+1782,1442,Emeka Eze,58,60.0,ST
+1783,1442,Emeka Eze,40,46.0,GK
+1797,1456,Mamadou Cissokho,30,40.0,DM
+1798,1456,Mamadou Cissokho,26,40.0,"DR, WBR"
+1799,1458,Armin Hodzic,48,68.0,ST
+1800,1458,Armin Hodzic,45,,MC
+1808,1468,Demba Diallo,53,60.0,AMR
+1809,1468,Demba Diallo,43,48.0,WBL
+1810,1468,Demba Diallo,42,45.0,"DM, MC"
+1815,1476,Isaac Donkor,50,55.0,DC
+1816,1476,Isaac Donkor,38,41.0,MC
+1817,1476,Isaac Donkor,35,53.0,DC
+1823,1482,Adama Fofana,51,60.0,"DL, WBL"
+1824,1482,Adama Fofana,45,50.0,"AMR, AMC"
+1825,1482,Adama Fofana,41,48.0,"DM, MC"
+1853,1516,Emre Demir,45,,"MC, AMC"
+1854,1516,Emre Demir,43,44.0,DM
+1855,1516,Emre Demir,38,,AMC
+1856,1516,Emre Demir,37,40.0,AMC
+1901,1578,Mehmet Güneş,38,47.0,WBR
+1902,1578,Mehmet Güneş,18,23.0,MC
+1903,1578,Mehmet Güneş,10,30.0,AMC
