@@ -1,0 +1,218 @@
+footballer_id,footballer_name,club
+70,Ali Al Musrati,Besiktas JK
+71,Junior Onana,Besiktas JK
+78,Baqtiiar Zainutdinov,Besiktas JK
+91,Arsenii Batahov,Trabzonspor
+110,Tony Nwakaeme,Trabzonspor
+121,Yusuf Yılmaz,Basaksehir FK
+130,Sefa Kavraz,Basaksehir FK
+136,Dimitris Pelkas,Basaksehir FK
+150,Husniddin Aliqulov,Caykur Rizespor
+152,Seyfettin Yaşar,Caykur Rizespor
+154,Halil İbrahim Pehlivan,Caykur Rizespor
+168,David Akintola,Caykur Rizespor
+183,Djalma,Göztepe
+194,İzzet Malak,Göztepe
+197,Datro Fofana,Göztepe
+198,Rômulo Cardoso,Göztepe
+199,Juan Santos,Göztepe
+203,Cengiz Alp Köseer,Eyüpspor
+221,Tasos Chatzigiovanis,Eyüpspor
+247,Mohammed Ouanes,Kasimpasa
+268,Haluk Tan,Samsunspor
+273,Muhammet Özbaskıcı,Samsunspor
+285,Berhan Deniz,Samsunspor
+290,Thalisson Kelven,Antalyaspor
+302,Jakub Kałuziński,Antalyaspor
+308,Ramzi Safouri,Antalyaspor
+338,Hwang Ui-Jo,Alanyaspor
+342,Jakub Słowik,Konyaspor
+357,Adem Kabak,Konyaspor
+370,Ðorde Nikolic,Sivasspor
+386,Charis Charisis,Sivasspor
+387,Aziz Turg'unboyev,Sivasspor
+395,Turaç Böke,Sivasspor
+404,Dimitris Kolovetsios,Kayserispor
+409,Kartal Kayra Yılmaz,Kayserispor
+425,Emir Dadük,Hatayspor
+430,Recep Burak Yılmaz,Hatayspor
+451,Mustafa Bozan,Gaziantep FK
+464,Kacper Kozłowski,Gaziantep FK
+503,Osman Haqi,Bodrum FK
+511,Deniz Dönmezer,Adana Demirspor
+530,Moataz Nourani,Adana Demirspor
+533,Abat Aiymbetov,Adana Demirspor
+534,Ozan Demirbağ,Adana Demirspor
+539,Jan Ziółkowski,Legia Warszawa
+544,Jan Leszczynski,Legia Warszawa
+547,Paweł Wszołek,Legia Warszawa
+550,Rafał Augustyniak,Legia Warszawa
+558,Jakub Żewłakow,Legia Warszawa
+575,Wojciech Monka,Lech Poznan
+576,Michał Gurgul,Lech Poznan
+582,Radosław Murawski,Lech Poznan
+583,Filip Jagiełło,Lech Poznan
+609,Srđan Plavšić,Raków Częstochowa
+610,Jean Carlos,Raków Częstochowa
+623,Sławomir Abramowicz,Jagiellonia Bialystok
+624,Miłosz Piekutowski,Jagiellonia Bialystok
+635,JJarosław Kubicki,Jagiellonia Bialystok
+640,Kristoffer Normann Hansen,Jagiellonia Bialystok
+644,Lamine Diaby Fadiga,Jagiellonia Bialystok
+647,Rafał Leszczyński,Slask Wroclaw
+649,Bartosz Głogowski,Slask Wroclaw
+650,Aleks Petkov,Slask Wroclaw
+651,Łukasz Bejger,Slask Wroclaw
+660,Aleksander Wołczek,Slask Wroclaw
+661,Łukasz Gerstenstein,Slask Wroclaw
+674,Jakub Świerczek,Slask Wroclaw
+679,Konrad Golonka,Cracovia
+687,Patryk Sokołowski,Cracovia
+692,Davíð Kristján Ólafsson,Cracovia
+694,Michał Rakoczy,Cracovia
+698,Fabian Bzdyl,Cracovia
+703,Dominik Hładun,Zaglebie Lubin
+705,Michał Matys,Zaglebie Lubin
+707,Aleks Ławniczak,Zaglebie Lubin
+709,Michał Nalepa,Zaglebie Lubin
+710,Jarosław Jach,Zaglebie Lubin
+715,Bartłomiej Kłudka,Zaglebie Lubin
+722,Marcel Reguła,Zaglebie Lubin
+731,Daniel Mikołajewski,Zaglebie Lubin
+737,Dimitris Keramitsis,Pogon Szczecin
+745,Rafał Kurzawa,Pogon Szczecin
+748,Kacper Łukasiak,Pogon Szczecin
+754,Efthymis Koulouris,Pogon Szczecin
+758,Bohdan Sarnavskyi,Lechia Gdansk
+766,Miłosz Kałahur,Lechia Gdansk
+768,Dominik Piła,Lechia Gdansk
+772,Serhiy Buletsa,Lechia Gdansk
+776,Kalle Wendt,Lechia Gdansk
+782,Bohdan Viunnyk,Lechia Gdansk
+785,Michał Szromnik,Górnik Zabrze
+791,Rafał Janicki,Górnik Zabrze
+804,Paweł Olkowski,Górnik Zabrze
+811,Bartłomiej Jelonek,Piast Gliwice
+826,Miłosz Szczepański,Piast Gliwice
+827,Michał Chrapek,Piast Gliwice
+834,Maciej Rosołek,Piast Gliwice
+836,Rafał Gikiewicz,Widzew Lodz
+837,Mikołaj Biegański,Widzew Lodz
+843,Paweł Kwiatkowski,Widzew Lodz
+851,Jakub Łukowski,Widzew Lodz
+852,Bartłomiej Pawłowski,Widzew Lodz
+863,Konrad Jałocha,Stal Mielec
+873,Piotr Wlazło,Stal Mielec
+874,Alex Cetnar,Stal Mielec
+877,Krzysztof Wołkowicz,Stal Mielec
+878,Serhii Krykun,Stal Mielec
+884,Łukasz Wolsztyński,Stal Mielec
+889,Rafał Mamla,Korona Kielce
+892,Miłosz Trojak,Korona Kielce
+894,Bartłomiej Smolarczyk,Korona Kielce
+896,Yoav Hofmeister,Korona Kielce
+900,Dawid Błanik,Korona Kielce
+910,Wiktor Długosz,Korona Kielce
+912,Miłosz Strzeboński,Korona Kielce
+921,Marek Kristian Bartos,Motor Lublin
+928,Paweł Stolarski,Motor Lublin
+934,Christopher Enting Simon,Motor Lublin
+935,Kacper Wełniak,Motor Lublin
+936,Rafał Król,Motor Lublin
+939,Mbaye N'Diaye,Motor Lublin
+940,Michał Król,Motor Lublin
+946,Wu Shaocong,Radomiak Radom
+947,Rahil Məmmədov,Radomiak Radom
+956,Michał Kaput,Radomiak Radom
+959,Mikołaj Molendowski,Radomiak Radom
+961,Rafał Wolski,Radomiak Radom
+962,Radosław Cielemęcki,Radomiak Radom
+968,Leândro,Radomiak Radom
+971,Rafał Strączek,GKS Katowice
+972,Dawid Kudła,GKS Katowice
+973,Przemysław Pęksa,GKS Katowice
+980,Łukasz Trepka,GKS Katowice
+994,Adrian Błąd,GKS Katowice
+1004,Łukasz Sołowiej,Puszcza Niepolomice
+1014,Michał Walski,Puszcza Niepolomice
+1015,Adam Sendor,Puszcza Niepolomice
+1017,Lee Jin-Hyun,Puszcza Niepolomice
+1029,Görkem Cihan,Ankaragücü
+1044,Yusuf Emre Gültekin,Ankaragücü
+1047,Hasan Nazarli,Ankaragücü
+1052,Renat Dadaşov,Ankaragücü
+1061,Anıl Çınar,Fatih Karagümrük
+1067,Marius Doh,Fatih Karagümrük
+1070,Ömer Faruk Gümüş,Fatih Karagümrük
+1077,Tarık Tuğyan,Fatih Karagümrük
+1090,Baran Alp Vardar,İstanbulspor
+1103,Jackson,İstanbulspor
+1109,Emir Gultekin,İstanbulspor
+1110,Djak Traore,İstanbulspor
+1111,Eren San,İstanbulspor
+1114,Ogul Kaan Dogan,Amed SK
+1117,Nicolas Nkoulou,Amed SK
+1156,Ryan Mendes da Graca,Kocaelispor
+1167,Yasin Dilek,Bandırmaspor
+1169,Emre Adiguzel,Bandırmaspor
+1170,Faruk Genç,Bandırmaspor
+1174,Coşqun Diniyev,Bandırmaspor
+1177,Atakan Kesgin,Bandırmaspor
+1180,Emirhan Ayhan,Bandırmaspor
+1189,Haktan Bülent Nalyapan,Boluspor
+1190,Naby Youssouf Oularé,Boluspor
+1214,Vüsal İsgəndərli,Boluspor
+1229,Andrej Đokanović,Ümraniyespor
+1239,Mehmet Büyüksayar,Ümraniyespor
+1248,Rıdvan Yağcı,Erzurumspor FK
+1270,İslam Mengi,Erzurumspor FK
+1290,Berat Sebat,Gençlerbirliği SK
+1295,Michał Nalepa,Gençlerbirliği SK
+1301,Mete Kaan Demir,Gençlerbirliği SK
+1319,Uğur Yıldız,Ankara Keçiörengücü
+1330,Mady Dembélé,Ankara Keçiörengücü
+1336,Ege Sahillioğlu,Esenler Erokspor
+1337,Francis Beny Nzaba,Esenler Erokspor
+1341,Mucahit Albayrak,Esenler Erokspor
+1351,Kévin N'Zuzi Mata,Esenler Erokspor
+1353,Mor Faye,Esenler Erokspor
+1356,İdris Furat,Esenler Erokspor
+1357,Junior Fernandes,Esenler Erokspor
+1362,Onur Sarman,Iğdır FK
+1368,Yusuf Esendemir,Iğdır FK
+1384,Selim Sönmez,Iğdır FK
+1391,Eren Güler,Çorum FK
+1416,Hasan Ege Akdoğan,Çorum FK
+1425,Nuno Sequeira,Pendikspor
+1457,Mehmet Çelik,Manisa FK
+1461,Kerem Arık,Manisa FK
+1467,Efe Altunkara,Manisa FK
+1469,Osman Kahraman,Manisa FK
+1470,Kwasi Okyere Wriedt,Manisa FK
+1474,Muhammed Çelik,Adanaspor
+1484,Mehmet Feyzi Yıldırım,Adanaspor
+1492,Samuel Yépie-Yépie,Adanaspor
+1502,Arda Türken,Sakaryaspor
+1507,Berat Şanlı,Sakaryaspor
+1508,Engin Aksoy,Sakaryaspor
+1511,Ali Uğurlu,Sakaryaspor
+1517,Mamadou Mendy,Sakaryaspor
+1527,Abdel Rachid Zagré,Sakaryaspor
+1530,Ali Kılıç,Sakaryaspor
+1531,Erjan Tokotaev,Şanlıurfaspor
+1536,Efe Koyuncu,Şanlıurfaspor
+1548,Muhammed Kücükk,Şanlıurfaspor
+1551,Stefan Aškovski,Şanlıurfaspor
+1556,Larry Kayode,Şanlıurfaspor
+1558,Manuchim Ogundu,Şanlıurfaspor
+1560,Çınar Yıldızlı,Yeni Malatyaspor
+1561,Enes Salik,Yeni Malatyaspor
+1564,Eray Şişman,Yeni Malatyaspor
+1565,Muhammed Ulusoy,Yeni Malatyaspor
+1568,Kürşat Selamoğlu,Yeni Malatyaspor
+1572,Ömer Çağrı Ataş,Yeni Malatyaspor
+1575,Enes Nas,Yeni Malatyaspor
+1576,Fatih Aydın,Yeni Malatyaspor
+1581,Mehmet Emin Taştan,Yeni Malatyaspor
+1584,Halil Atcı,Yeni Malatyaspor
+1585,Osman Katipoğlu,Yeni Malatyaspor
