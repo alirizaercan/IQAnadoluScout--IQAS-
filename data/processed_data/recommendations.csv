@@ -1,0 +1,1201 @@
+recommended_club,recommended_position,footballer_name_footballer,age,rating,potential,market_value,club,score,priority_score
+Adana Demirspor,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,7.33
+Adana Demirspor,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Adana Demirspor,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Adana Demirspor,LB,Cemali Sertel,24,53,65.0,1100000.0,Hatayspor,84.662,7.33
+Adana Demirspor,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Adana Demirspor,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,7.33
+Adana Demirspor,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Adana Demirspor,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Adana Demirspor,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Adana Demirspor,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Adana Demirspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,3.88
+Adana Demirspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,3.88
+Adana Demirspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,3.88
+Adana Demirspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,3.88
+Adana Demirspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,3.88
+Adana Demirspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,3.88
+Adana Demirspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,3.88
+Adana Demirspor,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,3.88
+Adana Demirspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,3.88
+Adana Demirspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,3.88
+Adana Demirspor,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,2.37
+Adana Demirspor,RW,Demba Diallo,24,53,60.0,700000.0,Manisa FK,91.662,2.37
+Adana Demirspor,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.37
+Adana Demirspor,RW,Camilo Mena,22,53,65.0,1200000.0,Lechia Gdansk,88.41304347826087,2.37
+Adana Demirspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.37
+Adana Demirspor,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.37
+Adana Demirspor,RW,Loide Augusto,24,55,60.0,1400000.0,Alanyaspor,86.262,2.37
+Adana Demirspor,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.37
+Adana Demirspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.37
+Adana Demirspor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.37
+Adanaspor,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.33
+Adanaspor,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.33
+Adanaspor,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.33
+Adanaspor,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.33
+Adanaspor,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.33
+Adanaspor,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.33
+Adanaspor,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.33
+Adanaspor,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.33
+Adanaspor,LB,Erkan Sasa,21,43,56.615,25000.0,Amed SK,77.55963636363637,2.33
+Adanaspor,LB,Enes Albak,19,40,53.845,125000.0,Samsunspor,77.053,2.33
+Adanaspor,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,2.33
+Adanaspor,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,2.33
+Adanaspor,LW,Motez Nourani,22,48,63.0,150000.0,Adana Demirspor,86.86304347826086,2.33
+Adanaspor,LW,Altar Hidayetoğlu,23,48,60.0,100000.0,Esenler Erokspor,85.6625,2.33
+Adanaspor,LW,Capita,22,49,61.0,250000.0,Radomiak Radom,85.61304347826088,2.33
+Adanaspor,LW,Bradly van Hoeven,24,51,57.0,275000.0,Motor Lublin,85.362,2.33
+Adanaspor,LW,Emrecan Bulut,22,48,58.0,275000.0,Caykur Rizespor,84.86304347826086,2.33
+Adanaspor,LW,Efe Taylan Altunkara,20,40,65.0,150000.0,Manisa FK,83.0142857142857,2.33
+Adanaspor,LW,Furkan Gedik,22,45,65.0,225000.0,Kocaelispor,80.01304347826087,2.33
+Adanaspor,LW,Berat Kalkan,21,43,56.71,200000.0,Kasimpasa,79.84763636363637,2.33
+Adanaspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.3
+Adanaspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.3
+Adanaspor,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.3
+Adanaspor,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.3
+Adanaspor,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.3
+Adanaspor,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.3
+Adanaspor,RW,Guilherme Zimovski,20,39,52.52,150000.0,Radomiak Radom,76.9722857142857,2.3
+Adanaspor,RW,Tunahan Taşçı,22,45,55.0,300000.0,Konyaspor,76.76304347826087,2.3
+Adanaspor,RW,Mehmet Yüksel,22,41,52.88,25000.0,Şanlıurfaspor,75.46504347826087,2.3
+Adanaspor,RW,Kacper Sezonienko,21,46,57.205,300000.0,Lechia Gdansk,74.94563636363637,2.3
+Alanyaspor,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.5
+Alanyaspor,DM,Lamine Diack,24,53,63.0,1200000.0,Hatayspor,90.61200000000001,2.5
+Alanyaspor,DM,Rodrigo,22,70,83.0,1000000.0,Bandırmaspor,90.21304347826087,2.5
+Alanyaspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.5
+Alanyaspor,DM,Ivan Zhelizko,23,53,66.0,800000.0,Lechia Gdansk,88.8125,2.5
+Alanyaspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.5
+Alanyaspor,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.5
+Alanyaspor,DM,Yohan Cassubie,24,51,64.0,650000.0,Amed SK,88.162,2.5
+Alanyaspor,DM,Jurgen Çelhaka,23,51,59.0,500000.0,Legia Warszawa,87.6625,2.5
+Alanyaspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.5
+Alanyaspor,RB,Peter Kovacik,23,53,63.0,1200000.0,Jagiellonia Bialystok,89.11250000000001,2.5
+Alanyaspor,RB,Taha Şahin,24,55,63.0,1200000.0,Caykur Rizespor,88.962,2.5
+Alanyaspor,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.5
+Alanyaspor,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,2.5
+Alanyaspor,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.5
+Alanyaspor,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.5
+Alanyaspor,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.5
+Alanyaspor,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,2.5
+Alanyaspor,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.5
+Alanyaspor,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.5
+Alanyaspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.33
+Alanyaspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.33
+Alanyaspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.33
+Alanyaspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,2.33
+Alanyaspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.33
+Alanyaspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.33
+Alanyaspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.33
+Alanyaspor,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,2.33
+Alanyaspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.33
+Alanyaspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.33
+Amed SK,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.44
+Amed SK,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.44
+Amed SK,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.44
+Amed SK,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.44
+Amed SK,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.44
+Amed SK,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.44
+Amed SK,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,2.44
+Amed SK,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,2.44
+Amed SK,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,2.44
+Amed SK,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,2.44
+Amed SK,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,2.37
+Amed SK,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.37
+Amed SK,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.37
+Amed SK,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.37
+Amed SK,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.37
+Amed SK,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.37
+Amed SK,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.37
+Amed SK,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.37
+Amed SK,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.37
+Amed SK,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.37
+Ankara Keçiörengücü,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.43
+Ankara Keçiörengücü,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.43
+Ankara Keçiörengücü,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.43
+Ankara Keçiörengücü,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.43
+Ankara Keçiörengücü,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.43
+Ankara Keçiörengücü,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.43
+Ankara Keçiörengücü,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.43
+Ankara Keçiörengücü,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.43
+Ankara Keçiörengücü,RW,Jakub Sypek,23,45,59.0,350000.0,Widzew Lodz,79.11250000000001,2.43
+Ankara Keçiörengücü,RW,Mbaye Ndiaye,21,49,61.885,450000.0,Motor Lublin,77.71763636363637,2.43
+Ankara Keçiörengücü,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.34
+Ankara Keçiörengücü,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.34
+Ankara Keçiörengücü,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.34
+Ankara Keçiörengücü,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.34
+Ankara Keçiörengücü,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.34
+Ankara Keçiörengücü,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,2.34
+Ankara Keçiörengücü,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,2.34
+Ankara Keçiörengücü,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,2.34
+Ankara Keçiörengücü,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,2.34
+Ankara Keçiörengücü,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,2.34
+Ankara Keçiörengücü,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.23
+Ankara Keçiörengücü,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.23
+Ankara Keçiörengücü,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.23
+Ankara Keçiörengücü,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.23
+Ankara Keçiörengücü,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.23
+Ankara Keçiörengücü,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.23
+Ankara Keçiörengücü,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.23
+Ankara Keçiörengücü,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.23
+Ankara Keçiörengücü,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,2.23
+Ankara Keçiörengücü,RB,Marcel Krajewski,20,43,54.555,450000.0,Widzew Lodz,78.23628571428571,2.23
+Ankaragücü,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.36
+Ankaragücü,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.36
+Ankaragücü,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.36
+Ankaragücü,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.36
+Ankaragücü,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.36
+Ankaragücü,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,2.36
+Ankaragücü,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,2.36
+Ankaragücü,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,2.36
+Ankaragücü,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,2.36
+Ankaragücü,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,2.36
+Ankaragücü,CB,Simeon Petrov,24,53,64.0,700000.0,Slask Wroclaw,93.262,2.33
+Ankaragücü,CB,Marco Burch,24,59,67.0,700000.0,Legia Warszawa,91.762,2.33
+Ankaragücü,CB,Elias Olsson,21,51,63.915,550000.0,Lechia Gdansk,90.37963636363637,2.33
+Ankaragücü,CB,Emrecan Uzunhan,23,53,70.0,550000.0,Antalyaspor,89.6625,2.33
+Ankaragücü,CB,Kadir Seven,21,48,65.0,225000.0,Çorum FK,88.41363636363636,2.33
+Ankaragücü,CB,Dusan Stojinovic,24,52,67.0,400000.0,Jagiellonia Bialystok,88.162,2.33
+Ankaragücü,CB,Ensar Akgün,24,48,58.0,275000.0,Manisa FK,87.86200000000001,2.33
+Ankaragücü,CB,Marco Ehmann,24,51,63.0,400000.0,Stal Mielec,87.762,2.33
+Ankaragücü,CB,Yunus Emre Çift,21,53,65.72,400000.0,Samsunspor,86.45163636363637,2.33
+Ankaragücü,CB,Anıl Yaşar,22,50,60.0,325000.0,Caykur Rizespor,86.26304347826087,2.33
+Antalyaspor,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,2.6
+Antalyaspor,RW,Demba Diallo,24,53,60.0,700000.0,Manisa FK,91.662,2.6
+Antalyaspor,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.6
+Antalyaspor,RW,Camilo Mena,22,53,65.0,1200000.0,Lechia Gdansk,88.41304347826087,2.6
+Antalyaspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.6
+Antalyaspor,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.6
+Antalyaspor,RW,Loide Augusto,24,55,60.0,1400000.0,Alanyaspor,86.262,2.6
+Antalyaspor,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.6
+Antalyaspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.6
+Antalyaspor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.6
+Bandırmaspor,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.5
+Bandırmaspor,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.5
+Bandırmaspor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.5
+Bandırmaspor,AM,Koki Hinokio,23,51,60.0,400000.0,Stal Mielec,86.5625,2.5
+Bandırmaspor,AM,Dawid Tkacz,19,45,60.0,350000.0,Stal Mielec,82.515,2.5
+Bandırmaspor,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,2.5
+Bandırmaspor,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,2.5
+Bandırmaspor,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,2.5
+Bandırmaspor,AM,Fryderyk Gerbowski,21,49,62.04,400000.0,Stal Mielec,80.02963636363637,2.5
+Bandırmaspor,AM,Siraçhan Nas,22,43,56.93,400000.0,Boluspor,79.93504347826087,2.5
+Bandırmaspor,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.43
+Bandırmaspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.43
+Bandırmaspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.43
+Bandırmaspor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.43
+Bandırmaspor,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.43
+Bandırmaspor,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.43
+Bandırmaspor,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.43
+Bandırmaspor,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.43
+Bandırmaspor,RW,Jakub Sypek,23,45,59.0,350000.0,Widzew Lodz,79.11250000000001,2.43
+Bandırmaspor,RW,Mbaye Ndiaye,21,49,61.885,450000.0,Motor Lublin,77.71763636363637,2.43
+Basaksehir FK,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.41
+Basaksehir FK,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.41
+Basaksehir FK,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.41
+Basaksehir FK,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,2.41
+Basaksehir FK,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.41
+Basaksehir FK,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.41
+Basaksehir FK,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.41
+Basaksehir FK,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,2.41
+Basaksehir FK,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.41
+Basaksehir FK,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.41
+Basaksehir FK,CB,Attila Mocsi,24,58,65.0,1800000.0,Caykur Rizespor,95.912,2.31
+Basaksehir FK,CB,Simeon Petrov,24,53,64.0,700000.0,Slask Wroclaw,93.262,2.31
+Basaksehir FK,CB,Furkan Bayır,24,58,65.0,2100000.0,Alanyaspor,92.912,2.31
+Basaksehir FK,CB,Marco Burch,24,59,67.0,700000.0,Legia Warszawa,91.762,2.31
+Basaksehir FK,CB,Metehan Baltacı,22,53,65.85,1600000.0,Galatasaray,91.75304347826088,2.31
+Basaksehir FK,CB,Malcom Bokele,24,55,66.0,1800000.0,Göztepe,91.662,2.31
+Basaksehir FK,CB,Sergio Barcia,23,56,68.0,1000000.0,Legia Warszawa,91.2625,2.31
+Basaksehir FK,CB,Bogdan Racovițan,24,56,63.0,1800000.0,Raków Częstochowa,90.762,2.31
+Basaksehir FK,CB,Elias Olsson,21,51,63.915,550000.0,Lechia Gdansk,90.37963636363637,2.31
+Basaksehir FK,CB,Ariel Mosor,21,54,65.855,1500000.0,Raków Częstochowa,89.80563636363637,2.31
+Besiktas JK,AM,Afonso Sousa,24,63,71.0,1500000.0,Lech Poznan,99.06200000000001,2.37
+Besiktas JK,AM,Muhammed Cham,24,62,72.0,6000000.0,Trabzonspor,96.16199999999999,2.37
+Besiktas JK,AM,Victor Hugo,20,61,67.59,5000000.0,Göztepe,95.60028571428572,2.37
+Besiktas JK,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.37
+Besiktas JK,AM,Dal Varesanovic,23,60,70.0,2600000.0,Caykur Rizespor,91.7625,2.37
+Besiktas JK,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,2.37
+Besiktas JK,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,2.37
+Besiktas JK,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.37
+Besiktas JK,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.37
+Besiktas JK,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.37
+Bodrum FK,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.63
+Bodrum FK,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.63
+Bodrum FK,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.63
+Bodrum FK,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.63
+Bodrum FK,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.63
+Bodrum FK,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.63
+Bodrum FK,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.63
+Bodrum FK,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.63
+Bodrum FK,AM,Ajdin Hasic,23,48,60.0,800000.0,Cracovia,87.1625,2.63
+Bodrum FK,AM,Koki Hinokio,23,51,60.0,400000.0,Stal Mielec,86.5625,2.63
+Bodrum FK,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.57
+Bodrum FK,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,2.57
+Bodrum FK,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.57
+Bodrum FK,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.57
+Bodrum FK,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.57
+Bodrum FK,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,2.57
+Bodrum FK,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.57
+Bodrum FK,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.57
+Bodrum FK,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.57
+Bodrum FK,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.57
+Bodrum FK,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,2.3
+Bodrum FK,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.3
+Bodrum FK,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.3
+Bodrum FK,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.3
+Bodrum FK,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.3
+Bodrum FK,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.3
+Bodrum FK,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.3
+Bodrum FK,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.3
+Bodrum FK,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.3
+Bodrum FK,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,2.3
+Boluspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,3.87
+Boluspor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,3.87
+Boluspor,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,3.87
+Boluspor,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,3.87
+Boluspor,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,3.87
+Boluspor,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,3.87
+Boluspor,CM,Sefa Akgün,24,48,58.0,300000.0,Erzurumspor FK,81.112,3.87
+Boluspor,CM,Muhammet Ali Özbaskıcı,19,43,56.27,300000.0,Samsunspor,80.423,3.87
+Boluspor,CM,Ömer Gümüş,21,43,56.71,150000.0,Fatih Karagümrük,79.84763636363637,3.87
+Boluspor,CM,Gökdeniz Gürpüz,18,43,56.57,300000.0,Galatasaray,79.7937894736842,3.87
+Boluspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.47
+Boluspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.47
+Boluspor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.47
+Boluspor,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.47
+Boluspor,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.47
+Boluspor,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.47
+Boluspor,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.47
+Boluspor,RW,Jakub Sypek,23,45,59.0,350000.0,Widzew Lodz,79.11250000000001,2.47
+Boluspor,RW,Guilherme Zimovski,20,39,52.52,150000.0,Radomiak Radom,76.9722857142857,2.47
+Boluspor,RW,Tunahan Taşçı,22,45,55.0,300000.0,Konyaspor,76.76304347826087,2.47
+Caykur Rizespor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.29
+Caykur Rizespor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.29
+Caykur Rizespor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.29
+Caykur Rizespor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.29
+Caykur Rizespor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.29
+Caykur Rizespor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.29
+Caykur Rizespor,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,2.29
+Caykur Rizespor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.29
+Caykur Rizespor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.29
+Caykur Rizespor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.29
+Caykur Rizespor,AM,Afonso Sousa,24,63,71.0,1500000.0,Lech Poznan,99.06200000000001,2.27
+Caykur Rizespor,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.27
+Caykur Rizespor,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,2.27
+Caykur Rizespor,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,2.27
+Caykur Rizespor,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.27
+Caykur Rizespor,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.27
+Caykur Rizespor,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.27
+Caykur Rizespor,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.27
+Caykur Rizespor,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.27
+Caykur Rizespor,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.27
+Cracovia,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,7.33
+Cracovia,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Cracovia,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Cracovia,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Cracovia,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,7.33
+Cracovia,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Cracovia,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Cracovia,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Cracovia,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Cracovia,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,7.33
+Cracovia,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Cracovia,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,7.33
+Cracovia,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Cracovia,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Cracovia,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Cracovia,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,7.33
+Cracovia,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Cracovia,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Cracovia,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+Cracovia,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+Cracovia,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,7.33
+Cracovia,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,7.33
+Cracovia,LW,Paul Mukairu,24,53,68.0,700000.0,Boluspor,92.61200000000001,7.33
+Cracovia,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,7.33
+Cracovia,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,7.33
+Cracovia,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,7.33
+Cracovia,LW,Motez Nourani,22,48,63.0,150000.0,Adana Demirspor,86.86304347826086,7.33
+Cracovia,LW,Altar Hidayetoğlu,23,48,60.0,100000.0,Esenler Erokspor,85.6625,7.33
+Cracovia,LW,Capita,22,49,61.0,250000.0,Radomiak Radom,85.61304347826088,7.33
+Cracovia,LW,Haqi Osman,22,48,59.56,400000.0,Bodrum FK,85.48704347826087,7.33
+Esenler Erokspor,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.6
+Esenler Erokspor,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.6
+Esenler Erokspor,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.6
+Esenler Erokspor,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.6
+Esenler Erokspor,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.6
+Esenler Erokspor,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.6
+Esenler Erokspor,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,2.6
+Esenler Erokspor,RB,Erkam Kömür,22,40,54.855,175000.0,Bandırmaspor,78.20504347826088,2.6
+Esenler Erokspor,RB,Dominik Pila,23,48,56.0,350000.0,Lechia Gdansk,78.0625,2.6
+Esenler Erokspor,RB,Yunus Bahadır,22,45,56.525,175000.0,İstanbulspor,77.37304347826087,2.6
+Esenler Erokspor,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.43
+Esenler Erokspor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.43
+Esenler Erokspor,AM,Dawid Tkacz,19,45,60.0,350000.0,Stal Mielec,82.515,2.43
+Esenler Erokspor,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,2.43
+Esenler Erokspor,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,2.43
+Esenler Erokspor,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,2.43
+Esenler Erokspor,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,2.43
+Esenler Erokspor,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.43
+Esenler Erokspor,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,2.43
+Esenler Erokspor,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,2.43
+Esenler Erokspor,CB,Kadir Seven,21,48,65.0,225000.0,Çorum FK,88.41363636363636,2.39
+Esenler Erokspor,CB,Ensar Akgün,24,48,58.0,275000.0,Manisa FK,87.86200000000001,2.39
+Esenler Erokspor,CB,Anıl Yaşar,22,50,60.0,325000.0,Caykur Rizespor,86.26304347826087,2.39
+Esenler Erokspor,CB,Petros Bagalianis,23,48,58.0,300000.0,Stal Mielec,84.11250000000001,2.39
+Esenler Erokspor,CB,Kamil Kruk,24,49,57.0,250000.0,Motor Lublin,84.012,2.39
+Esenler Erokspor,CB,Loup-Diwan Gueho,20,47,57.38,150000.0,Lechia Gdansk,82.06628571428571,2.39
+Esenler Erokspor,CB,Shaocong Wu,24,45,55.0,300000.0,Radomiak Radom,82.012,2.39
+Esenler Erokspor,CB,Urie-Michel Mboula,21,45,58.56,325000.0,Şanlıurfaspor,81.93763636363637,2.39
+Esenler Erokspor,CB,Tolga Kalender,23,43,58.0,125000.0,Adana Demirspor,81.86250000000001,2.39
+Esenler Erokspor,CB,Yağız Dilek,19,38,51.405,75000.0,Bandırmaspor,81.477,2.39
+Eyüpspor,CB,Simeon Petrov,24,53,64.0,700000.0,Slask Wroclaw,93.262,2.53
+Eyüpspor,CB,Marco Burch,24,59,67.0,700000.0,Legia Warszawa,91.762,2.53
+Eyüpspor,CB,Metehan Baltacı,22,53,65.85,1600000.0,Galatasaray,91.75304347826088,2.53
+Eyüpspor,CB,Sergio Barcia,23,56,68.0,1000000.0,Legia Warszawa,91.2625,2.53
+Eyüpspor,CB,Elias Olsson,21,51,63.915,550000.0,Lechia Gdansk,90.37963636363637,2.53
+Eyüpspor,CB,Ariel Mosor,21,54,65.855,1500000.0,Raków Częstochowa,89.80563636363637,2.53
+Eyüpspor,CB,Emrecan Uzunhan,23,53,70.0,550000.0,Antalyaspor,89.6625,2.53
+Eyüpspor,CB,Nuno Lima,23,55,63.0,900000.0,Alanyaspor,88.9625,2.53
+Eyüpspor,CB,Lukasz Bejger,22,50,68.0,800000.0,Slask Wroclaw,88.71304347826087,2.53
+Eyüpspor,CB,Ayberk Karapo,20,53,65.13,1100000.0,Caykur Rizespor,88.4662857142857,2.53
+Eyüpspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.51
+Eyüpspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.51
+Eyüpspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.51
+Eyüpspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,2.51
+Eyüpspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.51
+Eyüpspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.51
+Eyüpspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.51
+Eyüpspor,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,2.51
+Eyüpspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.51
+Eyüpspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.51
+Fatih Karagümrük,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.27
+Fatih Karagümrük,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,2.27
+Fatih Karagümrük,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.27
+Fatih Karagümrük,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.27
+Fatih Karagümrük,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.27
+Fatih Karagümrük,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,2.27
+Fatih Karagümrük,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.27
+Fatih Karagümrük,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.27
+Fatih Karagümrük,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.27
+Fatih Karagümrük,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.27
+Fenerbahce,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,5.53
+Fenerbahce,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,5.53
+Fenerbahce,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,5.53
+Fenerbahce,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,5.53
+Fenerbahce,CM,Umut Güneş,24,58,63.0,2700000.0,Trabzonspor,89.86200000000001,5.53
+Fenerbahce,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,5.53
+Fenerbahce,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,5.53
+Fenerbahce,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,5.53
+Fenerbahce,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,5.53
+Fenerbahce,CM,Cher Ndour,20,55,66.73,4000000.0,Besiktas JK,88.95628571428571,5.53
+GKS Katowice,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+GKS Katowice,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+GKS Katowice,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+GKS Katowice,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+GKS Katowice,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+GKS Katowice,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+GKS Katowice,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+GKS Katowice,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,10.33
+GKS Katowice,CM,Sefa Akgün,24,48,58.0,300000.0,Erzurumspor FK,81.112,10.33
+GKS Katowice,CM,Muhammet Ali Özbaskıcı,19,43,56.27,300000.0,Samsunspor,80.423,10.33
+GKS Katowice,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+GKS Katowice,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+GKS Katowice,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+GKS Katowice,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+GKS Katowice,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+GKS Katowice,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+GKS Katowice,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+GKS Katowice,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,7.33
+GKS Katowice,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,7.33
+GKS Katowice,LB,Çağtay Kurukalıp,22,43,55.295,375000.0,Fatih Karagümrük,78.53104347826087,7.33
+GKS Katowice,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+GKS Katowice,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+GKS Katowice,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+GKS Katowice,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+GKS Katowice,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+GKS Katowice,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+GKS Katowice,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+GKS Katowice,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+GKS Katowice,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,7.33
+GKS Katowice,RB,Erkam Kömür,22,40,54.855,175000.0,Bandırmaspor,78.20504347826088,7.33
+Galatasaray,AM,Afonso Sousa,24,63,71.0,1500000.0,Lech Poznan,99.06200000000001,7.33
+Galatasaray,AM,Muhammed Cham,24,62,72.0,6000000.0,Trabzonspor,96.16199999999999,7.33
+Galatasaray,AM,Victor Hugo,20,61,67.59,5000000.0,Göztepe,95.60028571428572,7.33
+Galatasaray,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,7.33
+Galatasaray,AM,Dal Varesanovic,23,60,70.0,2600000.0,Caykur Rizespor,91.7625,7.33
+Galatasaray,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,7.33
+Galatasaray,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,7.33
+Galatasaray,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,7.33
+Galatasaray,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,7.33
+Galatasaray,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,7.33
+Galatasaray,LB,Eren Elmalı,24,60,65.0,4000000.0,Trabzonspor,95.762,2.33
+Galatasaray,LB,Levent Mercan,23,60,67.49,2600000.0,Fenerbahce,90.0085,2.33
+Galatasaray,LB,Yusuf Özdemir,23,58,65.0,2600000.0,Alanyaspor,89.9125,2.33
+Galatasaray,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,2.33
+Galatasaray,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.33
+Galatasaray,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.33
+Galatasaray,LB,Cemali Sertel,24,53,65.0,1100000.0,Hatayspor,84.662,2.33
+Galatasaray,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.33
+Galatasaray,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,2.33
+Galatasaray,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.33
+Galatasaray,LW,Ernest Muci,23,58,74.0,12000000.0,Besiktas JK,100.26249999999999,2.3
+Galatasaray,LW,Darko Churlinov,24,60,70.0,1500000.0,Jagiellonia Bialystok,98.512,2.3
+Galatasaray,LW,Patrik Wålemark,23,62,71.0,2500000.0,Lech Poznan,97.2625,2.3
+Galatasaray,LW,Daniel Håkans,24,54,63.0,1000000.0,Lech Poznan,96.162,2.3
+Galatasaray,LW,Oğuz Aydın,24,58,68.0,5500000.0,Fenerbahce,95.61200000000001,2.3
+Galatasaray,LW,Joelson Fernandes,21,55,65.0,1800000.0,Hatayspor,95.01363636363637,2.3
+Galatasaray,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,2.3
+Galatasaray,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,2.3
+Galatasaray,LW,Paul Mukairu,24,53,68.0,700000.0,Boluspor,92.61200000000001,2.3
+Galatasaray,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,2.3
+Gaziantep FK,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.63
+Gaziantep FK,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.63
+Gaziantep FK,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.63
+Gaziantep FK,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.63
+Gaziantep FK,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.63
+Gaziantep FK,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.63
+Gaziantep FK,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.63
+Gaziantep FK,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.63
+Gaziantep FK,AM,Ajdin Hasic,23,48,60.0,800000.0,Cracovia,87.1625,2.63
+Gaziantep FK,AM,Koki Hinokio,23,51,60.0,400000.0,Stal Mielec,86.5625,2.63
+Gençlerbirliği SK,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.6
+Gençlerbirliği SK,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.6
+Gençlerbirliği SK,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.6
+Gençlerbirliği SK,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.6
+Gençlerbirliği SK,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.6
+Gençlerbirliği SK,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.6
+Gençlerbirliği SK,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.6
+Gençlerbirliği SK,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.6
+Gençlerbirliği SK,LB,Erkan Sasa,21,43,56.615,25000.0,Amed SK,77.55963636363637,2.6
+Gençlerbirliği SK,LB,Enes Albak,19,40,53.845,125000.0,Samsunspor,77.053,2.6
+Gençlerbirliği SK,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.5
+Gençlerbirliği SK,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,2.5
+Gençlerbirliği SK,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,2.5
+Gençlerbirliği SK,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,2.5
+Gençlerbirliği SK,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,2.5
+Gençlerbirliği SK,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.5
+Gençlerbirliği SK,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,2.5
+Gençlerbirliği SK,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,2.5
+Gençlerbirliği SK,AM,Cuma Menize,24,45,50.0,150000.0,Şanlıurfaspor,74.762,2.5
+Gençlerbirliği SK,AM,Patryk Kusztal,21,40,54.97,150000.0,Zaglebie Lubin,73.00163636363636,2.5
+Gençlerbirliği SK,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.33
+Gençlerbirliği SK,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.33
+Gençlerbirliği SK,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.33
+Gençlerbirliği SK,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.33
+Gençlerbirliği SK,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.33
+Gençlerbirliği SK,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,2.33
+Gençlerbirliği SK,DM,Adem Eren Kabak,23,45,60.0,225000.0,Konyaspor,84.0125,2.33
+Gençlerbirliği SK,DM,Oğuzhan Ayaydın,23,43,53.0,225000.0,Ankara Keçiörengücü,80.61250000000001,2.33
+Gençlerbirliği SK,DM,Maxi Oyedele,20,43,55.595,300000.0,Legia Warszawa,80.15228571428571,2.33
+Gençlerbirliği SK,DM,Özkan Yiğiter,24,43,58.0,200000.0,Sivasspor,79.612,2.33
+Górnik Zabrze,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Górnik Zabrze,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Górnik Zabrze,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Górnik Zabrze,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Górnik Zabrze,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Górnik Zabrze,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Górnik Zabrze,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Górnik Zabrze,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Górnik Zabrze,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Górnik Zabrze,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Górnik Zabrze,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,2.53
+Górnik Zabrze,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.53
+Górnik Zabrze,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.53
+Górnik Zabrze,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.53
+Górnik Zabrze,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.53
+Górnik Zabrze,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.53
+Górnik Zabrze,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.53
+Górnik Zabrze,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.53
+Górnik Zabrze,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.53
+Górnik Zabrze,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,2.53
+Górnik Zabrze,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.43
+Górnik Zabrze,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.43
+Górnik Zabrze,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.43
+Górnik Zabrze,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.43
+Górnik Zabrze,DM,Yohan Cassubie,24,51,64.0,650000.0,Amed SK,88.162,2.43
+Górnik Zabrze,DM,Jurgen Çelhaka,23,51,59.0,500000.0,Legia Warszawa,87.6625,2.43
+Górnik Zabrze,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.43
+Górnik Zabrze,DM,Niko Rak,21,50,62.4,700000.0,Konyaspor,84.97363636363636,2.43
+Górnik Zabrze,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,2.43
+Górnik Zabrze,DM,Adem Eren Kabak,23,45,60.0,225000.0,Konyaspor,84.0125,2.43
+Göztepe,LW,Darko Churlinov,24,60,70.0,1500000.0,Jagiellonia Bialystok,98.512,7.33
+Göztepe,LW,Daniel Håkans,24,54,63.0,1000000.0,Lech Poznan,96.162,7.33
+Göztepe,LW,Joelson Fernandes,21,55,65.0,1800000.0,Hatayspor,95.01363636363637,7.33
+Göztepe,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,7.33
+Göztepe,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,7.33
+Göztepe,LW,Paul Mukairu,24,53,68.0,700000.0,Boluspor,92.61200000000001,7.33
+Göztepe,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,7.33
+Göztepe,LW,Altin Zeqiri,24,58,65.0,1600000.0,Caykur Rizespor,92.162,7.33
+Göztepe,LW,Renaldo Cephas,24,55,59.0,1300000.0,Ankaragücü,88.862,7.33
+Göztepe,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,7.33
+Göztepe,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,7.33
+Göztepe,RW,Demba Diallo,24,53,60.0,700000.0,Manisa FK,91.662,7.33
+Göztepe,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,7.33
+Göztepe,RW,Camilo Mena,22,53,65.0,1200000.0,Lechia Gdansk,88.41304347826087,7.33
+Göztepe,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,7.33
+Göztepe,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,7.33
+Göztepe,RW,Loide Augusto,24,55,60.0,1400000.0,Alanyaspor,86.262,7.33
+Göztepe,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,7.33
+Göztepe,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,7.33
+Göztepe,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,7.33
+Hatayspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.3
+Hatayspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.3
+Hatayspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.3
+Hatayspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,2.3
+Hatayspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.3
+Hatayspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.3
+Hatayspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.3
+Hatayspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.3
+Hatayspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.3
+Hatayspor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.3
+Iğdır FK,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.43
+Iğdır FK,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.43
+Iğdır FK,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.43
+Iğdır FK,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.43
+Iğdır FK,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.43
+Iğdır FK,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.43
+Iğdır FK,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.43
+Iğdır FK,RW,Guilherme Zimovski,20,39,52.52,150000.0,Radomiak Radom,76.9722857142857,2.43
+Iğdır FK,RW,Tunahan Taşçı,22,45,55.0,300000.0,Konyaspor,76.76304347826087,2.43
+Iğdır FK,RW,Mehmet Yüksel,22,41,52.88,25000.0,Şanlıurfaspor,75.46504347826087,2.43
+Iğdır FK,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.23
+Iğdır FK,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.23
+Iğdır FK,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.23
+Iğdır FK,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.23
+Iğdır FK,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,2.23
+Iğdır FK,RB,Erkam Kömür,22,40,54.855,175000.0,Bandırmaspor,78.20504347826088,2.23
+Iğdır FK,RB,Yunus Bahadır,22,45,56.525,175000.0,İstanbulspor,77.37304347826087,2.23
+Iğdır FK,RB,Ramil Mustafaev,20,45,55.16,150000.0,Legia Warszawa,76.82828571428571,2.23
+Iğdır FK,RB,Onur Öztonga,24,45,54.18,150000.0,Kocaelispor,76.434,2.23
+Iğdır FK,RB,Atakan Aybastı,24,40,50.0,75000.0,Şanlıurfaspor,76.262,2.23
+Jagiellonia Bialystok,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Jagiellonia Bialystok,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Jagiellonia Bialystok,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Jagiellonia Bialystok,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Jagiellonia Bialystok,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Jagiellonia Bialystok,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Jagiellonia Bialystok,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Jagiellonia Bialystok,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Jagiellonia Bialystok,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Jagiellonia Bialystok,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Jagiellonia Bialystok,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,2.43
+Jagiellonia Bialystok,RW,Demba Diallo,24,53,60.0,700000.0,Manisa FK,91.662,2.43
+Jagiellonia Bialystok,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.43
+Jagiellonia Bialystok,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.43
+Jagiellonia Bialystok,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.43
+Jagiellonia Bialystok,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.43
+Jagiellonia Bialystok,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.43
+Jagiellonia Bialystok,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.43
+Jagiellonia Bialystok,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.43
+Jagiellonia Bialystok,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.43
+Jagiellonia Bialystok,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.37
+Jagiellonia Bialystok,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.37
+Jagiellonia Bialystok,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.37
+Jagiellonia Bialystok,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.37
+Jagiellonia Bialystok,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.37
+Jagiellonia Bialystok,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.37
+Jagiellonia Bialystok,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.37
+Jagiellonia Bialystok,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.37
+Jagiellonia Bialystok,AM,Ajdin Hasic,23,48,60.0,800000.0,Cracovia,87.1625,2.37
+Jagiellonia Bialystok,AM,Koki Hinokio,23,51,60.0,400000.0,Stal Mielec,86.5625,2.37
+Kasimpasa,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,4.03
+Kasimpasa,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,4.03
+Kasimpasa,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,4.03
+Kasimpasa,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,4.03
+Kasimpasa,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,4.03
+Kasimpasa,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,4.03
+Kasimpasa,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,4.03
+Kasimpasa,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,4.03
+Kasimpasa,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,4.03
+Kasimpasa,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,4.03
+Kayserispor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,4.05
+Kayserispor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,4.05
+Kayserispor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,4.05
+Kayserispor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,4.05
+Kayserispor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,4.05
+Kayserispor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,4.05
+Kayserispor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,4.05
+Kayserispor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,4.05
+Kayserispor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,4.05
+Kayserispor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,4.05
+Kayserispor,RW,Pedro Brazão,21,53,65.405,650000.0,Bodrum FK,93.07563636363636,2.53
+Kayserispor,RW,Demba Diallo,24,53,60.0,700000.0,Manisa FK,91.662,2.53
+Kayserispor,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.53
+Kayserispor,RW,Camilo Mena,22,53,65.0,1200000.0,Lechia Gdansk,88.41304347826087,2.53
+Kayserispor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.53
+Kayserispor,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.53
+Kayserispor,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.53
+Kayserispor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.53
+Kayserispor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.53
+Kayserispor,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.53
+Kocaelispor,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.57
+Kocaelispor,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.57
+Kocaelispor,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.57
+Kocaelispor,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.57
+Kocaelispor,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.57
+Kocaelispor,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.57
+Kocaelispor,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.57
+Kocaelispor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.57
+Kocaelispor,AM,Koki Hinokio,23,51,60.0,400000.0,Stal Mielec,86.5625,2.57
+Kocaelispor,AM,Kajetan Szmyt,22,53,68.0,600000.0,Zaglebie Lubin,85.86304347826086,2.57
+Kocaelispor,CB,Simeon Petrov,24,53,64.0,700000.0,Slask Wroclaw,93.262,2.49
+Kocaelispor,CB,Marco Burch,24,59,67.0,700000.0,Legia Warszawa,91.762,2.49
+Kocaelispor,CB,Elias Olsson,21,51,63.915,550000.0,Lechia Gdansk,90.37963636363637,2.49
+Kocaelispor,CB,Emrecan Uzunhan,23,53,70.0,550000.0,Antalyaspor,89.6625,2.49
+Kocaelispor,CB,Kadir Seven,21,48,65.0,225000.0,Çorum FK,88.41363636363636,2.49
+Kocaelispor,CB,Dusan Stojinovic,24,52,67.0,400000.0,Jagiellonia Bialystok,88.162,2.49
+Kocaelispor,CB,Ensar Akgün,24,48,58.0,275000.0,Manisa FK,87.86200000000001,2.49
+Kocaelispor,CB,Marco Ehmann,24,51,63.0,400000.0,Stal Mielec,87.762,2.49
+Kocaelispor,CB,Yunus Emre Çift,21,53,65.72,400000.0,Samsunspor,86.45163636363637,2.49
+Kocaelispor,CB,Anıl Yaşar,22,50,60.0,325000.0,Caykur Rizespor,86.26304347826087,2.49
+Konyaspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,5.4
+Konyaspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,5.4
+Konyaspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,5.4
+Konyaspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,5.4
+Konyaspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,5.4
+Konyaspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,5.4
+Konyaspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,5.4
+Konyaspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,5.4
+Konyaspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,5.4
+Konyaspor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,5.4
+Konyaspor,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.57
+Konyaspor,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,2.57
+Konyaspor,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.57
+Konyaspor,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.57
+Konyaspor,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.57
+Konyaspor,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,2.57
+Konyaspor,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.57
+Konyaspor,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.57
+Konyaspor,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.57
+Konyaspor,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.57
+Korona Kielce,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Korona Kielce,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Korona Kielce,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Korona Kielce,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Korona Kielce,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Korona Kielce,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Korona Kielce,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Korona Kielce,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Korona Kielce,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Korona Kielce,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,10.33
+Korona Kielce,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Korona Kielce,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Korona Kielce,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Korona Kielce,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Korona Kielce,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Korona Kielce,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Korona Kielce,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Korona Kielce,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,7.33
+Korona Kielce,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,7.33
+Korona Kielce,LB,Çağtay Kurukalıp,22,43,55.295,375000.0,Fatih Karagümrük,78.53104347826087,7.33
+Korona Kielce,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Korona Kielce,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Korona Kielce,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Korona Kielce,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Korona Kielce,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Korona Kielce,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Korona Kielce,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+Korona Kielce,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+Korona Kielce,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,7.33
+Korona Kielce,RB,Marcel Krajewski,20,43,54.555,450000.0,Widzew Lodz,78.23628571428571,7.33
+Lech Poznan,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,5.4
+Lech Poznan,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,5.4
+Lech Poznan,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,5.4
+Lech Poznan,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,5.4
+Lech Poznan,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,5.4
+Lech Poznan,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,5.4
+Lech Poznan,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,5.4
+Lech Poznan,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,5.4
+Lech Poznan,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,5.4
+Lech Poznan,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,5.4
+Lech Poznan,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.3
+Lech Poznan,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,2.3
+Lech Poznan,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,2.3
+Lech Poznan,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.3
+Lech Poznan,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.3
+Lech Poznan,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.3
+Lech Poznan,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.3
+Lech Poznan,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.3
+Lech Poznan,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.3
+Lech Poznan,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.3
+Lechia Gdansk,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Lechia Gdansk,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Lechia Gdansk,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Lechia Gdansk,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Lechia Gdansk,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Lechia Gdansk,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Lechia Gdansk,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Lechia Gdansk,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Lechia Gdansk,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Lechia Gdansk,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Lechia Gdansk,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.27
+Lechia Gdansk,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,2.27
+Lechia Gdansk,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.27
+Lechia Gdansk,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,2.27
+Lechia Gdansk,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,2.27
+Lechia Gdansk,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,2.27
+Lechia Gdansk,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,2.27
+Lechia Gdansk,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,2.27
+Lechia Gdansk,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.27
+Lechia Gdansk,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.27
+Legia Warszawa,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Legia Warszawa,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Legia Warszawa,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,10.33
+Legia Warszawa,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,10.33
+Legia Warszawa,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,10.33
+Legia Warszawa,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Legia Warszawa,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Legia Warszawa,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,10.33
+Legia Warszawa,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Legia Warszawa,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Legia Warszawa,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,2.33
+Legia Warszawa,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.33
+Legia Warszawa,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.33
+Legia Warszawa,LB,Cemali Sertel,24,53,65.0,1100000.0,Hatayspor,84.662,2.33
+Legia Warszawa,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.33
+Legia Warszawa,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,2.33
+Legia Warszawa,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.33
+Legia Warszawa,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.33
+Legia Warszawa,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.33
+Legia Warszawa,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.33
+Manisa FK,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.57
+Manisa FK,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,2.57
+Manisa FK,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,2.57
+Manisa FK,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,2.57
+Manisa FK,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,2.57
+Manisa FK,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.57
+Manisa FK,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,2.57
+Manisa FK,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,2.57
+Manisa FK,AM,Cuma Menize,24,45,50.0,150000.0,Şanlıurfaspor,74.762,2.57
+Manisa FK,AM,Patryk Kusztal,21,40,54.97,150000.0,Zaglebie Lubin,73.00163636363636,2.57
+Manisa FK,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.3
+Manisa FK,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.3
+Manisa FK,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.3
+Manisa FK,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,2.3
+Manisa FK,DM,Adem Eren Kabak,23,45,60.0,225000.0,Konyaspor,84.0125,2.3
+Manisa FK,DM,Oğuzhan Ayaydın,23,43,53.0,225000.0,Ankara Keçiörengücü,80.61250000000001,2.3
+Manisa FK,DM,Özkan Yiğiter,24,43,58.0,200000.0,Sivasspor,79.612,2.3
+Manisa FK,DM,Wojciech Kaminski,23,47,55.0,250000.0,Korona Kielce,78.86250000000001,2.3
+Manisa FK,DM,Mesut Kesik,21,45,64.0,150000.0,Ankaragücü,78.11363636363637,2.3
+Manisa FK,DM,Devran Şenyurt,20,36,39.925,75000.0,Adanaspor,77.78428571428572,2.3
+Motor Lublin,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Motor Lublin,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Motor Lublin,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Motor Lublin,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Motor Lublin,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Motor Lublin,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Motor Lublin,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Motor Lublin,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Motor Lublin,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Motor Lublin,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,10.33
+Pendikspor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,7.33
+Pendikspor,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,7.33
+Pendikspor,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,7.33
+Pendikspor,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,7.33
+Pendikspor,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,7.33
+Pendikspor,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,7.33
+Pendikspor,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,7.33
+Pendikspor,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,7.33
+Pendikspor,AM,Cuma Menize,24,45,50.0,150000.0,Şanlıurfaspor,74.762,7.33
+Pendikspor,AM,Patryk Kusztal,21,40,54.97,150000.0,Zaglebie Lubin,73.00163636363636,7.33
+Pendikspor,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.57
+Pendikspor,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,2.57
+Pendikspor,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,2.57
+Pendikspor,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,2.57
+Pendikspor,RB,Oktay Gürdal,22,43,53.0,125000.0,Manisa FK,78.36304347826086,2.57
+Pendikspor,RB,Erkam Kömür,22,40,54.855,175000.0,Bandırmaspor,78.20504347826088,2.57
+Pendikspor,RB,Yunus Bahadır,22,45,56.525,175000.0,İstanbulspor,77.37304347826087,2.57
+Pendikspor,RB,Ramil Mustafaev,20,45,55.16,150000.0,Legia Warszawa,76.82828571428571,2.57
+Pendikspor,RB,Onur Öztonga,24,45,54.18,150000.0,Kocaelispor,76.434,2.57
+Pendikspor,RB,Atakan Aybastı,24,40,50.0,75000.0,Şanlıurfaspor,76.262,2.57
+Pendikspor,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.53
+Pendikspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.53
+Pendikspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.53
+Pendikspor,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.53
+Pendikspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.53
+Pendikspor,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,2.53
+Pendikspor,DM,Adem Eren Kabak,23,45,60.0,225000.0,Konyaspor,84.0125,2.53
+Pendikspor,DM,Oğuzhan Ayaydın,23,43,53.0,225000.0,Ankara Keçiörengücü,80.61250000000001,2.53
+Pendikspor,DM,Maxi Oyedele,20,43,55.595,300000.0,Legia Warszawa,80.15228571428571,2.53
+Pendikspor,DM,Özkan Yiğiter,24,43,58.0,200000.0,Sivasspor,79.612,2.53
+Piast Gliwice,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Piast Gliwice,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Piast Gliwice,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Piast Gliwice,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Piast Gliwice,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Piast Gliwice,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Piast Gliwice,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Piast Gliwice,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Piast Gliwice,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Piast Gliwice,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Piast Gliwice,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,2.6
+Piast Gliwice,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,2.6
+Piast Gliwice,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,2.6
+Piast Gliwice,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,2.6
+Piast Gliwice,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,2.6
+Piast Gliwice,LW,Motez Nourani,22,48,63.0,150000.0,Adana Demirspor,86.86304347826086,2.6
+Piast Gliwice,LW,Altar Hidayetoğlu,23,48,60.0,100000.0,Esenler Erokspor,85.6625,2.6
+Piast Gliwice,LW,Capita,22,49,61.0,250000.0,Radomiak Radom,85.61304347826088,2.6
+Piast Gliwice,LW,Haqi Osman,22,48,59.56,400000.0,Bodrum FK,85.48704347826087,2.6
+Piast Gliwice,LW,Bradly van Hoeven,24,51,57.0,275000.0,Motor Lublin,85.362,2.6
+Piast Gliwice,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.57
+Piast Gliwice,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.57
+Piast Gliwice,RW,Taofeek Ismaheel,24,54,59.0,600000.0,Górnik Zabrze,87.06200000000001,2.57
+Piast Gliwice,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.57
+Piast Gliwice,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.57
+Piast Gliwice,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.57
+Piast Gliwice,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.57
+Piast Gliwice,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.57
+Piast Gliwice,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.57
+Piast Gliwice,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.57
+Pogon Szczecin,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Pogon Szczecin,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Pogon Szczecin,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Pogon Szczecin,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Pogon Szczecin,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Pogon Szczecin,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Pogon Szczecin,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Pogon Szczecin,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Pogon Szczecin,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Pogon Szczecin,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Pogon Szczecin,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,2.47
+Pogon Szczecin,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.47
+Pogon Szczecin,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.47
+Pogon Szczecin,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.47
+Pogon Szczecin,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,2.47
+Pogon Szczecin,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.47
+Pogon Szczecin,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.47
+Pogon Szczecin,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.47
+Pogon Szczecin,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.47
+Pogon Szczecin,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.47
+Puszcza Niepolomice,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Puszcza Niepolomice,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Puszcza Niepolomice,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Puszcza Niepolomice,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Puszcza Niepolomice,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Puszcza Niepolomice,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Puszcza Niepolomice,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Puszcza Niepolomice,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,10.33
+Puszcza Niepolomice,CM,Sefa Akgün,24,48,58.0,300000.0,Erzurumspor FK,81.112,10.33
+Puszcza Niepolomice,CM,Muhammet Ali Özbaskıcı,19,43,56.27,300000.0,Samsunspor,80.423,10.33
+Puszcza Niepolomice,GK,Filip Majchrowicz,24,53,65.0,400000.0,Górnik Zabrze,86.162,2.2
+Puszcza Niepolomice,GK,Mikolaj Bieganski,22,53,70.0,200000.0,Widzew Lodz,85.16304347826087,2.2
+Puszcza Niepolomice,GK,Abdullah Yiğiter,24,48,63.0,175000.0,Antalyaspor,84.612,2.2
+Puszcza Niepolomice,GK,Gabriel Kobylak,22,50,61.49,400000.0,Legia Warszawa,83.85904347826087,2.2
+Puszcza Niepolomice,GK,Erzhan Tokotaev,24,45,54.895,300000.0,Şanlıurfaspor,82.72,2.2
+Puszcza Niepolomice,GK,Zafer Görgen,24,48,60.0,400000.0,Bandırmaspor,82.662,2.2
+Puszcza Niepolomice,GK,Abdulkadir Sünger,24,48,60.145,150000.0,Şanlıurfaspor,81.97,2.2
+Puszcza Niepolomice,GK,Deniz Ertaş,19,48,62.13,350000.0,Konyaspor,81.267,2.2
+Puszcza Niepolomice,GK,Orhan Kurşun,22,40,52.78,25000.0,Manisa FK,81.12504347826086,2.2
+Puszcza Niepolomice,GK,Taha Tepe,23,48,65.0,150000.0,Trabzonspor,80.9125,2.2
+Radomiak Radom,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Radomiak Radom,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Radomiak Radom,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Radomiak Radom,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Radomiak Radom,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Radomiak Radom,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Radomiak Radom,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Radomiak Radom,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Radomiak Radom,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Radomiak Radom,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Radomiak Radom,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.43
+Radomiak Radom,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.43
+Radomiak Radom,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.43
+Radomiak Radom,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.43
+Radomiak Radom,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.43
+Radomiak Radom,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.43
+Radomiak Radom,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.43
+Radomiak Radom,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.43
+Radomiak Radom,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,2.43
+Radomiak Radom,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.43
+Raków Częstochowa,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Raków Częstochowa,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Raków Częstochowa,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,10.33
+Raków Częstochowa,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,10.33
+Raków Częstochowa,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,10.33
+Raków Częstochowa,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Raków Częstochowa,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Raków Częstochowa,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,10.33
+Raków Częstochowa,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Raków Częstochowa,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Raków Częstochowa,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,7.33
+Raków Częstochowa,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Raków Częstochowa,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Raków Częstochowa,LB,Cemali Sertel,24,53,65.0,1100000.0,Hatayspor,84.662,7.33
+Raków Częstochowa,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Raków Częstochowa,LB,Cenk Şen,24,53,60.0,800000.0,Bodrum FK,83.412,7.33
+Raków Częstochowa,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Raków Częstochowa,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Raków Częstochowa,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Raków Częstochowa,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Raków Częstochowa,RB,Peter Kovacik,23,53,63.0,1200000.0,Jagiellonia Bialystok,89.11250000000001,7.33
+Raków Częstochowa,RB,Taha Şahin,24,55,63.0,1200000.0,Caykur Rizespor,88.962,7.33
+Raków Częstochowa,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Raków Częstochowa,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,7.33
+Raków Częstochowa,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Raków Częstochowa,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Raków Częstochowa,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Raków Częstochowa,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,7.33
+Raków Częstochowa,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Raków Częstochowa,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Sakaryaspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,7.33
+Sakaryaspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,7.33
+Sakaryaspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,7.33
+Sakaryaspor,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,7.33
+Sakaryaspor,DM,Özkan Yiğiter,24,43,58.0,200000.0,Sivasspor,79.612,7.33
+Sakaryaspor,DM,Mesut Kesik,21,45,64.0,150000.0,Ankaragücü,78.11363636363637,7.33
+Sakaryaspor,DM,Devran Şenyurt,20,36,39.925,75000.0,Adanaspor,77.78428571428572,7.33
+Sakaryaspor,DM,Salih Malkoçoğlu,19,38,52.08,100000.0,Trabzonspor,76.497,7.33
+Sakaryaspor,DM,Yusuf Kocatürk,20,38,52.455,150000.0,Ümraniyespor,72.14628571428571,7.33
+Sakaryaspor,DM,Mikolaj Molendowski,17,37,44.28,25000.0,Radomiak Radom,71.57866666666666,7.33
+Sakaryaspor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.17
+Sakaryaspor,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,2.17
+Sakaryaspor,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,2.17
+Sakaryaspor,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,2.17
+Sakaryaspor,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.17
+Sakaryaspor,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,2.17
+Sakaryaspor,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,2.17
+Sakaryaspor,AM,Cuma Menize,24,45,50.0,150000.0,Şanlıurfaspor,74.762,2.17
+Sakaryaspor,AM,Patryk Kusztal,21,40,54.97,150000.0,Zaglebie Lubin,73.00163636363636,2.17
+Sakaryaspor,AM,Yusuf Özer,22,40,55.41,150000.0,İstanbulspor,72.42704347826087,2.17
+Samsunspor,LW,Darko Churlinov,24,60,70.0,1500000.0,Jagiellonia Bialystok,98.512,2.5
+Samsunspor,LW,Daniel Håkans,24,54,63.0,1000000.0,Lech Poznan,96.162,2.5
+Samsunspor,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,2.5
+Samsunspor,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,2.5
+Samsunspor,LW,Paul Mukairu,24,53,68.0,700000.0,Boluspor,92.61200000000001,2.5
+Samsunspor,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,2.5
+Samsunspor,LW,Altin Zeqiri,24,58,65.0,1600000.0,Caykur Rizespor,92.162,2.5
+Samsunspor,LW,Renaldo Cephas,24,55,59.0,1300000.0,Ankaragücü,88.862,2.5
+Samsunspor,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,2.5
+Samsunspor,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,2.5
+Samsunspor,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.43
+Samsunspor,DM,Lamine Diack,24,53,63.0,1200000.0,Hatayspor,90.61200000000001,2.43
+Samsunspor,DM,Rodrigo,22,70,83.0,1000000.0,Bandırmaspor,90.21304347826087,2.43
+Samsunspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.43
+Samsunspor,DM,Ivan Zhelizko,23,53,66.0,800000.0,Lechia Gdansk,88.8125,2.43
+Samsunspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.43
+Samsunspor,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.43
+Samsunspor,DM,Yohan Cassubie,24,51,64.0,650000.0,Amed SK,88.162,2.43
+Samsunspor,DM,Jurgen Çelhaka,23,51,59.0,500000.0,Legia Warszawa,87.6625,2.43
+Samsunspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.43
+Sivasspor,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.53
+Sivasspor,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,2.53
+Sivasspor,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,2.53
+Sivasspor,AM,Göktan Gürpüz,21,49,64.0,500000.0,Fatih Karagümrük,89.06363636363636,2.53
+Sivasspor,AM,Emre Demir,20,45,58.91,600000.0,Sakaryaspor,88.8282857142857,2.53
+Sivasspor,AM,Burak İnce,20,49,61.975,500000.0,Slask Wroclaw,88.25428571428571,2.53
+Sivasspor,AM,Ömer Beyaz,21,50,62.645,500000.0,Basaksehir FK,88.07163636363637,2.53
+Sivasspor,AM,Lukas Ambros,20,48,62.045,350000.0,Górnik Zabrze,87.98228571428571,2.53
+Sivasspor,AM,Anton Tsarenko,20,52,64.43,450000.0,Lechia Gdansk,87.88628571428572,2.53
+Sivasspor,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,2.53
+Sivasspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,2.47
+Sivasspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,2.47
+Sivasspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,2.47
+Sivasspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,2.47
+Sivasspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,2.47
+Sivasspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,2.47
+Sivasspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,2.47
+Sivasspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,2.47
+Sivasspor,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,2.47
+Sivasspor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,2.47
+Slask Wroclaw,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Slask Wroclaw,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Slask Wroclaw,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Slask Wroclaw,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Slask Wroclaw,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Slask Wroclaw,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Slask Wroclaw,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Slask Wroclaw,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Slask Wroclaw,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Slask Wroclaw,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Slask Wroclaw,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Slask Wroclaw,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,7.33
+Slask Wroclaw,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Slask Wroclaw,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Slask Wroclaw,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Slask Wroclaw,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,7.33
+Slask Wroclaw,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Slask Wroclaw,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Slask Wroclaw,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+Slask Wroclaw,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+Slask Wroclaw,LW,Peglow,22,58,66.0,500000.0,Radomiak Radom,94.81304347826088,7.33
+Slask Wroclaw,LW,Yosuke Furukawa,21,58,66.25,350000.0,Górnik Zabrze,93.41363636363636,7.33
+Slask Wroclaw,LW,Paul Mukairu,24,53,68.0,700000.0,Boluspor,92.61200000000001,7.33
+Slask Wroclaw,LW,Christopher Lungoyi,24,58,62.0,600000.0,Gaziantep FK,92.462,7.33
+Slask Wroclaw,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,7.33
+Slask Wroclaw,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,7.33
+Slask Wroclaw,LW,Motez Nourani,22,48,63.0,150000.0,Adana Demirspor,86.86304347826086,7.33
+Slask Wroclaw,LW,Altar Hidayetoğlu,23,48,60.0,100000.0,Esenler Erokspor,85.6625,7.33
+Slask Wroclaw,LW,Capita,22,49,61.0,250000.0,Radomiak Radom,85.61304347826088,7.33
+Slask Wroclaw,LW,Haqi Osman,22,48,59.56,400000.0,Bodrum FK,85.48704347826087,7.33
+Stal Mielec,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Stal Mielec,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Stal Mielec,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Stal Mielec,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Stal Mielec,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Stal Mielec,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Stal Mielec,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Stal Mielec,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Stal Mielec,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Stal Mielec,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Stal Mielec,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,7.33
+Stal Mielec,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Stal Mielec,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Stal Mielec,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Stal Mielec,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Stal Mielec,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Stal Mielec,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Stal Mielec,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Stal Mielec,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,7.33
+Stal Mielec,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,7.33
+Stal Mielec,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Stal Mielec,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,7.33
+Stal Mielec,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Stal Mielec,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Stal Mielec,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Stal Mielec,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,7.33
+Stal Mielec,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Stal Mielec,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Stal Mielec,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+Stal Mielec,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+Trabzonspor,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,3.88
+Trabzonspor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,3.88
+Trabzonspor,CM,Kerem Atakan Kesgin,24,55,63.86,900000.0,Bandırmaspor,90.806,3.88
+Trabzonspor,CM,Mithat Pala,24,58,65.0,900000.0,Caykur Rizespor,89.912,3.88
+Trabzonspor,CM,Eyüp Aydın,20,53,66.33,1100000.0,Galatasaray,89.69628571428571,3.88
+Trabzonspor,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,3.88
+Trabzonspor,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,3.88
+Trabzonspor,CM,Ali Kaan Güneren,24,53,65.0,1400000.0,Ankaragücü,89.162,3.88
+Trabzonspor,CM,Cher Ndour,20,55,66.73,4000000.0,Besiktas JK,88.95628571428571,3.88
+Trabzonspor,CM,Flavio Paoletti,21,53,66.24,900000.0,Fatih Karagümrük,88.15963636363637,3.88
+Widzew Lodz,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Widzew Lodz,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Widzew Lodz,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Widzew Lodz,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Widzew Lodz,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Widzew Lodz,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Widzew Lodz,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Widzew Lodz,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Widzew Lodz,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Widzew Lodz,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Widzew Lodz,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.33
+Widzew Lodz,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.33
+Widzew Lodz,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.33
+Widzew Lodz,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.33
+Widzew Lodz,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,2.33
+Widzew Lodz,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.33
+Widzew Lodz,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.33
+Widzew Lodz,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.33
+Widzew Lodz,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,2.33
+Widzew Lodz,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.33
+Yeni Malatyaspor,CB,Oğuzcan Çalışkan,22,40,54.165,25000.0,Ankara Keçiörengücü,79.42904347826087,3.72
+Yeni Malatyaspor,CB,Kacper Lepczynski,23,43,55.0,25000.0,Zaglebie Lubin,77.6625,3.72
+Yeni Malatyaspor,CB,Elano Yegen,22,40,55.0,50000.0,Samsunspor,76.76304347826087,3.72
+Yeni Malatyaspor,CB,Murat Sipahioğlu,22,38,52.04,50000.0,Bodrum FK,76.47904347826088,3.72
+Yeni Malatyaspor,CB,Oskar Wojcik,21,40,53.74,25000.0,Cracovia,74.75963636363636,3.72
+Yeni Malatyaspor,CB,Birkan Yılmaz,21,38,52.905,25000.0,Manisa FK,73.07563636363636,3.72
+Yeni Malatyaspor,CB,Pawel Kwiatkowski,17,38,50.41,25000.0,Widzew Lodz,72.08066666666667,3.72
+Yeni Malatyaspor,CB,Abdullah Şahindere,21,35,40.645,25000.0,Gençlerbirliği SK,67.27163636363636,3.72
+Yeni Malatyaspor,CB,Harun Toprak,19,35,40.595,50000.0,Antalyaspor,67.253,3.72
+Yeni Malatyaspor,CB,Ömer Ersoy,21,28,40.0,50000.0,Fatih Karagümrük,66.41363636363636,3.72
+Yeni Malatyaspor,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.1
+Yeni Malatyaspor,AM,Ali Yiğit Özten,19,35,41.135,25000.0,Iğdır FK,70.469,2.1
+Yeni Malatyaspor,AM,Alan Brod,20,40,53.645,50000.0,GKS Katowice,67.97228571428572,2.1
+Yeni Malatyaspor,AM,Florent Shehu,22,38,50.94,50000.0,Adana Demirspor,67.03904347826087,2.1
+Yeni Malatyaspor,AM,Barış Kalaycı,19,39,50.855,25000.0,Fatih Karagümrük,65.807,2.1
+Yeni Malatyaspor,AM,Milosz Strzebonski,21,34,38.43,50000.0,Korona Kielce,65.33563636363637,2.1
+Yeni Malatyaspor,AM,Emin Sarıgül,19,33,40.075,50000.0,Alanyaspor,60.445,2.1
+Yeni Malatyaspor,AM,Doğukan Saral,21,28,30.0,25000.0,Ümraniyespor,60.163636363636364,2.1
+Yeni Malatyaspor,AM,Harun Yerlikaya,18,30,39.48,25000.0,Boluspor,59.30778947368421,2.1
+Yeni Malatyaspor,AM,Uğurcan Mengi,20,30,40.0,25000.0,Erzurumspor FK,57.26428571428571,2.1
+Zaglebie Lubin,CM,Check Oumar Diakité,22,53,65.04,450000.0,Adanaspor,95.92904347826088,10.33
+Zaglebie Lubin,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,10.33
+Zaglebie Lubin,CM,Cem Türkmen,22,53,70.0,400000.0,Ankaragücü,89.66304347826087,10.33
+Zaglebie Lubin,CM,Adnan Uğur,23,50,61.845,450000.0,Fatih Karagümrük,89.2505,10.33
+Zaglebie Lubin,CM,Aliou Traoré,23,53,68.0,500000.0,Ankara Keçiörengücü,87.36250000000001,10.33
+Zaglebie Lubin,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,10.33
+Zaglebie Lubin,CM,Abdoulaye Dabo,23,48,58.0,400000.0,Adanaspor,84.86250000000001,10.33
+Zaglebie Lubin,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,10.33
+Zaglebie Lubin,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,10.33
+Zaglebie Lubin,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,10.33
+Zaglebie Lubin,LB,Batuhan Adıgüzel,23,48,60.0,600000.0,Bandırmaspor,86.4125,7.33
+Zaglebie Lubin,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,7.33
+Zaglebie Lubin,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,7.33
+Zaglebie Lubin,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,7.33
+Zaglebie Lubin,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,7.33
+Zaglebie Lubin,LB,Godfrey Stephen,24,50,58.0,400000.0,Gaziantep FK,81.712,7.33
+Zaglebie Lubin,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,7.33
+Zaglebie Lubin,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,7.33
+Zaglebie Lubin,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,7.33
+Zaglebie Lubin,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,7.33
+Zaglebie Lubin,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,7.33
+Zaglebie Lubin,RB,Kerem Kalafat,23,50,60.0,600000.0,Çorum FK,87.0125,7.33
+Zaglebie Lubin,RB,Berkan Keskin,22,50,60.74,225000.0,Iğdır FK,85.80904347826088,7.33
+Zaglebie Lubin,RB,İsmail Çokçalış,24,50,58.0,325000.0,Ankaragücü,85.462,7.33
+Zaglebie Lubin,RB,Ioan-Calin Revenco,24,48,54.0,400000.0,Puszcza Niepolomice,84.762,7.33
+Zaglebie Lubin,RB,Zié Ouattara,24,51,57.0,600000.0,Radomiak Radom,84.612,7.33
+Zaglebie Lubin,RB,Mustafa Tan,19,43,55.445,400000.0,Samsunspor,80.093,7.33
+Zaglebie Lubin,RB,Norbert Wojtuszek,23,47,59.0,350000.0,Górnik Zabrze,79.7125,7.33
+Zaglebie Lubin,RB,Ian Hoffmann,23,47,58.0,300000.0,Lech Poznan,79.3125,7.33
+Zaglebie Lubin,RB,Erdem Gökçe,21,43,56.77,75000.0,Eyüpspor,79.12163636363637,7.33
+Çorum FK,AM,Recep Taşbakır,21,50,62.305,175000.0,Ankara Keçiörengücü,87.18563636363636,7.33
+Çorum FK,AM,Samuel Yépié Yépié,22,48,60.81,100000.0,Adanaspor,81.48704347826087,7.33
+Çorum FK,AM,Baran Sarka,23,43,58.0,125000.0,Hatayspor,80.36250000000001,7.33
+Çorum FK,AM,Mariusz Fornalczyk,21,50,61.89,250000.0,Korona Kielce,80.26963636363637,7.33
+Çorum FK,AM,Radoslaw Cielemecki,21,43,57.68,100000.0,Radomiak Radom,79.48563636363636,7.33
+Çorum FK,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,7.33
+Çorum FK,AM,Wiktor Dlugosz,24,53,58.0,200000.0,Korona Kielce,76.612,7.33
+Çorum FK,AM,İzzet Çelik,20,38,54.125,75000.0,Adana Demirspor,76.56428571428572,7.33
+Çorum FK,AM,Cuma Menize,24,45,50.0,150000.0,Şanlıurfaspor,74.762,7.33
+Çorum FK,AM,Patryk Kusztal,21,40,54.97,150000.0,Zaglebie Lubin,73.00163636363636,7.33
+Ümraniyespor,CM,Tunahan Ergül,24,55,68.0,125000.0,Çorum FK,92.462,3.92
+Ümraniyespor,CM,Nsana Simon,24,48,59.0,200000.0,Sakaryaspor,85.262,3.92
+Ümraniyespor,CM,Janne-Pekka Laine,23,48,60.54,250000.0,Esenler Erokspor,84.3785,3.92
+Ümraniyespor,CM,Enes Keskin,23,48,63.0,250000.0,Pendikspor,83.86250000000001,3.92
+Ümraniyespor,CM,Buluthan Bulut,22,45,59.795,50000.0,Alanyaspor,82.43104347826088,3.92
+Ümraniyespor,CM,Mesut Can Tunalı,23,48,60.0,175000.0,Kocaelispor,81.9125,3.92
+Ümraniyespor,CM,Sefa Akgün,24,48,58.0,300000.0,Erzurumspor FK,81.112,3.92
+Ümraniyespor,CM,Muhammet Ali Özbaskıcı,19,43,56.27,300000.0,Samsunspor,80.423,3.92
+Ümraniyespor,CM,Ömer Gümüş,21,43,56.71,150000.0,Fatih Karagümrük,79.84763636363637,3.92
+Ümraniyespor,CM,Gökdeniz Gürpüz,18,43,56.57,300000.0,Galatasaray,79.7937894736842,3.92
+Ümraniyespor,LB,Nafican Yardımcı,23,48,63.0,100000.0,Şanlıurfaspor,86.11250000000001,2.2
+Ümraniyespor,LB,Arif Boşluk,21,48,68.0,275000.0,Trabzonspor,85.86363636363637,2.2
+Ümraniyespor,LB,Furkan Doğan,23,48,60.0,100000.0,Pendikspor,83.4125,2.2
+Ümraniyespor,LB,Emir Tintiş,20,48,61.78,200000.0,Fatih Karagümrük,83.37628571428571,2.2
+Ümraniyespor,LB,Engin Can Aksoy,21,45,56.9,100000.0,Sakaryaspor,81.27363636363637,2.2
+Ümraniyespor,LB,Emrecan Terzi,20,48,61.705,300000.0,Besiktas JK,81.09628571428571,2.2
+Ümraniyespor,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.2
+Ümraniyespor,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.2
+Ümraniyespor,LB,Erkan Sasa,21,43,56.615,25000.0,Amed SK,77.55963636363637,2.2
+Ümraniyespor,LB,Enes Albak,19,40,53.845,125000.0,Samsunspor,77.053,2.2
+İstanbulspor,RW,Juan Christian,23,52,61.0,450000.0,Alanyaspor,88.7625,2.43
+İstanbulspor,RW,Burak Kapacak,24,55,65.0,275000.0,Fenerbahce,88.262,2.43
+İstanbulspor,RW,Benny,24,53,60.0,500000.0,Ümraniyespor,84.912,2.43
+İstanbulspor,RW,Elias Durmaz,24,48,63.0,100000.0,Gençlerbirliği SK,83.862,2.43
+İstanbulspor,RW,Doğukan Emeksiz,24,48,58.0,200000.0,Adanaspor,82.612,2.43
+İstanbulspor,RW,Eren Erdoğan,23,45,58.0,150000.0,Gaziantep FK,82.4625,2.43
+İstanbulspor,RW,Arda Akgün,17,38,52.98,25000.0,Fatih Karagümrük,80.60866666666666,2.43
+İstanbulspor,RW,Mateusz Stepien,22,47,58.0,250000.0,Puszcza Niepolomice,80.06304347826088,2.43
+İstanbulspor,RW,Marcel Wedrychowski,22,44,60.0,200000.0,Pogon Szczecin,79.96304347826087,2.43
+İstanbulspor,RW,Jakub Sypek,23,45,59.0,350000.0,Widzew Lodz,79.11250000000001,2.43
+Şanlıurfaspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.5
+Şanlıurfaspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.5
+Şanlıurfaspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.5
+Şanlıurfaspor,DM,Kacper Smolinski,23,52,63.0,200000.0,Pogon Szczecin,84.3125,2.5
+Şanlıurfaspor,DM,Adem Eren Kabak,23,45,60.0,225000.0,Konyaspor,84.0125,2.5
+Şanlıurfaspor,DM,Oğuzhan Ayaydın,23,43,53.0,225000.0,Ankara Keçiörengücü,80.61250000000001,2.5
+Şanlıurfaspor,DM,Özkan Yiğiter,24,43,58.0,200000.0,Sivasspor,79.612,2.5
+Şanlıurfaspor,DM,Mesut Kesik,21,45,64.0,150000.0,Ankaragücü,78.11363636363637,2.5
+Şanlıurfaspor,DM,Devran Şenyurt,20,36,39.925,75000.0,Adanaspor,77.78428571428572,2.5
+Şanlıurfaspor,DM,Salih Malkoçoğlu,19,38,52.08,100000.0,Trabzonspor,76.497,2.5
+Şanlıurfaspor,CB,Kadir Seven,21,48,65.0,225000.0,Çorum FK,88.41363636363636,2.27
+Şanlıurfaspor,CB,Loup-Diwan Gueho,20,47,57.38,150000.0,Lechia Gdansk,82.06628571428571,2.27
+Şanlıurfaspor,CB,Tolga Kalender,23,43,58.0,125000.0,Adana Demirspor,81.86250000000001,2.27
+Şanlıurfaspor,CB,Yağız Dilek,19,38,51.405,75000.0,Bandırmaspor,81.477,2.27
+Şanlıurfaspor,CB,Alperen Selvi,23,43,53.0,100000.0,Iğdır FK,80.61250000000001,2.27
+Şanlıurfaspor,CB,Fatih Tultak,23,40,53.2,100000.0,İstanbulspor,80.5425,2.27
+Şanlıurfaspor,CB,Mehmet Albayrak,20,43,55.87,75000.0,Sivasspor,80.26228571428571,2.27
+Şanlıurfaspor,CB,Mustafa Eser,23,45,55.44,225000.0,Ümraniyespor,79.9385,2.27
+Şanlıurfaspor,CB,Haşim Sarman,21,43,60.0,125000.0,Kocaelispor,79.66363636363636,2.27
+Şanlıurfaspor,CB,Oğuzcan Çalışkan,22,40,54.165,25000.0,Ankara Keçiörengücü,79.42904347826087,2.27
