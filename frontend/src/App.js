@@ -6,8 +6,8 @@ import YouthDevelopmentPage from './pages/YouthDevelopmentPage';
 import PhysicalDevelopmentPage from './pages/PhysicalDevelopmentPage';
 import ConditionalDevelopmentPage from './pages/ConditionalDevelopmentPage';
 import EnduranceDevelopmentPage from './pages/EnduranceDevelopmentPage';
+import ScoutingNetworkPage from './pages/ScoutingNetworkPage';
 
-const ScoutingNetworkPage = () => <h1>Scouting Network</h1>;
 const PerformanceVisualizationPage = () => <h1>Performance Visualization</h1>;
 const TransferStrategyPage = () => <h1>Transfer Strategy</h1>;
 const MatchAnalysisPage = () => <h1>Match Analysis</h1>;

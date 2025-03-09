@@ -1,0 +1,483 @@
+/* ScoutingNetworkPage.css */
+
+.scouting-page {
+  background-color: #170163;
+  min-height: 100vh;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.scouting-header {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 800px;
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  left: -80px;
+  z-index: 1;
+}
+
+.magnifier-logo {
+  background-image: url('../assets/images/magnifier.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+}
+
+.search-input {
+  flex-grow: 1;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+  background-color: #e6e6e6;
+  font-size: 16px;
+}
+
+.filter-button {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-icon {
+  background-image: url('../assets/images/filter.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.section-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.selection-section {
+  position: absolute;
+  top: 240px;
+  left: 60px;
+  z-index: 2;
+}
+
+.selection-section select {
+  width: 340px;
+  max-width: 700px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recommendation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 300px;
+  left: 60px;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.team-info {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-info h2 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.position-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.position-tag {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.position-tag.active {
+  background-color: #388E3C;
+}
+
+.player-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+
+.player-card {
+  background-color: #15934b;
+  border-radius: 10px;
+  width: 280px;
+  height: 520px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.player-card.selected {
+  border: 3px solid #FFD700;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sponsor-logo {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.team-badge img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+  padding: 2px;
+}
+
+.player-image {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-image img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.player-name {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.player-details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.detail-icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.detail-icon.doc {
+  background-image: url('../assets/images/citizenship_icon.png');
+}
+
+.detail-icon.calendar {
+  background-image: url('../assets/images/birthday_icon.png');
+}
+
+.nationality img {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+}
+
+.attributes-title {
+  text-align: center;
+  margin: 15px 0 10px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+}
+
+.attributes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.attribute-row {
+  display: grid;
+  grid-template-columns: auto 30px auto 30px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.attribute-name {
+  text-align: left;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.attribute-value {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.pagination-dot.active {
+  background-color: white;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid white;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.compare-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.compare-button:hover {
+  background-color: #388E3C;
+}
+
+.comparison-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.comparison-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.comparison-players {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.comparison-player {
+  text-align: center;
+}
+
+.team-logo-small {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.comparison-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comparison-stat-row {
+  display: flex;
+  align-items: center;
+}
+
+.stat-name {
+  width: 150px;
+  text-transform: capitalize;
+}
+
+.stat-bars {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.stat-bar-container {
+  flex-grow: 1;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.stat-bar {
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.stat-value {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-weight: bold;
+}
+
+.no-players {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.recommendation-info {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+/* Styles for the selected positions */
+.position-tag:hover {
+  background-color: #388E3C;
+}
+
+.position-tag .priority-indicator {
+  margin-left: 5px;
+  color: yellow;
+}
+
+/* Score row styling */
+.score-row {
+  grid-column: span 2;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 8px;
+  margin-top: 5px;
+}
+
+.score-row .attribute-name {
+  font-weight: bold;
+}
+
+.score-row .attribute-value.score {
+  font-size: 16px;
+  color: #FFEB3B;
+}

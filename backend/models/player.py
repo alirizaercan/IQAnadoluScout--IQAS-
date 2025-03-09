@@ -64,7 +64,7 @@ class Player(Base):
     marking = Column(Integer)
     tackling = Column(Integer)
     
-    # İlişkiler
+    # Relationship
     footballer = relationship('Footballer', back_populates='players')
     
     def __init__(self, footballer_id, footballer_name=None, rating=None, potential=None,

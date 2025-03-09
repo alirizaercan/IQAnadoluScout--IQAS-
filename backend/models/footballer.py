@@ -25,7 +25,7 @@ class Footballer(Base):
 
     league = relationship('League', back_populates='footballers')
     team = relationship('FootballTeam', back_populates='footballers')
-    players = relationship('Player', back_populates='footballers')
+    players = relationship('Player', back_populates='footballer')
 
     def __init__(self, league_id, team_id, footballer_name, club, league_name=None, trikot_num=None, position=None, 
                  birthday=None, age=None, nationality_img_path=None, height=None, feet=None, contract=None, 

@@ -80,7 +80,7 @@ def main():
     csv_loader = CSVLoader(db_manager)
 
     data_mappings = [
-        ("data/processed_data/merged_players_final.csv", "players", [
+        ("data/processed_data/merged_players_last.csv", "players", [
             'player_id', 'footballer_id', 'footballer_name', 'rating', 'potential',
             'position_acronym', 'goalkeeping', 'mental', 'physical', 'technical',
             'aerial_reach', 'command_of_area', 'communication', 'eccentricity',

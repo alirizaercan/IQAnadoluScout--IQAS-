@@ -61,7 +61,6 @@ Adanaspor,RW,Mehmet Yüksel,22,41,52.88,25000.0,Şanlıurfaspor,75.4650434782608
 Adanaspor,RW,Kacper Sezonienko,21,46,57.205,300000.0,Lechia Gdansk,74.94563636363637,2.3
 Alanyaspor,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.5
 Alanyaspor,DM,Lamine Diack,24,53,63.0,1200000.0,Hatayspor,90.61200000000001,2.5
-Alanyaspor,DM,Rodrigo,22,70,83.0,1000000.0,Bandırmaspor,90.21304347826087,2.5
 Alanyaspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.5
 Alanyaspor,DM,Ivan Zhelizko,23,53,66.0,800000.0,Lechia Gdansk,88.8125,2.5
 Alanyaspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.5
@@ -69,6 +68,7 @@ Alanyaspor,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.5
 Alanyaspor,DM,Yohan Cassubie,24,51,64.0,650000.0,Amed SK,88.162,2.5
 Alanyaspor,DM,Jurgen Çelhaka,23,51,59.0,500000.0,Legia Warszawa,87.6625,2.5
 Alanyaspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.5
+Alanyaspor,DM,Andrej Djokanovic,23,50,61.79,1100000.0,Ümraniyespor,86.2285,2.5
 Alanyaspor,RB,Peter Kovacik,23,53,63.0,1200000.0,Jagiellonia Bialystok,89.11250000000001,2.5
 Alanyaspor,RB,Taha Şahin,24,55,63.0,1200000.0,Caykur Rizespor,88.962,2.5
 Alanyaspor,RB,Eray Korkmaz,21,50,62.51,300000.0,Caykur Rizespor,87.26763636363637,2.5
@@ -971,7 +971,6 @@ Samsunspor,LW,Mustafa Fettahoğlu,23,48,60.635,150000.0,Erzurumspor FK,88.1665,2
 Samsunspor,LW,Ali Yavuz Kol,23,55,64.965,300000.0,Adana Demirspor,87.4985,2.5
 Samsunspor,DM,Noah Diliberto,23,54,70.0,300000.0,Widzew Lodz,92.9625,2.43
 Samsunspor,DM,Lamine Diack,24,53,63.0,1200000.0,Hatayspor,90.61200000000001,2.43
-Samsunspor,DM,Rodrigo,22,70,83.0,1000000.0,Bandırmaspor,90.21304347826087,2.43
 Samsunspor,DM,Mert Çölgeçen,23,50,63.0,175000.0,Iğdır FK,89.7125,2.43
 Samsunspor,DM,Ivan Zhelizko,23,53,66.0,800000.0,Lechia Gdansk,88.8125,2.43
 Samsunspor,DM,Orhan Nahırcı,24,48,60.0,150000.0,Ankara Keçiörengücü,88.662,2.43
@@ -979,6 +978,7 @@ Samsunspor,DM,Louis D'Arrigo,23,47,60.0,300000.0,Lechia Gdansk,88.3625,2.43
 Samsunspor,DM,Yohan Cassubie,24,51,64.0,650000.0,Amed SK,88.162,2.43
 Samsunspor,DM,Jurgen Çelhaka,23,51,59.0,500000.0,Legia Warszawa,87.6625,2.43
 Samsunspor,DM,Gabriel Obekpa,20,48,50.0,100000.0,Bodrum FK,86.91428571428571,2.43
+Samsunspor,DM,Andrej Djokanovic,23,50,61.79,1100000.0,Ümraniyespor,86.2285,2.43
 Sivasspor,AM,Sylvester Jasper,23,58,66.23,600000.0,Slask Wroclaw,94.9045,2.53
 Sivasspor,AM,Michal Rakoczy,22,56,69.0,1200000.0,Cracovia,90.16304347826087,2.53
 Sivasspor,AM,Matchoi Djaló,21,56,64.96,1300000.0,Basaksehir FK,89.29763636363636,2.53
@@ -1090,7 +1090,6 @@ Widzew Lodz,LB,Umut Erdem,20,43,56.63,150000.0,Manisa FK,79.81628571428571,2.33
 Widzew Lodz,LB,Emre Kaplan,23,45,55.0,500000.0,Basaksehir FK,79.7625,2.33
 Widzew Lodz,LB,Faruk Can Genç,24,45,60.0,150000.0,Bandırmaspor,78.762,2.33
 Yeni Malatyaspor,CB,Oğuzcan Çalışkan,22,40,54.165,25000.0,Ankara Keçiörengücü,79.42904347826087,3.72
-Yeni Malatyaspor,CB,Kacper Lepczynski,23,43,55.0,25000.0,Zaglebie Lubin,77.6625,3.72
 Yeni Malatyaspor,CB,Elano Yegen,22,40,55.0,50000.0,Samsunspor,76.76304347826087,3.72
 Yeni Malatyaspor,CB,Murat Sipahioğlu,22,38,52.04,50000.0,Bodrum FK,76.47904347826088,3.72
 Yeni Malatyaspor,CB,Oskar Wojcik,21,40,53.74,25000.0,Cracovia,74.75963636363636,3.72
@@ -1099,6 +1098,7 @@ Yeni Malatyaspor,CB,Pawel Kwiatkowski,17,38,50.41,25000.0,Widzew Lodz,72.0806666
 Yeni Malatyaspor,CB,Abdullah Şahindere,21,35,40.645,25000.0,Gençlerbirliği SK,67.27163636363636,3.72
 Yeni Malatyaspor,CB,Harun Toprak,19,35,40.595,50000.0,Antalyaspor,67.253,3.72
 Yeni Malatyaspor,CB,Ömer Ersoy,21,28,40.0,50000.0,Fatih Karagümrük,66.41363636363636,3.72
+Yeni Malatyaspor,CB,Berat Can Şanlı,20,15,46.0,25000.0,Sakaryaspor,64.91428571428571,3.72
 Yeni Malatyaspor,AM,Emre Kaya,19,38,53.06,25000.0,Ümraniyespor,79.13900000000001,2.1
 Yeni Malatyaspor,AM,Ali Yiğit Özten,19,35,41.135,25000.0,Iğdır FK,70.469,2.1
 Yeni Malatyaspor,AM,Alan Brod,20,40,53.645,50000.0,GKS Katowice,67.97228571428572,2.1
