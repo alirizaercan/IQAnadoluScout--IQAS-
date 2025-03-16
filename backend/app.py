@@ -9,6 +9,7 @@ from controllers.physical_dev_controller import physical_bp as physical_controll
 from controllers.conditional_dev_controller import conditional_bp as conditional_controller
 from controllers.endurance_dev_controller import endurance_bp as endurance_controller
 from controllers.scouting_controller import scouting_bp as scouting_controller
+from controllers.transfer_controller import transfer_bp as transfer_controller
 
 load_dotenv()
 
@@ -26,6 +27,7 @@ app.register_blueprint(conditional_controller, url_prefix='/api/conditional-deve
 app.register_blueprint(endurance_controller, url_prefix='/api/endurance-development')
 app.register_blueprint(youth_dev_controller, url_prefix='/api/youth-development')
 app.register_blueprint(scouting_controller, url_prefix='/api/scouting')
+app.register_blueprint(transfer_controller, url_prefix='/api/transfer')
 app.register_blueprint(auth_controller, url_prefix='/api/auth')
 
 @app.route('/')

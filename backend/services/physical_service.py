@@ -19,7 +19,7 @@ class PhysicalService:
 
     def get_footballers_by_team(self, team_id):
         footballers = self.session.query(Footballer).filter_by(team_id=team_id).all()
-        return [{"footballer_id": f.footballer_id, "footballer_name": f.footballer_name, "footballer_img_path": f.footballer_img_path, "nationality_img_path": f.nationality_img_path, "birthday": f.birthday} for f in footballers]
+        return [{"footballer_id": f.footballer_id, "footballer_name": f.footballer_name, "footballer_img_path": f.footballer_img_path, "nationality_img_path": f.nationality_img_path, "birthday": f.birthday.strftime('%d %B %Y')} for f in footballers]
 
     def get_physical_data(self, footballer_id, graph_type, start_date, end_date):
         query = self.session.query(Physical).filter(

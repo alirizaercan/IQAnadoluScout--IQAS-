@@ -60,7 +60,7 @@ class PlayerService:
             'RW': 2,
             'OFF': 3  # Combined offensive group: CF, SS, ST
         }
-
+        
     def _convert_currency(self, value):
         """Convert currency string to numeric value"""
         if not value:
@@ -102,7 +102,7 @@ class PlayerService:
         """Get all teams from the database"""
         teams = self.session.query(FootballTeam).all()
         return [{"team_id": team.team_id, "team_name": team.team_name, "img_path": team.img_path} for team in teams]
-
+    
     def get_team_by_id(self, team_id):
         """Get team details by team_id"""
         team = self.session.query(FootballTeam).filter_by(team_id=team_id).first()
@@ -124,27 +124,27 @@ class PlayerService:
             "num_players": team.num_players,
             "img_path": team.img_path
         }
-
+        
     def get_teams_by_league(self, league_id):
         """Get all teams in a specific league"""
         teams = self.session.query(FootballTeam).filter_by(league_id=league_id).all()
         return [{"team_id": team.team_id, "team_name": team.team_name, "img_path": team.img_path} for team in teams]
-
+        
     def get_footballers_by_team(self, team_id):
         """Get all footballers in a specific team"""
         footballers = self.session.query(Footballer).filter_by(team_id=team_id).all()
-        return [{"footballer_id": f.footballer_id, "footballer_name": f.footballer_name, "footballer_img_path": f.footballer_img_path, "nationality_img_path": f.nationality_img_path, "birthday": f.birthday} for f in footballers]
+        return [{"footballer_id": f.footballer_id, "footballer_name": f.footballer_name, "footballer_img_path": f.footballer_img_path, "nationality_img_path": f.nationality_img_path, "birthday": f.birthday.strftime('%d %B %Y') if f.birthday else None} for f in footballers]
 
     def get_player_by_id(self, player_id):
         """Get player details by player_id"""
         player = self.session.query(Player).filter_by(player_id=player_id).first()
         return player
-
+        
     def get_players_by_footballer_id(self, footballer_id):
         """Get all player records for a specific footballer"""
         players = self.session.query(Player).filter_by(footballer_id=footballer_id).all()
         return players
-
+        
     def get_team_players_data(self, team_id):
         """Get all player data for a specific team"""
         # Fetch footballers for the team
@@ -170,11 +170,11 @@ class PlayerService:
                     "potential": player.potential,
                     "footballer_img_path": footballer.footballer_img_path,
                     "nationality_img_path": footballer.nationality_img_path,
-                    "birthday": footballer.birthday
+                    "birthday": footballer.birthday.strftime('%d %B %Y') if footballer.birthday else None
                 })
         
         return players_data
-
+        
     def get_player_positions(self, team_id):
         """Get position distribution for a specific team"""
         # Get footballers in the team
@@ -212,7 +212,7 @@ class PlayerService:
         position_counts = df.groupby('position_acronym').size().reset_index(name='count')
         
         return position_counts.to_dict('records')
-
+        
     def analyze_team_positions(self, team_id):
         """Analyze position distribution for a team"""
         # Get all players for the team
@@ -240,39 +240,44 @@ class PlayerService:
         
         # Convert to dictionary for easy serialization
         return position_stats.rename(columns={"position_acronym_list": "position"}).to_dict("records")
-
-    def calculate_player_age(self, player):
-        """Bir oyuncunun yaşını hesapla"""
-        # Player modelinde birthday alanı varsa kullan
-        if hasattr(player, 'birthday') and player.birthday:
-            try:
-                birth_date = player.birthday
-                today = datetime.now()
-                age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
-                return age
-            except:
-                pass
         
-        # Footballer tablosundan futbolcu bilgilerini al
-        footballer = self.session.query(Footballer).filter_by(footballer_id=player.footballer_id).first()
-        if footballer and hasattr(footballer, 'birthday') and footballer.birthday:
+    def calculate_player_age(self, player):
+        """Calculate a player's age from birthday"""
+        # First, get the footballer associated with the player
+        footballer = None
+        
+        # If player has footballer_id, fetch the footballer
+        if hasattr(player, 'footballer_id'):
+            footballer = self.session.query(Footballer).filter_by(footballer_id=player.footballer_id).first()
+        
+        # Try to get birthday from footballer
+        if footballer and hasattr(footballer, 'birthday') and footballer.birthday is not None:
             try:
                 birth_date = footballer.birthday
                 today = datetime.now()
                 age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
                 return age
-            except:
+            except Exception as e:
+                # Log error or handle exception
                 pass
         
-        # Yaş bilgisi bulunamazsa oyuncunun potansiyel ve reytingine göre tahmini yaş
+        # If age is directly available in player object, use it
+        if hasattr(player, 'age') and player.age is not None:
+            return player.age
+            
+        # If age is directly available in footballer object, use it
+        if footballer and hasattr(footballer, 'age') and footballer.age is not None:
+            return footballer.age
+        
+        # If no birthday or age available, estimate from potential and rating
         if hasattr(player, 'potential') and hasattr(player, 'rating') and player.potential and player.rating:
             age_estimate = 35 - ((player.potential - player.rating) / 2)
-            return max(17, min(40, age_estimate))  # 17-40 yaş aralığında sınırla
+            return max(17, min(40, age_estimate))  # Keep age between 17-40
         
-        return 25  # Varsayılan yaş
-
+        return 25  # Default age if no other method works
+        
     def calculate_market_value(self, player):
-        """Bir oyuncunun market değerini hesapla/tahmin et"""
+        """Calculate a player's market value"""
         # Player modelinde market_value alanı varsa kullan
         if hasattr(player, 'market_value') and player.market_value:
             return self._convert_currency(player.market_value)
@@ -301,7 +306,7 @@ class PlayerService:
             base_value *= max(0.2, 1 - ((age - 30) * 0.1))  # Yaşlı oyuncular için değer azalışı
             
         return max(100000, min(100000000, base_value))  # 100k - 100M arasında sınırla
-
+        
     def find_critical_positions(self, team_id):
         """Find critical positions that need reinforcement for a team"""
         # İlk olarak pozisyon analizini yap
@@ -409,7 +414,7 @@ class PlayerService:
             })
             
         return result
-
+        
     def calculate_player_score(self, player_data, position):
         """Calculate a player's score for a specific position"""
         # Get relevant features for the position
@@ -451,7 +456,7 @@ class PlayerService:
         # Calculate total score
         total_score = feature_score + age_score + rating_score + potential_score
         return total_score
-
+        
     def recommend_players(self, team_id, position):
         """Recommend players from other teams for a specific position based on selected team's needs"""
         # Get the selected team to establish baseline
@@ -527,6 +532,8 @@ class PlayerService:
             
             # Calculate player score for this position
             player_score = self.calculate_player_score(player, calc_position)
+            player_team = self.session.query(FootballTeam).filter_by(team_id=footballer.team_id).first()
+            league = self.session.query(League).filter_by(league_id=player_team.league_id).first() if player_team else None
             
             # Get player's current team
             player_team = self.session.query(FootballTeam).filter_by(team_id=footballer.team_id).first()
@@ -539,23 +546,43 @@ class PlayerService:
                     'footballer_id': player.footballer_id,
                     'footballer_name': player.footballer_name,
                     'position': calc_position,
+                    "position_acronym": player.position_acronym,
                     'current_team': player_team.team_name,
                     'current_team_img': player_team.img_path,
+                    'league_name': league.league_name,
+                    'league_logo_path': league.league_logo_path,
                     'rating': player.rating,
-                    'potential': player.potential,
+                    'potential': int(player.potential),
                     'age': age,
                     'market_value': player_market_value,
                     'player_score': player_score,
                     'footballer_img_path': footballer.footballer_img_path,
-                    'nationality_img_path': footballer.nationality_img_path
+                    'nationality_img_path': footballer.nationality_img_path,
+                    'birthday': footballer.birthday.strftime('%d %B %Y') if footballer.birthday else None,
+                    'positioning': player.positioning,
+                    'acceleration': player.acceleration,
+                    'passing': player.passing,
+                    'long_shots': player.long_shots,
+                    'marking': player.marking,
+                    'decisions': player.decisions,
+                    'finishing': player.finishing,
+                    'leadership': player.leadership,
+                    'dribbling': player.dribbling,
+                    'concentration': player.concentration,
+                    'fitness': player.natural_fitness,
+                    'tackling': player.tackling,
+                    'stamina': player.stamina,
+                    'jumping': player.jumping_reach,
+                    'heading': player.heading,
+                    'balance': player.balance
                 })
         
         # Sort by player score in descending order
         recommendations = sorted(matches, key=lambda x: x['player_score'], reverse=True)
         
         # Return top 10 recommendations
-        return recommendations[:24]
-
+        return recommendations[:30]
+        
     def recommend_players_by_team_needs(self, team_id):
         """Recommend players based on team's critical position needs"""
         # Önce kritik mevkileri bul

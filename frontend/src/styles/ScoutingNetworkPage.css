@@ -1,7 +1,7 @@
 /* ScoutingNetworkPage.css */
 
 .scouting-page {
-  background-color: #170163;
+  background-color: #110555;
   min-height: 100vh;
   padding: 0;
   color: white;
@@ -15,7 +15,7 @@
 .scouting-header {
   width: 100%;
   max-width: 1200px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,76 +24,220 @@
 .search-container {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  width: 800px;
+  justify-content: center;
+  margin-bottom: 20px; /* Daha fazla boşluk ekleyerek alta kaydır */
+  width: 1000px;
   position: relative;
+  height: 80px; /* Daha fazla yükseklik ekleyerek elemanları aşağı al */
 }
 
 .logo-container {
   position: absolute;
-  left: -80px;
+  right: 650px;
+  bottom: -80px;
   z-index: 1;
 }
 
 .magnifier-logo {
-  background-image: url('../assets/images/magnifier.png');
+  background-image: url('../assets/images/scouting_network_icon.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 60px;
-  height: 60px;
-  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 250px;
 }
 
 .search-input {
   flex-grow: 1;
-  height: 50px;
+  height: 45px;
   border-radius: 5px;
   border: none;
   padding: 0 15px;
   background-color: #e6e6e6;
   font-size: 16px;
+  margin-top: 60px;
+  margin-left: 120px;
+  position: relative; /* Arama kutusuna relative pozisyon ekliyoruz */
+  padding-right: 40px;
+}
+
+.search-button {
+  position: absolute;
+  bottom: 3px; /* Butonun tam olarak input'un içine yerleşmesi için */
+  right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Şeffaf arka plan */
+  border: none; /* Butonun kenarlarını kaldır */
+  padding: 0; /* Ekstra boşlukları kaldır */
+  cursor: pointer; /* Fare ile üzerine gelindiğinde işaretçi değişir */
+}
+
+.search-icon {
+  background-image: url('../assets/images/search_icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
 }
 
 .filter-button {
   position: absolute;
+  bottom:0px;
   right: 10px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  height: 50px;
-  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: transparent; /* Şeffaf arka plan */
+  border: none; /* Butonun kenarlarını kaldır */
+  padding: 0; /* Ekstra boşlukları kaldır */
+  cursor: pointer; /* Fare ile üzerine gelindiğinde işaretçi değişir */
 }
 
 .filter-icon {
-  background-image: url('../assets/images/filter.png');
+  background-image: url('../assets/images/filter_icon.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
+}
+
+.filter-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.filter-button.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.filter-panel {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  padding: 18px;
+  border: 1px solid #e9ecef;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 12px;
+}
+
+.filter-header h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #343a40;
+}
+
+.close-filter-button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #495057;
+  transition: color 0.2s ease;
+}
+
+.close-filter-button:hover {
+  color: #212529;
+}
+
+.filter-section {
+  margin-bottom: 18px;
+}
+
+.filter-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #495057;
+  letter-spacing: 0.3px;
+}
+
+.filter-range {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.filter-range span {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 4px 0;
+}
+
+.filter-range input[type="range"] {
+  width: 100%;
+  margin: 6px 0;
+  accent-color: #495057;
+}
+
+.filter-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+  gap: 12px;
+}
+
+.reset-button, .apply-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.reset-button {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.apply-button {
+  background-color: #495057;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #dee2e6;
+}
+
+.apply-button:hover {
+  background-color: #343a40;
 }
 
 .section-title {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
+  margin-left: 390px;
 }
 
 .selection-section {
   position: absolute;
-  top: 240px;
-  left: 60px;
+  top: 250px;
+  left: 100px;
   z-index: 2;
 }
 
 .selection-section select {
-  width: 340px;
+  width: 280px;
   max-width: 700px;
-  height: 40px;
+  height: 36px;
   border-radius: 5px;
   border: none;
   padding: 0 15px;
@@ -117,45 +261,50 @@
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px;
-  width: 300px;
-  height: 400px;
+  width: 240px;
+  height: 320px;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 300px;
-  left: 60px;
+  left: 100px;
 }
 
 .team-logo {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+  object-fit: contain;
 }
 
+
 .team-info {
-  color: #333;
+  color: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .team-info h2 {
-  font-size: 18px;
-  margin: 0 0 10px 0;
+  font-size: 20px;
+  margin: 0 0 25px 0;
 }
 
 .position-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 14px;
   justify-content: center;
 }
 
 .position-tag {
   background-color: #4CAF50;
-  color: white;
-  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  padding: 8px 15px;
   border-radius: 15px;
   font-size: 14px;
   font-weight: bold;
@@ -172,17 +321,18 @@
   flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 30px;
-  margin-left: 250px;
+  margin-left: 400px;
+  width: calc(100% - 400px);
 }
 
 .player-card {
-  background-color: #15934b;
+  background-color: #43886C;
   border-radius: 10px;
-  width: 280px;
-  height: 520px;
+  width: 300px;
+  height: 580px; /* Yükseklik artırıldı */
   padding: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -202,18 +352,17 @@
   margin-bottom: 10px;
 }
 
-.sponsor-logo {
-  font-size: 14px;
-  font-weight: bold;
-  color: white;
+.league-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding: 2px;
 }
 
 .team-badge img {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   object-fit: contain;
-  background-color: white;
   padding: 2px;
 }
 
@@ -223,10 +372,11 @@
 }
 
 .player-image img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 5px;
+  width: 100px; /* Sabit genişlik */
+  height: auto; /* Yükseklik otomatik olarak ayarlanır */
+  max-height: 150px; /* Maksimum yükseklik (isteğe bağlı) */
+  object-fit: cover; /* Resmi kırparak sığdırır */
+  border-radius: 5px; /* İsteğe bağlı: Köşeleri yuvarlar */
 }
 
 .player-name {
@@ -235,11 +385,32 @@
   margin: 10px 0;
 }
 
+.position-acronym {
+  background-color: #43886C; /* Arka plan rengi */
+  color: #28A728; /* Yazı rengi */
+  padding: 6px 10px; /* Daha küçük padding */
+  border-radius: 8px; /* Köşe yuvarlaklığı */
+  font-size: 16px; /* Daha küçük yazı boyutu */
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block; /* İçeriğe göre genişlik */
+  text-align: center; /* Metni ortala */
+  box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+  margin: 0 auto; /* Yatayda ortala */
+  margin-top: -10px;
+  margin-left:130px; /* player-name ile arasına boşluk ekler */
+  margin-bottom: 10px;
+}
+
+.position-acronym.active {
+  background-color: #388E3C; /* Aktif durumda arka plan rengi */
+}
+
 .player-details {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .detail-item {
@@ -271,38 +442,64 @@
 
 .attributes-title {
   text-align: center;
-  margin: 15px 0 10px;
+  margin: 20px 0 15px;
   font-size: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .attributes-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 15px;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .attribute-row {
   display: grid;
-  grid-template-columns: auto 30px auto 30px;
+  grid-template-columns: auto 10px auto 10px;
   align-items: center;
+  gap:10px;
   justify-content: space-between;
-  font-size: 12px;
-  margin-bottom: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .attribute-name {
   text-align: left;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .attribute-value {
   text-align: right;
   font-weight: bold;
   font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.attributes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.score-row {
+  margin-top: auto;
+  grid-column: span 2;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 12px;
+}
+
+.score {
+  color: #4caf50;
+  font-size: 16px;
 }
 
 .pagination-dots {
@@ -311,11 +508,14 @@
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 40px;
+  width: 100%; /* Make it full width */
+  margin-left: 0; /* Remove the fixed margin */
+  transform: translateX(200px); /* Adjust the position with transform instead */
 }
 
 .pagination-dot {
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
@@ -324,6 +524,7 @@
 .pagination-dot.active {
   background-color: white;
 }
+
 
 .loading {
   display: flex;
@@ -451,7 +652,7 @@
 .recommendation-info {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 20px;
+  margin-left:400px;
 }
 
 /* Styles for the selected positions */
@@ -481,3 +682,4 @@
   font-size: 16px;
   color: #FFEB3B;
 }
+
