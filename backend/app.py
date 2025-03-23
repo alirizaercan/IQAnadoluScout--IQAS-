@@ -10,6 +10,7 @@ from controllers.conditional_dev_controller import conditional_bp as conditional
 from controllers.endurance_dev_controller import endurance_bp as endurance_controller
 from controllers.scouting_controller import scouting_bp as scouting_controller
 from controllers.transfer_controller import transfer_bp as transfer_controller
+from controllers.performance_controller import performance_bp as performance_controller
 
 load_dotenv()
 
@@ -28,6 +29,7 @@ app.register_blueprint(endurance_controller, url_prefix='/api/endurance-developm
 app.register_blueprint(youth_dev_controller, url_prefix='/api/youth-development')
 app.register_blueprint(scouting_controller, url_prefix='/api/scouting')
 app.register_blueprint(transfer_controller, url_prefix='/api/transfer')
+app.register_blueprint(performance_controller, url_prefix='/api/performance')
 app.register_blueprint(auth_controller, url_prefix='/api/auth')
 
 @app.route('/')
@@ -53,6 +55,12 @@ def serve_conditional_graph(filename):
 def serve_endurance_graph(filename):
     graphs_dir = os.path.join(app.root_path, 'static', 'graphs', 'endurance_graphs')
     return send_from_directory(graphs_dir, filename)
+
+@app.route('/static/graphs/performance_graphs/<path:filename>')
+def serve_performance_graph(filename):
+    graphs_dir = os.path.join(app.root_path, 'static', 'graphs', 'performance_graphs')
+    return send_from_directory(graphs_dir, filename)
+
 
 @app.route('/')
 def index():

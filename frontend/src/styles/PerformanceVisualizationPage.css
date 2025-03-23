@@ -1,0 +1,256 @@
+/* PerformanceVisualizationPage.css */
+
+/* Genel Sayfa Ayarları */
+.performance-visualization-page {
+    background-color: #1e1e57; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    min-height: 100vh; /* Sayfanın tam yükseklik kaplaması */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Üst Sol Kutucuk */
+  .selectors {
+    display: flex;
+    align-items: center;
+    gap: 100px; /* handleTeamSelect ile handleLeagueSelect arasındaki boşluk */
+    margin-bottom: 30px;
+    flex-wrap: nowrap; /* Yan yana dizilim */
+    flex-direction: row-reverse; /* League ve team select kutucuklarının yerlerini değiştirir */
+  }
+  
+  /* handleTeamSelect Kutucuğu */
+  .handle-team-select {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Kutucuk ile logo arasındaki boşluk */
+  }
+  
+  .handle-team-select select {
+    width: 600px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: dark;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .handle-team-select img {
+    width: 70px; /* Resmin genişliği */
+    height: auto;
+    object-fit: contain;
+    border: none;
+    order: -1;
+  }
+  
+  /* handleLeagueSelect Kutucuğu */
+  .handle-league-select {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Kutucuk ile logo arasındaki boşluk */
+  }
+  
+  /* handleLeagueSelect select kutucuğu */
+  .handle-league-select select {
+    width: 400px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: dark;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+    
+  }
+  
+  /* handleLeagueSelect Resmi */
+  .handle-league-select img {
+    width: 100px;
+    height: auto;
+    object-fit: cover; /* Resmin orantılı şekilde container'a sığmasını sağlar */
+    border: none;
+    order: -1; /* Resmi select kutusunun soluna yerleştirir */
+  }
+  
+  .performance-page-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-image {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: -100px; /* Places the icon 60px to the left of the team logo */
+    margin-top: 20px;
+  }
+  
+  /* Oyuncu Profil Kartı */
+  .player-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Player Selection Container */
+  /* Player Selection Container */
+  .player-selection-container {
+    position: absolute;
+    left: 40px; /* Soldan uzaklık */
+    top: 36%; /* Üstten uzaklık */
+    z-index: 10;
+    text-align: center; /* İçeriği ortalamak için */
+  }
+  
+  /* Footballer Image */
+  .footballer-img {
+    width: 200px; /* Sabit genişlik */
+    height: auto; /* Oranlı yükseklik */
+    max-height: 300px; /* Maksimum yükseklik sınırı */
+    object-fit: cover; /* Görseli kapsayıcıya sığacak şekilde kırpar, ancak oranı bozar */
+    display: block; /* Ortalamak için */
+    margin: 0 auto 20px auto; /* Görseli ortalar ve alt boşluk ekler */
+    border-radius: 8px; /* Hafif yuvarlak köşeler (isteğe bağlı) */
+  }
+  
+  /* Dropdown */
+  .player-selection-container select {
+    width: 440px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto; /* Üst ve alt boşluk */
+    display: block; /* Ortalamak için */
+  }
+  
+  /* Info Section */
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* İçeriği sola hizala */
+    gap: 20px; /* Her bilgi grubu arasında boşluk */
+    margin-top: 20px; /* Dropdown ile arasında boşluk */
+  }
+  
+  /* Info Item */
+  .info-item {
+    display: flex;
+    align-items: center; /* İkon ve metni aynı hizada tut */
+    gap: 8px; /* İkon ile metin arasında boşluk */
+    margin-left: 20px; /* Daha sola hizalama için boşluk */
+  }
+  
+  /* Citizenship and Nationality Icons */
+  .citizenship-icon,
+  .nationality-icon {
+    width: 48px;
+    height: auto; /* Oranlı yükseklik */
+  }
+  
+  /* Birthday Section */
+  .birthday-icon {
+    width: 48px;
+    height: auto; /* Oranlı yükseklik */
+    margin-right: 8px; /* Metinle aradaki boşluk */
+  }
+  
+  .birthday-date {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Adjust Birthday Section Position */
+  .birthday-section {
+    margin-top: -10px; /* Biraz daha yukarı taşı */
+    margin-left: 20px; /* Sola hizalama */
+  }
+  
+  
+  /* Graph Type Selection Container */
+  .graph-type-container {
+    display: flex;
+    align-items: center; /* Vertical alignment of children */
+    margin-top: 20px; /* You can adjust the spacing here */
+    gap: 10px; /* Adds space between the elements */
+    justify-content: flex-start; /* Align all child elements to the left */
+    margin-left: 400px; /* Moves the whole container 50px to the right */
+  }
+  
+  /* Graph Type Select Box */
+  .graph-type-select {
+    width: 800px; /* Adjusted width to match other inputs */
+    height: 40px; /* Consistent height with the date inputs */
+    background-color: #D9D9D9;
+    color: dark;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .graph-type-select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  /* Generate Graph Button */
+  .generate-graph-button {
+    height: 40px; /* Match height of other elements */
+    background-color: #D9D9D9; /* Match background color */
+    color: #000; /* Match text color */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 0 20px; /* Padding for button */
+  }
+  
+  .generate-graph-button:hover {
+    background-color: #ccc; /* Lighter hover effect */
+  }
+  
+
+  /* Graph Container to align the image */
+  .graph-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adds space between the selection and the graph */
+    width: 100%;
+  }
+
+  /* Styling for the generated graph */
+  .graph-image {
+    width: 930px; /* Sabit genişlik */
+    height: 600px; /* Sabit yükseklik */
+    object-fit: contain; /* Görüntünün en boy oranını korur */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* Styling for the generated graph */
+  .generated-graph {
+    width: 100%; /* Allows the image to resize responsively */
+    max-width: 900px; /* Sets a maximum width for the graph */
+    height: auto; /* Maintains aspect ratio */
+  }
+  

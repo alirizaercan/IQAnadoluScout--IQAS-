@@ -8,8 +8,8 @@ import ConditionalDevelopmentPage from './pages/ConditionalDevelopmentPage';
 import EnduranceDevelopmentPage from './pages/EnduranceDevelopmentPage';
 import ScoutingNetworkPage from './pages/ScoutingNetworkPage';
 import TransferStrategyPage from './pages/TransferStrategyPage';
+import PerformanceVisualizationPage from './pages/PerformanceVisualizationPage'
 
-const PerformanceVisualizationPage = () => <h1>Performance Visualization</h1>;
 const MatchAnalysisPage = () => <h1>Match Analysis</h1>;
 const ScorePredictionPage = () => <h1>Score Prediction</h1>;
 
