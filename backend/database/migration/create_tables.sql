@@ -259,3 +259,28 @@ CREATE TABLE IF NOT EXISTS performance (
     CONSTRAINT fk_footballer FOREIGN KEY (footballer_id) REFERENCES footballers(footballer_id)
 );
 
+-- Matches Scores Table
+CREATE TABLE IF NOT EXISTS matches (
+    match_id SERIAL PRIMARY KEY,
+    league_id VARCHAR(10) NOT NULL REFERENCES leagues(league_id),
+    week VARCHAR(20) NOT NULL,
+    date DATE NOT NULL,
+    home_team_id INT NOT NULL REFERENCES football_teams(team_id),
+    home_team VARCHAR(50) NOT NULL,
+    home_goals INT,
+    away_team_id INT NOT NULL REFERENCES football_teams(team_id),
+    away_team VARCHAR(50) NOT NULL,
+    away_goals INT,
+    season VARCHAR(10) NOT NULL,
+    home_footballer_id INT REFERENCES footballers(footballer_id),
+    away_footballer_id INT REFERENCES footballers(footballer_id),
+    is_played BOOLEAN DEFAULT FALSE
+);
+
+-- Create indexes for better performance
+CREATE INDEX idx_matches_league_id ON matches(league_id);
+CREATE INDEX idx_matches_home_team_id ON matches(home_team_id);
+CREATE INDEX idx_matches_away_team_id ON matches(away_team_id);
+CREATE INDEX idx_matches_home_footballer_id ON matches(home_footballer_id);
+CREATE INDEX idx_matches_away_footballer_id ON matches(away_footballer_id);
+

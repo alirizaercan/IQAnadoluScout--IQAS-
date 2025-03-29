@@ -20,6 +20,8 @@ class FootballTeam(Base):
 
     league = relationship('League', back_populates='football_teams')
     footballers = relationship('Footballer', back_populates='team')
+    home_matches = relationship('Match', foreign_keys='Match.home_team_id', back_populates='home_team')
+    away_matches = relationship('Match', foreign_keys='Match.away_team_id', back_populates='away_team')
 
     def __init__(self, league_name, league_id, team_name, team_info_link=None, img_path=None, 
                  num_players=None, avg_age=None, num_legionnaires=None, avg_marketing_val=None, 

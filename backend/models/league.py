@@ -20,6 +20,7 @@ class League(Base):
 
     football_teams = relationship('FootballTeam', back_populates='league')
     footballers = relationship('Footballer', back_populates='league')
+    matches = relationship('Match', back_populates='league')
 
     def __init__(self, league_id, league_name, league_logo_path=None, country=None, num_teams=None, players=None, 
                  foreign_players=None, avg_marketing_val=None, avg_age=None, most_valuable_player=None, 

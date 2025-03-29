@@ -27,6 +27,8 @@ class Footballer(Base):
     team = relationship('FootballTeam', back_populates='footballers')
     players = relationship('Player', back_populates='footballer')
     performances = relationship('Performance', back_populates='footballer')
+    home_matches = relationship('Match', foreign_keys='Match.home_footballer_id', back_populates='home_footballer')
+    away_matches = relationship('Match', foreign_keys='Match.away_footballer_id', back_populates='away_footballer')
 
     def __init__(self, league_id, team_id, footballer_name, club, league_name=None, trikot_num=None, position=None, 
                  birthday=None, age=None, nationality_img_path=None, height=None, feet=None, contract=None, 
