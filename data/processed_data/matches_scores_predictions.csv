@@ -1,0 +1,224 @@
+match_id,date,league_id,season,home_team_id,away_team_id,home_goals_pred,away_goals_pred,home_confidence,away_confidence,home_team,away_team
+945,2025-04-13,tr1,24/25,10,1,1.0,2.0,0.37,0.24,Samsunspor,Galatasaray
+953,2025-04-20,tr1,24/25,1,18,2.0,1.0,0.23,0.31,Galatasaray,Bodrum FK
+959,2025-04-27,tr1,24/25,8,1,2.0,2.0,0.26,0.2,Eyüpspor,Galatasaray
+971,2025-05-04,tr1,24/25,1,14,3.0,1.0,0.2,0.38,Galatasaray,Sivasspor
+983,2025-05-11,tr1,24/25,4,1,2.0,2.0,0.3,0.3,Trabzonspor,Galatasaray
+990,2025-05-18,tr1,24/25,1,15,3.0,1.0,0.21,0.35,Galatasaray,Kayserispor
+997,2025-05-25,tr1,24/25,7,1,2.0,2.0,0.3,0.33,Göztepe,Galatasaray
+1008,2025-06-01,tr1,24/25,1,5,3.0,1.0,0.16,0.33,Galatasaray,Basaksehir FK
+936,2025-04-06,tr1,24/25,2,4,3.0,1.0,0.26,0.34,Fenerbahce,Trabzonspor
+946,2025-04-13,tr1,24/25,14,2,1.0,2.0,0.3,0.36,Sivasspor,Fenerbahce
+952,2025-04-20,tr1,24/25,2,15,3.0,1.0,0.24,0.39,Fenerbahce,Kayserispor
+960,2025-04-27,tr1,24/25,17,2,2.0,2.0,0.31,0.24,Gaziantep FK,Fenerbahce
+970,2025-05-04,tr1,24/25,2,3,2.0,1.0,0.21,0.29,Fenerbahce,Besiktas JK
+975,2025-05-11,tr1,24/25,5,2,1.0,2.0,0.25,0.26,Basaksehir FK,Fenerbahce
+989,2025-05-18,tr1,24/25,2,8,2.0,1.0,0.32,0.43,Fenerbahce,Eyüpspor
+998,2025-05-25,tr1,24/25,16,2,1.0,2.0,0.24,0.24,Hatayspor,Fenerbahce
+1007,2025-06-01,tr1,24/25,2,13,3.0,1.0,0.17,0.39,Fenerbahce,Konyaspor
+938,2025-04-07,tr1,24/25,9,3,2.0,1.0,0.2,0.35,Kasimpasa,Besiktas JK
+939,2025-04-13,tr1,24/25,3,5,2.0,1.0,0.31,0.37,Besiktas JK,Basaksehir FK
+954,2025-04-20,tr1,24/25,7,3,2.0,1.0,0.22,0.34,Göztepe,Besiktas JK
+957,2025-04-27,tr1,24/25,3,16,2.0,1.0,0.27,0.4,Besiktas JK,Hatayspor
+976,2025-05-11,tr1,24/25,3,19,2.0,1.0,0.25,0.33,Besiktas JK,Adana Demirspor
+985,2025-05-18,tr1,24/25,12,3,1.0,1.0,0.32,0.26,Alanyaspor,Besiktas JK
+994,2025-05-25,tr1,24/25,3,6,2.0,1.0,0.28,0.35,Besiktas JK,Caykur Rizespor
+1005,2025-06-01,tr1,24/25,18,3,2.0,1.0,0.32,0.32,Bodrum FK,Besiktas JK
+947,2025-04-13,tr1,24/25,4,6,2.0,1.0,0.28,0.31,Trabzonspor,Caykur Rizespor
+948,2025-04-20,tr1,24/25,19,4,2.0,1.0,0.18,0.25,Adana Demirspor,Trabzonspor
+965,2025-04-27,tr1,24/25,4,12,2.0,1.0,0.2,0.4,Trabzonspor,Alanyaspor
+973,2025-05-04,tr1,24/25,9,4,2.0,1.0,0.25,0.3,Kasimpasa,Trabzonspor
+987,2025-05-18,tr1,24/25,18,4,2.0,1.0,0.26,0.27,Bodrum FK,Trabzonspor
+1001,2025-05-25,tr1,24/25,4,10,1.0,2.0,0.36,0.3,Trabzonspor,Samsunspor
+1004,2025-06-01,tr1,24/25,11,4,2.0,1.0,0.25,0.33,Antalyaspor,Trabzonspor
+931,2025-04-05,tr1,24/25,5,13,2.0,1.0,0.26,0.34,Basaksehir FK,Konyaspor
+950,2025-04-20,tr1,24/25,5,17,2.0,1.0,0.3,0.34,Basaksehir FK,Gaziantep FK
+961,2025-04-27,tr1,24/25,7,5,2.0,1.0,0.26,0.39,Göztepe,Basaksehir FK
+972,2025-05-04,tr1,24/25,16,5,2.0,1.0,0.26,0.3,Hatayspor,Basaksehir FK
+991,2025-05-18,tr1,24/25,9,5,2.0,2.0,0.22,0.26,Kasimpasa,Basaksehir FK
+993,2025-05-25,tr1,24/25,5,19,2.0,1.0,0.23,0.32,Basaksehir FK,Adana Demirspor
+930,2025-04-05,tr1,24/25,6,14,2.0,1.0,0.22,0.41,Caykur Rizespor,Sivasspor
+951,2025-04-20,tr1,24/25,6,8,1.0,1.0,0.38,0.33,Caykur Rizespor,Eyüpspor
+962,2025-04-27,tr1,24/25,15,6,2.0,1.0,0.27,0.36,Kayserispor,Caykur Rizespor
+969,2025-05-04,tr1,24/25,6,17,2.0,1.0,0.26,0.42,Caykur Rizespor,Gaziantep FK
+981,2025-05-11,tr1,24/25,13,6,2.0,1.0,0.3,0.38,Konyaspor,Caykur Rizespor
+988,2025-05-18,tr1,24/25,6,7,2.0,1.0,0.26,0.36,Caykur Rizespor,Göztepe
+1006,2025-06-01,tr1,24/25,6,16,2.0,1.0,0.26,0.38,Caykur Rizespor,Hatayspor
+937,2025-04-07,tr1,24/25,7,17,2.0,1.0,0.24,0.37,Göztepe,Gaziantep FK
+944,2025-04-13,tr1,24/25,13,7,2.0,1.0,0.32,0.4,Konyaspor,Göztepe
+966,2025-05-04,tr1,24/25,19,7,2.0,1.0,0.3,0.3,Adana Demirspor,Göztepe
+979,2025-05-11,tr1,24/25,7,16,2.0,1.0,0.21,0.39,Göztepe,Hatayspor
+1009,2025-06-01,tr1,24/25,9,7,2.0,1.0,0.28,0.34,Kasimpasa,Göztepe
+934,2025-04-06,tr1,24/25,16,8,1.0,1.0,0.37,0.37,Hatayspor,Eyüpspor
+941,2025-04-13,tr1,24/25,8,19,2.0,1.0,0.3,0.45,Eyüpspor,Adana Demirspor
+974,2025-05-04,tr1,24/25,10,8,2.0,1.0,0.31,0.33,Samsunspor,Eyüpspor
+977,2025-05-11,tr1,24/25,8,9,2.0,1.0,0.35,0.34,Eyüpspor,Kasimpasa
+995,2025-05-25,tr1,24/25,8,11,2.0,1.0,0.33,0.39,Eyüpspor,Antalyaspor
+943,2025-04-13,tr1,24/25,15,9,2.0,1.0,0.3,0.35,Kayserispor,Kasimpasa
+956,2025-04-20,tr1,24/25,9,14,2.0,1.0,0.27,0.35,Kasimpasa,Sivasspor
+996,2025-05-25,tr1,24/25,17,9,2.0,1.0,0.23,0.36,Gaziantep FK,Kasimpasa
+932,2025-04-05,tr1,24/25,11,10,2.0,1.0,0.27,0.32,Antalyaspor,Samsunspor
+949,2025-04-20,tr1,24/25,12,10,1.0,1.0,0.33,0.3,Alanyaspor,Samsunspor
+958,2025-04-27,tr1,24/25,18,10,2.0,1.0,0.26,0.37,Bodrum FK,Samsunspor
+992,2025-05-18,tr1,24/25,10,14,3.0,1.0,0.23,0.44,Samsunspor,Sivasspor
+1010,2025-06-01,tr1,24/25,10,15,2.0,1.0,0.24,0.33,Samsunspor,Kayserispor
+940,2025-04-13,tr1,24/25,18,11,2.0,1.0,0.35,0.4,Bodrum FK,Antalyaspor
+964,2025-04-27,tr1,24/25,14,11,2.0,1.0,0.21,0.41,Sivasspor,Antalyaspor
+968,2025-05-04,tr1,24/25,11,13,2.0,1.0,0.21,0.43,Antalyaspor,Konyaspor
+980,2025-05-11,tr1,24/25,15,11,2.0,1.0,0.28,0.45,Kayserispor,Antalyaspor
+986,2025-05-18,tr1,24/25,11,17,2.0,1.0,0.17,0.4,Antalyaspor,Gaziantep FK
+933,2025-04-06,tr1,24/25,12,18,1.0,1.0,0.38,0.38,Alanyaspor,Bodrum FK
+967,2025-05-04,tr1,24/25,12,15,2.0,1.0,0.21,0.43,Alanyaspor,Kayserispor
+978,2025-05-11,tr1,24/25,17,12,2.0,1.0,0.2,0.48,Gaziantep FK,Alanyaspor
+1000,2025-05-25,tr1,24/25,13,12,2.0,1.0,0.25,0.35,Konyaspor,Alanyaspor
+1003,2025-06-01,tr1,24/25,12,14,2.0,1.0,0.15,0.32,Alanyaspor,Sivasspor
+955,2025-04-20,tr1,24/25,16,13,2.0,1.0,0.27,0.37,Hatayspor,Konyaspor
+963,2025-04-27,tr1,24/25,13,19,2.0,1.0,0.24,0.31,Konyaspor,Adana Demirspor
+982,2025-05-11,tr1,24/25,14,18,2.0,1.0,0.25,0.32,Sivasspor,Bodrum FK
+935,2025-04-06,tr1,24/25,19,15,2.0,1.0,0.29,0.38,Adana Demirspor,Kayserispor
+999,2025-05-25,tr1,24/25,15,18,2.0,1.0,0.36,0.38,Kayserispor,Bodrum FK
+942,2025-04-13,tr1,24/25,17,16,2.0,1.0,0.19,0.34,Gaziantep FK,Hatayspor
+984,2025-05-18,tr1,24/25,19,16,2.0,1.0,0.34,0.34,Adana Demirspor,Hatayspor
+1002,2025-06-01,tr1,24/25,19,17,2.0,2.0,0.31,0.25,Adana Demirspor,Gaziantep FK
+2484,2025-04-06,pl1,24/25,29,20,2.0,1.0,0.17,0.35,Górnik Zabrze,Legia Warszawa
+2494,2025-04-13,pl1,24/25,20,23,3.0,1.0,0.19,0.37,Legia Warszawa,Jagiellonia Bialystok
+2502,2025-04-21,pl1,24/25,20,28,2.0,1.0,0.26,0.34,Legia Warszawa,Lechia Gdansk
+2509,2025-04-26,pl1,24/25,36,20,1.0,1.0,0.36,0.34,GKS Katowice,Legia Warszawa
+2522,2025-05-03,pl1,24/25,31,20,1.0,1.0,0.4,0.4,Widzew Lodz,Legia Warszawa
+2526,2025-05-10,pl1,24/25,20,21,1.0,1.0,0.38,0.4,Legia Warszawa,Lech Poznan
+2532,2025-05-17,pl1,24/25,25,20,2.0,1.0,0.23,0.34,Cracovia,Legia Warszawa
+2545,2025-05-24,pl1,24/25,20,32,3.0,1.0,0.19,0.32,Legia Warszawa,Stal Mielec
+2482,2025-04-05,pl1,24/25,21,33,2.0,1.0,0.28,0.33,Lech Poznan,Korona Kielce
+2493,2025-04-13,pl1,24/25,34,21,1.0,1.0,0.42,0.24,Motor Lublin,Lech Poznan
+2503,2025-04-21,pl1,24/25,21,25,2.0,1.0,0.24,0.33,Lech Poznan,Cracovia
+2512,2025-04-27,pl1,24/25,35,21,2.0,1.0,0.23,0.31,Radomiak Radom,Lech Poznan
+2516,2025-05-03,pl1,24/25,21,37,2.0,1.0,0.29,0.39,Lech Poznan,Puszcza Niepolomice
+2533,2025-05-17,pl1,24/25,36,21,1.0,1.0,0.39,0.32,GKS Katowice,Lech Poznan
+2544,2025-05-24,pl1,24/25,21,30,2.0,1.0,0.38,0.51,Lech Poznan,Piast Gliwice
+2486,2025-04-07,pl1,24/25,37,22,1.0,1.0,0.44,0.34,Puszcza Niepolomice,Raków Częstochowa
+2491,2025-04-12,pl1,24/25,22,35,2.0,1.0,0.22,0.37,Raków Częstochowa,Radomiak Radom
+2499,2025-04-19,pl1,24/25,27,22,2.0,2.0,0.29,0.29,Pogon Szczecin,Raków Częstochowa
+2506,2025-04-25,pl1,24/25,22,24,2.0,1.0,0.25,0.39,Raków Częstochowa,Slask Wroclaw
+2521,2025-05-03,pl1,24/25,32,22,2.0,1.0,0.25,0.37,Stal Mielec,Raków Częstochowa
+2530,2025-05-10,pl1,24/25,22,23,2.0,1.0,0.28,0.34,Raków Częstochowa,Jagiellonia Bialystok
+2534,2025-05-17,pl1,24/25,33,22,1.0,1.0,0.24,0.39,Korona Kielce,Raków Częstochowa
+2548,2025-05-24,pl1,24/25,22,31,3.0,1.0,0.18,0.3,Raków Częstochowa,Widzew Lodz
+2483,2025-04-06,pl1,24/25,23,30,2.0,1.0,0.31,0.27,Jagiellonia Bialystok,Piast Gliwice
+2501,2025-04-21,pl1,24/25,23,26,3.0,1.0,0.17,0.35,Jagiellonia Bialystok,Zaglebie Lubin
+2510,2025-04-27,pl1,24/25,33,23,2.0,1.0,0.23,0.32,Korona Kielce,Jagiellonia Bialystok
+2515,2025-05-03,pl1,24/25,23,29,3.0,1.0,0.22,0.41,Jagiellonia Bialystok,Górnik Zabrze
+2538,2025-05-17,pl1,24/25,24,23,1.0,1.0,0.37,0.37,Slask Wroclaw,Jagiellonia Bialystok
+2542,2025-05-24,pl1,24/25,23,27,2.0,1.0,0.18,0.47,Jagiellonia Bialystok,Pogon Szczecin
+2481,2025-04-05,pl1,24/25,24,34,2.0,1.0,0.25,0.45,Slask Wroclaw,Motor Lublin
+2490,2025-04-12,pl1,24/25,25,24,2.0,1.0,0.23,0.33,Cracovia,Slask Wroclaw
+2497,2025-04-19,pl1,24/25,24,36,2.0,1.0,0.33,0.37,Slask Wroclaw,GKS Katowice
+2520,2025-05-03,pl1,24/25,24,26,1.0,1.0,0.31,0.41,Slask Wroclaw,Zaglebie Lubin
+2524,2025-05-10,pl1,24/25,29,24,2.0,1.0,0.2,0.4,Górnik Zabrze,Slask Wroclaw
+2546,2025-05-24,pl1,24/25,37,24,1.0,1.0,0.3,0.33,Puszcza Niepolomice,Slask Wroclaw
+2478,2025-04-04,pl1,24/25,32,25,1.0,1.0,0.31,0.35,Stal Mielec,Cracovia
+2508,2025-04-26,pl1,24/25,34,25,1.0,2.0,0.4,0.23,Motor Lublin,Cracovia
+2514,2025-05-03,pl1,24/25,25,28,1.0,1.0,0.32,0.45,Cracovia,Lechia Gdansk
+2523,2025-05-10,pl1,24/25,36,25,2.0,1.0,0.28,0.4,GKS Katowice,Cracovia
+2549,2025-05-24,pl1,24/25,26,25,1.0,2.0,0.26,0.27,Zaglebie Lubin,Cracovia
+2480,2025-04-05,pl1,24/25,35,26,2.0,1.0,0.22,0.28,Radomiak Radom,Zaglebie Lubin
+2487,2025-04-11,pl1,24/25,26,29,1.0,1.0,0.31,0.34,Zaglebie Lubin,Górnik Zabrze
+2513,2025-04-28,pl1,24/25,26,32,1.0,1.0,0.33,0.38,Zaglebie Lubin,Stal Mielec
+2531,2025-05-10,pl1,24/25,26,31,2.0,1.0,0.31,0.33,Zaglebie Lubin,Widzew Lodz
+2535,2025-05-17,pl1,24/25,34,26,1.0,1.0,0.37,0.38,Motor Lublin,Zaglebie Lubin
+2485,2025-04-06,pl1,24/25,27,36,2.0,1.0,0.31,0.31,Pogon Szczecin,GKS Katowice
+2492,2025-04-13,pl1,24/25,30,27,1.0,1.0,0.27,0.38,Piast Gliwice,Pogon Szczecin
+2505,2025-04-25,pl1,24/25,37,27,1.0,1.0,0.37,0.39,Puszcza Niepolomice,Pogon Szczecin
+2519,2025-05-03,pl1,24/25,27,34,2.0,1.0,0.3,0.34,Pogon Szczecin,Motor Lublin
+2529,2025-05-10,pl1,24/25,35,27,2.0,1.0,0.22,0.35,Radomiak Radom,Pogon Szczecin
+2537,2025-05-17,pl1,24/25,27,28,2.0,1.0,0.34,0.44,Pogon Szczecin,Lechia Gdansk
+2479,2025-04-04,pl1,24/25,31,28,2.0,1.0,0.24,0.32,Widzew Lodz,Lechia Gdansk
+2495,2025-04-14,pl1,24/25,28,32,1.0,2.0,0.25,0.23,Lechia Gdansk,Stal Mielec
+2507,2025-04-26,pl1,24/25,28,30,1.0,2.0,0.32,0.27,Lechia Gdansk,Piast Gliwice
+2525,2025-05-10,pl1,24/25,28,33,1.0,2.0,0.29,0.3,Lechia Gdansk,Korona Kielce
+2543,2025-05-24,pl1,24/25,28,36,1.0,2.0,0.37,0.33,Lechia Gdansk,GKS Katowice
+2504,2025-04-22,pl1,24/25,32,29,1.0,1.0,0.3,0.4,Stal Mielec,Górnik Zabrze
+2511,2025-04-27,pl1,24/25,29,31,2.0,1.0,0.23,0.45,Górnik Zabrze,Widzew Lodz
+2536,2025-05-17,pl1,24/25,30,29,1.0,1.0,0.38,0.3,Piast Gliwice,Górnik Zabrze
+2541,2025-05-24,pl1,24/25,29,33,2.0,1.0,0.26,0.35,Górnik Zabrze,Korona Kielce
+2496,2025-04-19,pl1,24/25,30,33,2.0,1.0,0.23,0.31,Piast Gliwice,Korona Kielce
+2518,2025-05-03,pl1,24/25,30,35,2.0,1.0,0.28,0.37,Piast Gliwice,Radomiak Radom
+2527,2025-05-10,pl1,24/25,34,30,1.0,1.0,0.27,0.34,Motor Lublin,Piast Gliwice
+2488,2025-04-11,pl1,24/25,33,31,2.0,1.0,0.21,0.39,Korona Kielce,Widzew Lodz
+2498,2025-04-19,pl1,24/25,31,34,2.0,1.0,0.25,0.35,Widzew Lodz,Motor Lublin
+2540,2025-05-17,pl1,24/25,31,37,2.0,1.0,0.33,0.38,Widzew Lodz,Puszcza Niepolomice
+2528,2025-05-10,pl1,24/25,37,32,1.0,1.0,0.36,0.37,Puszcza Niepolomice,Stal Mielec
+2539,2025-05-17,pl1,24/25,32,35,2.0,1.0,0.31,0.27,Stal Mielec,Radomiak Radom
+2517,2025-05-03,pl1,24/25,33,36,1.0,1.0,0.34,0.4,Korona Kielce,GKS Katowice
+2547,2025-05-24,pl1,24/25,35,34,2.0,1.0,0.31,0.4,Radomiak Radom,Motor Lublin
+2500,2025-04-21,pl1,24/25,37,35,1.0,1.0,0.22,0.36,Puszcza Niepolomice,Radomiak Radom
+2489,2025-04-12,pl1,24/25,36,37,2.0,1.0,0.28,0.35,GKS Katowice,Puszcza Niepolomice
+1748,2025-04-06,tr2,24/25,38,47,2.0,1.0,0.24,0.32,Ankaragücü,Gençlerbirliği SK
+1755,2025-04-09,tr2,24/25,52,38,2.0,1.0,0.23,0.4,Pendikspor,Ankaragücü
+1764,2025-04-13,tr2,24/25,38,44,2.0,1.0,0.28,0.36,Ankaragücü,Boluspor
+1769,2025-04-18,tr2,24/25,53,38,1.0,1.0,0.37,0.44,Manisa FK,Ankaragücü
+1784,2025-04-27,tr2,24/25,38,51,2.0,1.0,0.25,0.34,Ankaragücü,Çorum FK
+1796,2025-05-04,tr2,24/25,48,38,2.0,1.0,0.27,0.37,Ankara Keçiörengücü,Ankaragücü
+1804,2025-05-10,tr2,24/25,38,41,2.0,1.0,0.27,0.43,Ankaragücü,Amed SK
+1745,2025-04-05,tr2,24/25,39,46,1.0,2.0,0.35,0.24,Fatih Karagümrük,Erzurumspor FK
+1753,2025-04-09,tr2,24/25,49,39,1.0,1.0,0.3,0.36,Esenler Erokspor,Fatih Karagümrük
+1762,2025-04-13,tr2,24/25,39,47,2.0,1.0,0.29,0.34,Fatih Karagümrük,Gençlerbirliği SK
+1773,2025-04-19,tr2,24/25,44,39,2.0,1.0,0.25,0.35,Boluspor,Fatih Karagümrük
+1781,2025-04-27,tr2,24/25,39,48,1.0,1.0,0.37,0.37,Fatih Karagümrük,Ankara Keçiörengücü
+1798,2025-05-04,tr2,24/25,52,39,2.0,1.0,0.3,0.38,Pendikspor,Fatih Karagümrük
+1801,2025-05-10,tr2,24/25,39,50,1.0,1.0,0.41,0.34,Fatih Karagümrük,Iğdır FK
+1739,2025-04-04,tr2,24/25,40,57,4.0,1.0,0.16,0.37,İstanbulspor,Yeni Malatyaspor
+1750,2025-04-08,tr2,24/25,50,40,1.0,1.0,0.26,0.34,Iğdır FK,İstanbulspor
+1759,2025-04-12,tr2,24/25,40,48,2.0,1.0,0.22,0.3,İstanbulspor,Ankara Keçiörengücü
+1770,2025-04-19,tr2,24/25,46,40,2.0,1.0,0.21,0.42,Erzurumspor FK,İstanbulspor
+1782,2025-04-27,tr2,24/25,40,52,2.0,1.0,0.32,0.37,İstanbulspor,Pendikspor
+1793,2025-05-04,tr2,24/25,49,40,1.0,1.0,0.41,0.33,Esenler Erokspor,İstanbulspor
+1802,2025-05-10,tr2,24/25,40,51,2.0,1.0,0.37,0.26,İstanbulspor,Çorum FK
+1740,2025-04-04,tr2,24/25,41,50,1.0,2.0,0.36,0.27,Amed SK,Iğdır FK
+1751,2025-04-08,tr2,24/25,53,41,1.0,1.0,0.41,0.39,Manisa FK,Amed SK
+1760,2025-04-12,tr2,24/25,56,41,1.0,1.0,0.38,0.33,Şanlıurfaspor,Amed SK
+1772,2025-04-19,tr2,24/25,41,51,1.0,1.0,0.39,0.34,Amed SK,Çorum FK
+1787,2025-04-27,tr2,24/25,45,41,2.0,1.0,0.3,0.37,Ümraniyespor,Amed SK
+1789,2025-05-04,tr2,24/25,41,54,2.0,1.0,0.28,0.41,Amed SK,Adanaspor
+1747,2025-04-06,tr2,24/25,43,42,1.0,1.0,0.38,0.41,Bandırmaspor,Kocaelispor
+1758,2025-04-10,tr2,24/25,54,42,1.0,1.0,0.35,0.31,Adanaspor,Kocaelispor
+1768,2025-04-14,tr2,24/25,42,57,3.0,1.0,0.23,0.3,Kocaelispor,Yeni Malatyaspor
+1776,2025-04-20,tr2,24/25,49,42,1.0,1.0,0.39,0.41,Esenler Erokspor,Kocaelispor
+1783,2025-04-27,tr2,24/25,42,44,1.0,1.0,0.36,0.32,Kocaelispor,Boluspor
+1795,2025-05-04,tr2,24/25,50,42,2.0,1.0,0.21,0.28,Iğdır FK,Kocaelispor
+1803,2025-05-10,tr2,24/25,42,48,2.0,1.0,0.31,0.33,Kocaelispor,Ankara Keçiörengücü
+1756,2025-04-10,tr2,24/25,57,43,1.0,4.0,0.41,0.2,Yeni Malatyaspor,Bandırmaspor
+1765,2025-04-14,tr2,24/25,43,50,1.0,1.0,0.35,0.36,Bandırmaspor,Iğdır FK
+1777,2025-04-20,tr2,24/25,47,43,1.0,1.0,0.38,0.36,Gençlerbirliği SK,Bandırmaspor
+1780,2025-04-27,tr2,24/25,43,49,1.0,1.0,0.33,0.34,Bandırmaspor,Esenler Erokspor
+1797,2025-05-04,tr2,24/25,53,43,2.0,1.0,0.22,0.38,Manisa FK,Bandırmaspor
+1800,2025-05-10,tr2,24/25,43,52,2.0,1.0,0.2,0.28,Bandırmaspor,Pendikspor
+1741,2025-04-04,tr2,24/25,56,44,1.0,1.0,0.36,0.31,Şanlıurfaspor,Boluspor
+1754,2025-04-09,tr2,24/25,44,55,1.0,1.0,0.38,0.34,Boluspor,Sakaryaspor
+1790,2025-05-04,tr2,24/25,44,57,3.0,1.0,0.24,0.35,Boluspor,Yeni Malatyaspor
+1799,2025-05-10,tr2,24/25,54,44,1.0,1.0,0.33,0.39,Adanaspor,Boluspor
+1746,2025-04-06,tr2,24/25,45,52,2.0,1.0,0.25,0.46,Ümraniyespor,Pendikspor
+1757,2025-04-10,tr2,24/25,47,45,2.0,1.0,0.29,0.41,Gençlerbirliği SK,Ümraniyespor
+1766,2025-04-14,tr2,24/25,45,49,1.0,1.0,0.36,0.41,Ümraniyespor,Esenler Erokspor
+1774,2025-04-20,tr2,24/25,48,45,2.0,1.0,0.22,0.42,Ankara Keçiörengücü,Ümraniyespor
+1792,2025-05-04,tr2,24/25,46,45,2.0,1.0,0.25,0.39,Erzurumspor FK,Ümraniyespor
+1807,2025-05-10,tr2,24/25,45,53,2.0,1.0,0.24,0.32,Ümraniyespor,Manisa FK
+1752,2025-04-09,tr2,24/25,46,51,2.0,1.0,0.19,0.33,Erzurumspor FK,Çorum FK
+1767,2025-04-14,tr2,24/25,54,46,1.0,2.0,0.39,0.33,Adanaspor,Erzurumspor FK
+1785,2025-04-27,tr2,24/25,55,46,2.0,2.0,0.32,0.24,Sakaryaspor,Erzurumspor FK
+1806,2025-05-10,tr2,24/25,56,46,2.0,2.0,0.31,0.26,Şanlıurfaspor,Erzurumspor FK
+1779,2025-04-27,tr2,24/25,54,47,1.0,1.0,0.29,0.36,Adanaspor,Gençlerbirliği SK
+1794,2025-05-04,tr2,24/25,47,55,1.0,1.0,0.37,0.41,Gençlerbirliği SK,Sakaryaspor
+1808,2025-05-10,tr2,24/25,57,47,1.0,4.0,0.42,0.18,Yeni Malatyaspor,Gençlerbirliği SK
+1742,2025-04-05,tr2,24/25,53,48,2.0,1.0,0.31,0.4,Manisa FK,Ankara Keçiörengücü
+1749,2025-04-08,tr2,24/25,48,56,1.0,1.0,0.47,0.36,Ankara Keçiörengücü,Şanlıurfaspor
+1744,2025-04-05,tr2,24/25,51,49,2.0,1.0,0.21,0.29,Çorum FK,Esenler Erokspor
+1805,2025-05-10,tr2,24/25,55,49,2.0,1.0,0.24,0.33,Sakaryaspor,Esenler Erokspor
+1778,2025-04-21,tr2,24/25,50,55,1.0,1.0,0.32,0.4,Iğdır FK,Sakaryaspor
+1788,2025-04-27,tr2,24/25,57,50,1.0,3.0,0.4,0.29,Yeni Malatyaspor,Iğdır FK
+1763,2025-04-13,tr2,24/25,51,53,2.0,1.0,0.31,0.32,Çorum FK,Manisa FK
+1791,2025-05-04,tr2,24/25,51,56,1.0,1.0,0.36,0.44,Çorum FK,Şanlıurfaspor
+1761,2025-04-13,tr2,24/25,55,52,2.0,1.0,0.26,0.44,Sakaryaspor,Pendikspor
+1771,2025-04-19,tr2,24/25,52,56,2.0,1.0,0.23,0.35,Pendikspor,Şanlıurfaspor
+1786,2025-04-27,tr2,24/25,56,53,1.0,1.0,0.47,0.43,Şanlıurfaspor,Manisa FK
+1743,2025-04-05,tr2,24/25,55,54,2.0,1.0,0.33,0.36,Sakaryaspor,Adanaspor
+1775,2025-04-20,tr2,24/25,57,54,1.0,4.0,0.38,0.22,Yeni Malatyaspor,Adanaspor

@@ -11,6 +11,7 @@ from controllers.endurance_dev_controller import endurance_bp as endurance_contr
 from controllers.scouting_controller import scouting_bp as scouting_controller
 from controllers.transfer_controller import transfer_bp as transfer_controller
 from controllers.performance_controller import performance_bp as performance_controller
+from controllers.score_prediction_controller import match_bp as score_prediction_controller
 
 load_dotenv()
 
@@ -30,6 +31,7 @@ app.register_blueprint(youth_dev_controller, url_prefix='/api/youth-development'
 app.register_blueprint(scouting_controller, url_prefix='/api/scouting')
 app.register_blueprint(transfer_controller, url_prefix='/api/transfer')
 app.register_blueprint(performance_controller, url_prefix='/api/performance')
+app.register_blueprint(score_prediction_controller, url_prefix='/api/match-score')
 app.register_blueprint(auth_controller, url_prefix='/api/auth')
 
 @app.route('/')
