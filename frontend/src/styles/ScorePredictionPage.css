@@ -1,0 +1,256 @@
+/* ScorePredictionPage.css */
+
+/* General Page Settings */
+.score-prediction-page {
+  background-color: #110555; /* Background color */
+  color: white; /* Text color */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  min-height: 100vh; /* Full page height */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top Selectors Container */
+.selectors {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Space between handleTeamSelect and handleLeagueSelect */
+  margin-bottom: 30px;
+  flex-wrap: nowrap; /* Side by side layout */
+  flex-direction: row-reverse; /* Reverse order of league and team select */
+}
+
+/* Team Select Container */
+.handle-team-select {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between box and logo */
+}
+
+.handle-team-select select {
+  width: 600px;
+  height: 40px;
+  background-color: #D9D9D9;
+  color: dark;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.handle-team-select img {
+  width: 70px; /* Image width */
+  height: auto;
+  object-fit: contain;
+  border: none;
+  order: -1;
+}
+
+/* League Select Container */
+.handle-league-select {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between box and logo */
+}
+
+/* League Select box */
+.handle-league-select select {
+  width: 400px;
+  height: 40px;
+  background-color: #D9D9D9;
+  color: dark;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* League Logo */
+.handle-league-select img {
+  width: 100px;
+  height: auto;
+  object-fit: cover; /* Make image fit container proportionally */
+  border: none;
+  order: -1; /* Place image to the left of select box */
+}
+
+.score-prediction-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon-image {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: -200px; /* Places the icon 60px to the left of the team logo */
+  margin-top: 20px;
+}
+
+/* Predictions Header */
+.predictions-header {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.predictions-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Predictions Container */
+.predictions-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 90%;
+  max-width: 1400px;
+  margin-top: 20px;
+}
+
+/* Match Prediction Card */
+.match-prediction-card {
+  background-color: #B5E3DA; /* Light mint green */
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+/* Week Label */
+.week-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 50px; /* Sabit yükseklik */
+  position: relative; /* transform için gerekli */
+}
+
+.week-label span {
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1; /* Logo üstüne gelmesin diye */
+}
+
+.league-logo-small {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.5); /* Logoyu 1.5 kat büyüt */
+  transform-origin: center; /* Büyütme merkezden olsun */
+  margin: 0 25px; /* Taşmayı engellemek için */
+}
+
+/* Match Content */
+.match-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Player Container */
+.player-container {
+  width: 120px;
+}
+
+.player-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Match Score */
+.match-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.team-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.team-logo {
+  width: 120px;
+  height: 120px;
+  margin: -10px;
+}
+
+.predicted-score {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+/* Combined Odds Styling */
+.combined-odds-container {
+  margin-top: 15px;
+}
+
+.combined-odds-bar {
+  display: flex;
+  width: 100%;
+  height: 36px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.odds-segment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  min-width: 5%; /* Ensure even small percentages are visible */
+  transition: width 0.3s ease;
+}
+
+.odds-label, .odds-percent {
+  margin: 0 4px;
+  white-space: nowrap;
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.7); /* Makes text visible against any background */
+}
+
+/* For very small segments, show just the percentage */
+.odds-segment[style*="width: 10%"] .odds-label,
+.odds-segment[style*="width: 9%"] .odds-label,
+.odds-segment[style*="width: 8%"] .odds-label,
+.odds-segment[style*="width: 7%"] .odds-label,
+.odds-segment[style*="width: 6%"] .odds-label,
+.odds-segment[style*="width: 5%"] .odds-label {
+  display: none;
+}
+
+/* Loading */
+.loading {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.no-predictions {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}

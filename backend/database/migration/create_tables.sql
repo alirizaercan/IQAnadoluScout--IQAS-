@@ -284,3 +284,39 @@ CREATE INDEX idx_matches_away_team_id ON matches(away_team_id);
 CREATE INDEX idx_matches_home_footballer_id ON matches(home_footballer_id);
 CREATE INDEX idx_matches_away_footballer_id ON matches(away_footballer_id);
 
+CREATE TABLE IF NOT EXISTS match_analysis (
+    id SERIAL PRIMARY KEY,
+    match_id INTEGER REFERENCES matches(match_id),
+    home_team_id INTEGER REFERENCES football_teams(team_id),
+    away_team_id INTEGER REFERENCES football_teams(team_id),
+    match_date DATE NOT NULL,
+    video_path VARCHAR(255) NOT NULL,
+    
+    -- General match stats
+    home_possession_percentage FLOAT,
+    away_possession_percentage FLOAT,
+    home_pass_accuracy FLOAT,
+    away_pass_accuracy FLOAT,
+    home_shots INTEGER,
+    away_shots INTEGER,
+    home_shots_on_target INTEGER,
+    away_shots_on_target INTEGER,
+    
+    -- Formation analysis
+    home_formation VARCHAR(10),
+    away_formation VARCHAR(10),
+    home_formation_changes INTEGER,
+    away_formation_changes INTEGER,
+    
+    -- Player position heatmaps (stored as JSON)
+    home_heatmap JSONB,
+    away_heatmap JSONB,
+    
+    -- Time-based stats (JSON arrays)
+    possession_timeline JSONB,
+    formation_changes JSONB,
+    
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+

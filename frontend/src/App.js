@@ -9,9 +9,8 @@ import EnduranceDevelopmentPage from './pages/EnduranceDevelopmentPage';
 import ScoutingNetworkPage from './pages/ScoutingNetworkPage';
 import TransferStrategyPage from './pages/TransferStrategyPage';
 import PerformanceVisualizationPage from './pages/PerformanceVisualizationPage'
-
-const MatchAnalysisPage = () => <h1>Match Analysis</h1>;
-const ScorePredictionPage = () => <h1>Score Prediction</h1>;
+import ScorePredictionPage from './pages/ScorePredictionPage'
+import MatchAnalysisPage from './pages/MatchAnalysisPage'
 
 function App() {
   return (
