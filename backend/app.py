@@ -22,7 +22,13 @@ app = Flask(__name__,
 
 
 # CORS yapılandırmasını güncelledik, tüm domainlerden gelen isteklere izin veriyoruz
-CORS(app, origins="*")
+CORS(app, resources={
+    r"/api/*": {
+        "origins": "*", 
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 
 # Blueprint'i kayıt ediyoruz
 app.register_blueprint(physical_controller, url_prefix='/api/physical-development')
@@ -65,6 +71,14 @@ def serve_performance_graph(filename):
     graphs_dir = os.path.join(app.root_path, 'static', 'graphs', 'performance_graphs')
     return send_from_directory(graphs_dir, filename)
 
+@app.route('/uploads/<path:filename>')
+def serve_uploads(filename):
+    return send_from_directory('uploads', filename)
+
+@app.route('/uploads/processed_videos/<path:filename>')
+def serve_processed_videos(filename):
+    videos_dir = os.path.join(app.root_path, 'uploads', 'processed_videos')
+    return send_from_directory(videos_dir, filename)
 
 @app.route('/')
 def index():

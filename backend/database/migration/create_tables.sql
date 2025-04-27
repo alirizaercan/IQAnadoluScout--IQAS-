@@ -284,39 +284,55 @@ CREATE INDEX idx_matches_away_team_id ON matches(away_team_id);
 CREATE INDEX idx_matches_home_footballer_id ON matches(home_footballer_id);
 CREATE INDEX idx_matches_away_footballer_id ON matches(away_footballer_id);
 
+-- Match Analysis Table
+-- Match Analysis Table
 CREATE TABLE IF NOT EXISTS match_analysis (
     id SERIAL PRIMARY KEY,
-    match_id INTEGER REFERENCES matches(match_id),
-    home_team_id INTEGER REFERENCES football_teams(team_id),
-    away_team_id INTEGER REFERENCES football_teams(team_id),
     match_date DATE NOT NULL,
+    home_team_id INTEGER REFERENCES football_teams(team_id),
+    home_team_name VARCHAR(100) NOT NULL,
+    away_team_id INTEGER REFERENCES football_teams(team_id),
+    away_team_name VARCHAR(100) NOT NULL,
     video_path VARCHAR(255) NOT NULL,
+    processed_video_path VARCHAR(255),
     
-    -- General match stats
+    -- Team possession statistics
     home_possession_percentage FLOAT,
     away_possession_percentage FLOAT,
-    home_pass_accuracy FLOAT,
-    away_pass_accuracy FLOAT,
-    home_shots INTEGER,
-    away_shots INTEGER,
-    home_shots_on_target INTEGER,
-    away_shots_on_target INTEGER,
+    home_attack_phases INTEGER,
+    away_attack_phases INTEGER,
     
     -- Formation analysis
-    home_formation VARCHAR(10),
-    away_formation VARCHAR(10),
-    home_formation_changes INTEGER,
-    away_formation_changes INTEGER,
+    home_formation VARCHAR(20),
+    away_formation VARCHAR(20),
+    home_avg_player_positions JSONB,
+    away_avg_player_positions JSONB,
     
-    -- Player position heatmaps (stored as JSON)
+    -- Ball control statistics
+    home_ball_control_time FLOAT,
+    away_ball_control_time FLOAT,
+    
+    -- Player speed/distance
+    home_avg_speed FLOAT,
+    away_avg_speed FLOAT,
+    home_total_distance FLOAT,
+    away_total_distance FLOAT,
+    
+    -- Team colors
+    home_team_color VARCHAR(20),
+    away_team_color VARCHAR(20),
+    
+    -- Tactical heatmaps
     home_heatmap JSONB,
     away_heatmap JSONB,
     
-    -- Time-based stats (JSON arrays)
-    possession_timeline JSONB,
-    formation_changes JSONB,
+    -- Key moments analysis
+    key_moments JSONB,
     
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Add indexes for better query performance
+CREATE INDEX IF NOT EXISTS idx_match_analysis_home_team_id ON match_analysis(home_team_id);
+CREATE INDEX IF NOT EXISTS idx_match_analysis_away_team_id ON match_analysis(away_team_id);
+CREATE INDEX IF NOT EXISTS idx_match_analysis_match_date ON match_analysis(match_date);
