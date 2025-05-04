@@ -111,57 +111,60 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* Updated Filter Panel CSS with Light Gray Background */
 .filter-panel {
-  position: absolute;
-  top: 70px;
-  right: 20px;
-  width: 300px;
-  background-color: #f8f9fa;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  position: fixed; /* Fixed positioning for centering */
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  background-color: #e6e6e6; /* Light gray background as requested */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   z-index: 100;
-  padding: 18px;
-  border: 1px solid #e9ecef;
+  padding: 24px;
+  border: 1px solid #d0d0d0;
+  color: #333333; /* Darker text for contrast on light background */
 }
 
 .filter-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 15px;
 }
 
 .filter-header h3 {
   margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  color: #343a40;
+  font-size: 18px;
+  font-weight: 600;
+  color: #110555; /* Dark blue color to match the page theme */
 }
 
 .close-filter-button {
   background: transparent;
   border: none;
-  font-size: 18px;
+  font-size: 22px;
   cursor: pointer;
-  color: #495057;
+  color: #110555;
   transition: color 0.2s ease;
 }
 
 .close-filter-button:hover {
-  color: #212529;
+  color: #4CAF50;
 }
 
 .filter-section {
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 }
 
 .filter-section h4 {
-  margin: 0 0 10px 0;
-  font-size: 13px;
-  font-weight: 500;
-  color: #495057;
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
   letter-spacing: 0.3px;
 }
 
@@ -172,28 +175,28 @@
 }
 
 .filter-range span {
-  font-size: 12px;
-  color: #6c757d;
-  margin: 4px 0;
+  font-size: 13px;
+  color: #555555;
+  margin: 5px 0;
 }
 
 .filter-range input[type="range"] {
   width: 100%;
-  margin: 6px 0;
-  accent-color: #495057;
+  margin: 8px 0;
+  accent-color: #43886C; /* Match the player card green color */
 }
 
 .filter-actions {
   display: flex;
   justify-content: flex-end;
-  margin-top: 22px;
-  gap: 12px;
+  margin-top: 25px;
+  gap: 15px;
 }
 
 .reset-button, .apply-button {
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
   cursor: pointer;
   border: none;
   transition: all 0.2s ease;
@@ -201,21 +204,21 @@
 }
 
 .reset-button {
-  background-color: #e9ecef;
-  color: #495057;
+  background-color: #cccccc;
+  color: #333333;
 }
 
 .apply-button {
-  background-color: #495057;
+  background-color: #43886C; /* Match the player card green color */
   color: white;
 }
 
 .reset-button:hover {
-  background-color: #dee2e6;
+  background-color: #bbbbbb;
 }
 
 .apply-button:hover {
-  background-color: #343a40;
+  background-color: #388E3C;
 }
 
 .section-title {

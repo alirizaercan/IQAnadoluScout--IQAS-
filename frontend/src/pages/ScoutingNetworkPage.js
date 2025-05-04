@@ -193,17 +193,16 @@ const ScoutingNetworkPage = () => {
     });
   };
 
-  // Filtreleri sıfırlama
-  const resetFilters = () => {
-    setFilters({
-      minRating: 0,
-      maxRating: 100,
-      minPotential: 0,
-      maxPotential: 100,
-      minAge: 15,
-      maxAge: 45
-    });
-  };
+const resetFilters = () => {
+  setFilters({
+    minRating: 0,
+    maxRating: 100,
+    minPotential: 0,
+    maxPotential: 100,
+    minAge: 15,
+    maxAge: 45
+  });
+};
 
   // Filtreleri uygula
   const applyFilters = () => {
@@ -256,14 +255,13 @@ const ScoutingNetworkPage = () => {
     );
   };
 
-  // Basit filtre paneli render etme
   const renderFilterPanel = () => {
     if (!showFilters) return null;
     
     return (
       <div className="filter-panel">
         <div className="filter-header">
-          <h3>Oyuncu Filtrele</h3>
+          <h3>Filter Players</h3>
           <button className="close-filter-button" onClick={toggleFilterPanel}>×</button>
         </div>
         <div className="filter-section">
@@ -309,7 +307,7 @@ const ScoutingNetworkPage = () => {
           </div>
         </div>
         <div className="filter-section">
-          <h4>Yaş</h4>
+          <h4>Age</h4>
           <div className="filter-range">
             <span>{filters.minAge}</span>
             <input 
@@ -330,8 +328,8 @@ const ScoutingNetworkPage = () => {
           </div>
         </div>
         <div className="filter-actions">
-          <button className="reset-button" onClick={resetFilters}>Sıfırla</button>
-          <button className="apply-button" onClick={applyFilters}>Uygula</button>
+          <button className="reset-button" onClick={resetFilters}>Reset</button>
+          <button className="apply-button" onClick={applyFilters}>Apply</button>
         </div>
       </div>
     );
