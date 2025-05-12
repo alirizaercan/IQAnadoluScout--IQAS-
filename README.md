@@ -1,7 +1,7 @@
-# IQAnadoluScout
-![IQAS](IQAnadoluScout.png)
+# TYFOR
+![TYFOR](TYFOR.png)
 ## Project Overview
-IQAnadoluScout is a data-driven scouting and performance analysis platform designed to support young football players' development and help clubs make informed transfer decisions. This project, developed as a **Senior Design Project**, focuses on leveraging advanced data analytics and machine learning to enhance talent identification, match analysis, and financial sustainability for Anatolian football clubs.
+TYFOR is a data-driven scouting and performance analysis platform designed to support young football players' development and help clubs make informed transfer decisions. This project, developed as a **Senior Design Project**, focuses on leveraging advanced data analytics and machine learning to enhance talent identification, match analysis, and financial sustainability for Anatolian football clubs.
 
 The platform aims to minimize reliance on player agents, optimize scouting operations, and provide a systematic approach to youth talent development, ultimately contributing to the long-term sustainability of football clubs.
 
@@ -63,7 +63,7 @@ The project is built using:
 ## Contributors
 - **Ali Rıza Ercan**
   - Senior Design Project Student (200316005)
-  - GitHub: [alirizaercan](https://github.com/alirizaercan/IQAnadoluScout--IQAS-)
+  - GitHub: [alirizaercan](https://github.com/alirizaercan/TYFOR)
 
 ## License
 This project is open-source and licensed under the **MIT License**.
@@ -75,8 +75,8 @@ To run the project locally, follow these steps:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/alirizaercan/IQAnadoluScout--IQAS-.git
-cd IQAnadoluScout--IQAS-
+git clone https://github.com/alirizaercan/TYFOR.git
+cd TYFOR
 ```
 
 2. **Create a Virtual Environment & Install Dependencies**
@@ -101,4 +101,4 @@ flask run
 ## Contact
 For inquiries or collaboration opportunities, please reach out via GitHub.
 
-- GitHub: [alirizaercan](https://github.com/alirizaercan/IQAnadoluScout--IQAS-)
+- GitHub: [alirizaercan](https://github.com/alirizaercan/TYFOR)
