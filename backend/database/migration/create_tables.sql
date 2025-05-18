@@ -12,6 +12,18 @@ CREATE TABLE IF NOT EXISTS users (
     is_now_login VARCHAR(20) DEFAULT 'no',
     role VARCHAR(25),
     club VARCHAR(100),
+    team_id INT REFERENCES football_teams(team_id),
+    access_key VARCHAR(64) UNIQUE,
+    is_admin BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- NOTIFICATIONS TABLE
+CREATE TABLE IF NOT EXISTS notifications (
+    id BIGSERIAL PRIMARY KEY,
+    user_id BIGINT REFERENCES users(id) ON DELETE CASCADE,
+    message VARCHAR(500) NOT NULL,
+    read BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

@@ -1,7 +1,7 @@
 # backend/models/football_team.py
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from utils.database import Base
+from models import Base
 
 class FootballTeam(Base):
     __tablename__ = 'football_teams'
@@ -18,6 +18,10 @@ class FootballTeam(Base):
     avg_marketing_val = Column(String(20), nullable=True)
     total_squad_value = Column(String(20), nullable=True)
 
+    # Add relationship with users - using string to avoid circular import
+    users = relationship("User", backref="team")
+    
+    # Existing relationships
     league = relationship('League', back_populates='football_teams')
     footballers = relationship('Footballer', back_populates='team')
     home_matches = relationship('Match', foreign_keys='Match.home_team_id', back_populates='home_team_rel')

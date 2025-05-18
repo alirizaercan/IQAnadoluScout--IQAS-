@@ -1,42 +1,95 @@
+.youth-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #0a0426 0%, #1a1558 100%);
+}
+
 .youth-development-container {
-    display: flex;
-    justify-content: space-between; /* Sağ ve sol boşluk için */
-    align-items: center;
-    height: 100vh;
-    background-color: #110555; /* Arka plan rengi */
-    padding: 0 100px; /* Sağ ve sol boşluk */
-    gap: calc(100px / 3); /* Butonlar arasındaki boşluk (sağ-sol boşluğun 3'te 1'i) */
-  }
-  
-  .development-button {
-    width: 480px; /* Buton genişliği */
-    height: 600px; /* Buton yüksekliği */
-    background-color: #404194; /* Buton arka plan rengi */
-    border: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
-    transition: transform 0.3s ease;
-  }
-  
-  .development-button:hover {
-    transform: scale(1.05); /* Hover büyütme efekti */
-  }
-  
-  .development-button img {
-    width: 370px;
-    height: 370px;
-    object-fit: contain; /* Görsellerin düzgün görünmesi */
-    margin-bottom: 20px;
-  }
-  
-  .development-button span {
-    color: rgb(0, 0, 0);
-    font-size: 44px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px 80px;
+  margin-top: 72px; /* Header height */
+}
+
+.youth-page-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 48px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.development-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.development-button {
+  flex: 1;
+  max-width: 480px;
+  height: 600px;
+  background-color: #404194;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.development-button:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  background-color: #4a4cad;
+}
+
+.button-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 32px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+}
+
+.development-button img {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  margin-bottom: 24px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3s ease;
+}
+
+.development-button:hover img {
+  transform: scale(1.05);
+}
+
+.development-button span {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: 1.5px;
+}
+
+.button-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  max-width: 280px;
+}

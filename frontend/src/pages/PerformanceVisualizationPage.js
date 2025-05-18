@@ -4,6 +4,8 @@ import "../styles/PerformanceVisualizationPage.css";
 import citizenshipIcon from "../assets/images/citizenship_icon.png";
 import birthdayIcon from "../assets/images/birthday_icon.png";
 import performancePageIcon from "../assets/images/performance_visualization_icon.png";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const graphOptions = [
   { value: "Goals and Assists Analysis", label: "Goals and Assists Analysis" },
@@ -138,113 +140,117 @@ const PerformanceVisualizationPage = () => {
   };
 
   return (
-    <div className="performance-visualization-page">
-      <div className="selectors">
-        <div className="handle-league-select">
-          <select onChange={(e) => handleLeagueSelect(e.target.value)}>
-            <option value="">Select League</option>
-            {leagues.map((league) => (
-              <option key={league.league_id} value={league.league_id}>
-                {league.league_name}
-              </option>
-            ))}
-          </select>
-          {selectedLeagueLogo && <img src={selectedLeagueLogo} alt="League Logo" />}
-        </div>
-
-        <div className="handle-team-select">
-          <select onChange={(e) => handleTeamSelect(e.target.value)} disabled={!selectedLeague}>
-            <option value="">Select Team</option>
-            {teams.map((team) => (
-              <option key={team.team_id} value={team.team_id}>
-                {team.team_name}
-              </option>
-            ))}
-          </select>
-          {selectedTeamLogo && <img src={selectedTeamLogo} alt="Team Logo" />}
-        </div>
-
-        <div className="performance-page-icon">
-          <img src={performancePageIcon} alt="Performance Page Icon" className="icon-image" />
-        </div>
-      </div>
-
-      <div className="player-selection-container">
-        {/* Display the selected footballer's image */}
-        {selectedFootballerData && selectedFootballerData.footballer_img_path && (
-          <img
-            src={selectedFootballerData.footballer_img_path}
-            alt={selectedFootballerData.footballer_name}
-            className="footballer-img"
-          />
-        )}
-
-        {/* Dropdown */}
-        <select onChange={(e) => setSelectedFootballer(e.target.value)} disabled={!selectedTeam}>
-          <option value="">Select Footballer</option>
-          {footballers.map((footballer) => (
-            <option key={footballer.footballer_id} value={footballer.footballer_id}>
-              {footballer.footballer_name}
-            </option>
-          ))}
-        </select>
-
-        {/* Citizenship, Nationality, and Birthday Information */}
-        {selectedFootballerData && (
-          <div className="info-section">
-            {/* Citizenship Icon */}
-            <div className="info-item">
-              <img src={citizenshipIcon} alt="Citizenship" className="citizenship-icon" />
-              <img
-                src={selectedFootballerData.nationality_img_path}
-                alt="Nationality"
-                className="nationality-icon"
-              />
-            </div>
-
-            {/* Birthday Icon */}
-            <div className="info-item">
-              <img src={birthdayIcon} alt="Birthday" className="birthday-icon" />
-              <span className="birthday-date">{selectedFootballerData.birthday}</span>
-            </div>
+    <div className="page-container">
+      <Header />
+      <div className="performance-visualization-page">
+        <div className="selectors">
+          <div className="handle-league-select">
+            <select onChange={(e) => handleLeagueSelect(e.target.value)}>
+              <option value="">Select League</option>
+              {leagues.map((league) => (
+                <option key={league.league_id} value={league.league_id}>
+                  {league.league_name}
+                </option>
+              ))}
+            </select>
+            {selectedLeagueLogo && <img src={selectedLeagueLogo} alt="League Logo" />}
           </div>
-        )}
-      </div>
 
-      {/* Graph Type Selection */}
-      <div className="graph-type-container">
-        <select
-          onChange={handleGraphTypeChange}
-          disabled={!selectedFootballer}
-          className="graph-type-select"
-        >
-          <option value="">Select Graph Type</option>
-          {graphOptions.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </select>
+          <div className="handle-team-select">
+            <select onChange={(e) => handleTeamSelect(e.target.value)} disabled={!selectedLeague}>
+              <option value="">Select Team</option>
+              {teams.map((team) => (
+                <option key={team.team_id} value={team.team_id}>
+                  {team.team_name}
+                </option>
+              ))}
+            </select>
+            {selectedTeamLogo && <img src={selectedTeamLogo} alt="Team Logo" />}
+          </div>
 
-        {/* Generate Graph Button */}
-        <button
-          onClick={handleGenerateGraph}
-          disabled={!selectedFootballer || !graphType || isLoading}
-          className="generate-graph-button"
-        >
-          {isLoading ? "Generating..." : "Generate"}
-        </button>
-      </div>
+          <div className="performance-page-icon">
+            <img src={performancePageIcon} alt="Performance Page Icon" className="icon-image" />
+          </div>
+        </div>
 
-      <div className="graph-container">
-        {graphPath && (
-          <img
-            src={`${graphPath}?t=${new Date().getTime()}`}
-            alt="Generated Performance Graph"
-            className="graph-image"
-          />
-        )}
+        <div className="player-selection-container">
+          {/* Display the selected footballer's image */}
+          {selectedFootballerData && selectedFootballerData.footballer_img_path && (
+            <img
+              src={selectedFootballerData.footballer_img_path}
+              alt={selectedFootballerData.footballer_name}
+              className="footballer-img"
+            />
+          )}
+
+          {/* Dropdown */}
+          <select onChange={(e) => setSelectedFootballer(e.target.value)} disabled={!selectedTeam}>
+            <option value="">Select Footballer</option>
+            {footballers.map((footballer) => (
+              <option key={footballer.footballer_id} value={footballer.footballer_id}>
+                {footballer.footballer_name}
+              </option>
+            ))}
+          </select>
+
+          {/* Citizenship, Nationality, and Birthday Information */}
+          {selectedFootballerData && (
+            <div className="info-section">
+              {/* Citizenship Icon */}
+              <div className="info-item">
+                <img src={citizenshipIcon} alt="Citizenship" className="citizenship-icon" />
+                <img
+                  src={selectedFootballerData.nationality_img_path}
+                  alt="Nationality"
+                  className="nationality-icon"
+                />
+              </div>
+
+              {/* Birthday Icon */}
+              <div className="info-item">
+                <img src={birthdayIcon} alt="Birthday" className="birthday-icon" />
+                <span className="birthday-date">{selectedFootballerData.birthday}</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Graph Type Selection */}
+        <div className="graph-type-container">
+          <select
+            onChange={handleGraphTypeChange}
+            disabled={!selectedFootballer}
+            className="graph-type-select"
+          >
+            <option value="">Select Graph Type</option>
+            {graphOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+
+          {/* Generate Graph Button */}
+          <button
+            onClick={handleGenerateGraph}
+            disabled={!selectedFootballer || !graphType || isLoading}
+            className="generate-graph-button"
+          >
+            {isLoading ? "Generating..." : "Generate"}
+          </button>
+        </div>
+
+        <div className="graph-container">
+          {graphPath && (
+            <img
+              src={`${graphPath}?t=${new Date().getTime()}`}
+              alt="Generated Performance Graph"
+              className="graph-image"
+            />
+          )}
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };

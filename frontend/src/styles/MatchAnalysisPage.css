@@ -1,9 +1,17 @@
 /* src/styles/MatchAnalysisPage.css */
 /* Adding the new CSS for statistics popup while keeping existing styles */
+
+/* Page Container for Header + Content + Footer */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
 .match-analysis-container {
   display: flex;
   width: 100%;
-  min-height: 100vh;
+  flex: 1; /* Takes available space between header and footer */
   font-family: 'Arial', sans-serif;
   background-color: #10074a; /* Dark blue background from image */
   color: #fff;

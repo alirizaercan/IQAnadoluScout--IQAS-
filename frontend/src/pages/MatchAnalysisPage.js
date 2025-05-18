@@ -16,6 +16,8 @@ import statisticsPageIcon from '../assets/images/statistics_page.png';
 // PDF oluşturma kütüphanelerini import ediyoruz
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const MatchAnalysisPage = () => {
   const [homeTeam, setHomeTeam] = useState('');
@@ -565,18 +567,19 @@ const MatchAnalysisPage = () => {
       </div>
     );
   };
-
   return (
-    <div className="match-analysis-container">
-      <div className="main-content">
-        <div className="video-upload-section">
-          <div className="page-header">
-            <div className="match-analysis-icon">
-              <img src={matchAnalysisIcon} alt="Match Analysis" />
-            </div>
-            <div className="video-upload-header">
-              <div className="upload-icon-left">
-                <img src={uploadIcon} alt="Upload" />
+    <div className="page-container">
+      <Header />
+      <div className="match-analysis-container">
+        <div className="main-content">
+          <div className="video-upload-section">
+            <div className="page-header">
+              <div className="match-analysis-icon">
+                <img src={matchAnalysisIcon} alt="Match Analysis" />
+              </div>
+              <div className="video-upload-header">
+                <div className="upload-icon-left">
+                  <img src={uploadIcon} alt="Upload" />
               </div>
               <h2>Upload the Match Video</h2>
               <div className="upload-icon-right">
@@ -655,11 +658,11 @@ const MatchAnalysisPage = () => {
               </>
             )}
           </div>
-        </div>
-
-        {/* Stats popup rendered here */}
+        </div>        {/* Stats popup rendered here */}
         {renderStatsPopup()}
       </div>
+    </div>
+      <Footer />
     </div>
   );
 };

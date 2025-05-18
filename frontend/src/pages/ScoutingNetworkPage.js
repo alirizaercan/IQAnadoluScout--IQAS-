@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import {
   fetchAllTeams,
   fetchCriticalPositions,
@@ -606,14 +608,15 @@ const resetFilters = () => {
       </div>
     );
   };
-
   return (
-    <div className="scouting-page">
-      <div className="scouting-header">
-        <div className="search-container">
-          <div className="logo-container">
-            <div className="magnifier-logo"></div>
-          </div>
+    <>
+      <Header />
+      <div className="scouting-page">
+        <div className="scouting-header">
+          <div className="search-container">
+            <div className="logo-container">
+              <div className="magnifier-logo"></div>
+            </div>
           <input 
             type="text" 
             className="search-input" 
@@ -632,7 +635,6 @@ const resetFilters = () => {
             <div className="filter-icon"></div>
           </button>
         </div>
-        <h1 className="section-title">Scouting Recommendations</h1>
         {selectedPlayers.length > 1 && (
           <button 
             className="compare-button"
@@ -643,82 +645,108 @@ const resetFilters = () => {
           </button>
         )}
       </div>
-      
       {/* Basit filtre paneli */}
       {renderFilterPanel()}
-      
-      <div className="selection-section">
-        <select 
-          onChange={handleTeamChange} 
-          value={selectedTeam || ""}
-          disabled={loading}
-        >
-          <option value="">Select Team</option>
-          {teams.map((team) => (
-            <option key={team.team_id} value={team.team_id}>
-              {team.team_name}
-            </option>
-          ))}
-        </select>
-      </div>
       
       {/* Ana içerik: normal mod veya karşılaştırma modu */}
       {compareMode ? renderComparisonView() : (
         <div className="recommendation-section">
-          <div className="team-card">
-            {selectedTeamLogo && <img src={selectedTeamLogo} alt="Team Logo" className="team-logo" />}
-            <div className="team-info">
-              <h2>Recommendation</h2>
-              <div className="position-tags">
-                {criticalPositions.map(position => (
-                  <span
-                    key={position.position}
-                    className={`position-tag ${selectedPosition === position.position ? 'active' : ''}`}
-                    onClick={() => handlePositionChange(position.position)}
-                  >
-                    {position.position}
-                    {position.priority && (
-                      <span className="priority-indicator" title={`Priority: ${position.priority}`}>
-                        {Array(position.priority).fill('!').join('')}
-                      </span>
-                    )}
-                  </span>
-                ))}
-              </div>
-            </div>
+          <div className="team-selection-container">
           </div>
-          {loading ? (
-            <div className="loading">
-              <div className="spinner"></div>
-              <p>Loading recommendations...</p>
-            </div>
-          ) : (
-            <>
-              <div className="player-cards-container">
-                {filteredPlayers.length > 0 ? (
-                  renderPlayerCards()
-                ) : (
-                  <div className="no-players">
-                    {selectedPosition ? 
-                      `No recommended players found for ${selectedPosition} position` : 
-                      "Select a team to see recommendations"}
-                  </div>
+
+          <div className="selection-section">
+            <select 
+              onChange={handleTeamChange} 
+              value={selectedTeam || ""}
+              disabled={loading}
+              className="team-select"
+            >
+              <option value="">Select Team</option>
+              {teams.map((team) => (
+                <option key={team.team_id} value={team.team_id}>
+                  {team.team_name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {selectedTeam && (
+            <div className="team-card">
+              <div className="team-logo-container">
+                {selectedTeamLogo && (
+                  <img src={selectedTeamLogo} alt="Team Logo" className="team-logo" />
                 )}
               </div>
-              {filteredPlayers.length > 0 && renderDots()}
-              {filteredPlayers.length > 0 && selectedPosition && (
-                <div className="recommendation-info">
-                  <p>Showing {filteredPlayers.length} recommended players for {selectedPosition} position</p>
-                  {selectedPlayers.length > 0 && (
-                    <p>Select up to 3 players to compare their stats</p>
-                  )}
+              <div className="team-info">
+                <h2>Critical Positions</h2>
+                <div className="position-tags">
+                  {criticalPositions.map(position => (
+                    <span
+                      key={position.position}
+                      className={`position-tag ${selectedPosition === position.position ? 'active' : ''}`}
+                      onClick={() => handlePositionChange(position.position)}
+                    >
+                      {position.position}
+                      {position.priority && (
+                        <span className="priority-indicator" title={`Priority: ${position.priority}`}>
+                          {Array(position.priority).fill('!').join('')}
+                        </span>
+                      )}
+                    </span>
+                  ))}
                 </div>
-              )}
-            </>
+              </div>
+            </div>
           )}
+
+          <div className="cards-section">
+            <div className="center-container">
+              <h1 className="section-title">Scouting Recommendations</h1>
+            </div>
+            {loading ? (
+              <div className="loading">
+                <div className="spinner"></div>
+                <p>Loading recommendations...</p>
+              </div>
+            ) : (
+              <>                <div className="player-cards-container">
+                  {filteredPlayers.length > 0 ? (
+                    renderPlayerCards()
+                  ) : (
+                    <div className="no-players">
+                      {selectedPosition ? 
+                        `No recommended players found for ${selectedPosition} position` : 
+                        "Select a team to see recommendations"}
+                    </div>
+                  )}
+                </div>                {filteredPlayers.length > 0 && (
+                  <div className="pagination-section">
+                    <div className="pagination-container">
+                      {renderDots()}
+                    </div>
+                  </div>
+                )}
+                {filteredPlayers.length > 0 && selectedPosition && (
+                  <div className="info-section">
+                    <div className="recommendation-info">
+                      <p>Showing {filteredPlayers.length} recommended players for {selectedPosition} position</p>
+                      {selectedPlayers.length > 0 && (
+                        <p>Select up to 3 players to compare their stats</p>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </>
+            )}          </div>
         </div>
-      )}
+      )}    </div>
+    <div className="page-background-extend">
+      <div className="footer-container">
+        {/* Footer container moved to bottom of page, independent of other elements */}
+      </div>
     </div>
+    <Footer />
+    </>
   );
 };
 

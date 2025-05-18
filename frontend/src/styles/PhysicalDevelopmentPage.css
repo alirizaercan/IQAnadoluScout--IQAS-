@@ -1,16 +1,34 @@
 /* PhysicalDevelopmentPage.css */
 
+/* Page Container for wrapping Header, Content and Footer */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  padding-top: 96px; /* Add padding to account for fixed header */
+  background-color: #1e1e57; /* Same as page background */
+}
+
+/* Footer styling within page container */
+.page-container .footer {
+  margin-top: 0;
+  background: linear-gradient(to right, #404194, #4a4cad); /* Footer's gradient */
+}
+
 /* Genel Sayfa Ayarları */
 .physical-development-page {
   background-color: #1e1e57; /* Arka plan rengi */
   color: white; /* Yazı rengi */
   font-family: 'Arial', sans-serif;
   padding: 20px;
-  min-height: 100vh; /* Sayfanın tam yükseklik kaplaması */
+  flex: 1; /* Fill available space between header and footer */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 25px; /* Reduced from 96px since Header is separate now */
+  padding-bottom: 300px; /* Increased padding to create space before footer */
 }
 
 /* Üst Sol Kutucuk */
@@ -256,6 +274,8 @@
 .graph-container {
   margin-left: 400px; /* Aligns the image with the select box and date inputs */
   margin-top: 20px; /* Adds space between the selection and the graph */
+  margin-bottom: 100px; /* Adds more space below the graph before the footer */
+  min-height: 400px; /* Increased minimum height for the graph area */
 }
 
 /* Styling for the generated graph */

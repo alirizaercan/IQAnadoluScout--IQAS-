@@ -10,6 +10,8 @@ import {
   getTeamPlayers
 } from "../services/transfer_api";
 import "../styles/TransferStrategyPage.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const TransferStrategyPage = () => {
   const [teams, setTeams] = useState([]);
@@ -831,18 +833,19 @@ const TransferStrategyPage = () => {
       </div>
     );
   };
-  
-  return (
-    <div className="transfer-page">
-      <div className="transfer-header">
-        <div className="search-container-transfer">
-          <div className="logo-container-transfer">
-            <div className="transfer-logo"></div>
-          </div>
-          <input
-            type="number"
-            className="search-input-transfer"
-            placeholder="Enter budget (€)..."
+    return (
+    <div className="page-container">
+      <Header />
+      <div className="transfer-page">
+        <div className="transfer-header">
+          <div className="search-container-transfer">
+            <div className="logo-container-transfer">
+              <div className="transfer-logo"></div>
+            </div>
+            <input
+              type="number"
+              className="search-input-transfer"
+              placeholder="Enter budget (€)..."
             value={budget}
             onChange={handleBudgetChange}
           />
@@ -903,8 +906,9 @@ const TransferStrategyPage = () => {
         <PlayerInfoModal
           player={selectedPlayerInfo}
           onClose={() => setShowPlayerInfoModal(false)}
-        />
-      )}
+        />      )}
+    </div>
+      <Footer />
     </div>
   );
 };

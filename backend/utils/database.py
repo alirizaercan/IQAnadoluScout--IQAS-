@@ -1,7 +1,7 @@
 # backend/utils/database.py
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models.user import Base
+from models import Base  # Import Base from models package
 from dotenv import load_dotenv
 import os
 

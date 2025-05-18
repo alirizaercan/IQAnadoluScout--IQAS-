@@ -1,7 +1,7 @@
 {
-  "name": "iqanadoluscout",
+  "name": "tyfor",
   "version": "1.0.0",
-  "description": "iqas is a platform for data analysis in football industry.",
+  "description": "TYFOR is a platform for data analysis in football industry.",
   "main": "index.js",
   "scripts": {
     "start": "cd frontend && npm start",

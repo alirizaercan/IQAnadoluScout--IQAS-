@@ -1,8 +1,15 @@
-/* ScoutingNetworkPage.css */
+/* TransferStrategyPage.css */
+
+/* Page Container for Header + Content + Footer */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
 
 .transfer-page {
     background-color: #110555;
-    min-height: 100vh;
+    flex: 1; /* Takes available space between header and footer */
     padding: 0;
     color: white;
     font-family: Arial, sans-serif;
@@ -24,27 +31,24 @@
   .search-container-transfer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 20px; /* Daha fazla boşluk ekleyerek alta kaydır */
-    width: 1000px;
+    margin-bottom: 20px;
+    width: 1200px;
     position: relative;
-    height: 80px; /* Daha fazla yükseklik ekleyerek elemanları aşağı al */
+    margin-left: 90px;
   }
   
   .logo-container-transfer {
-    position: absolute;
-    right: 650px;
-    bottom: -80px;
-    z-index: 1;
+    position: relative;
+    margin-right: 30px;
+    margin-left: -50px;
   }
   
   .transfer-logo {
-    background-image: url('../assets/images/scouting_network_icon.png');
+    background-image: url('../assets/images/transfer_strategy_icon.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
-    margin-right: 250px;
   }
   
   .search-input-transfer {
@@ -52,47 +56,47 @@
     height: 45px;
     border-radius: 5px;
     border: none;
-    padding: 0 15px;
+    padding: 0 90px 0 15px;
     background-color: #e6e6e6;
     font-size: 16px;
-    margin-top: 60px;
-    margin-left: 120px;
-    position: relative; /* Arama kutusuna relative pozisyon ekliyoruz */
-    padding-right: 40px;
   }
   
   .search-button-transfer {
     position: absolute;
-    bottom: 3px; /* Butonun tam olarak input'un içine yerleşmesi için */
-    right: 60px;
+    top: 50%;
+    right: 45px;
+    transform: translateY(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* Şeffaf arka plan */
-    border: none; /* Butonun kenarlarını kaldır */
-    padding: 0; /* Ekstra boşlukları kaldır */
-    cursor: pointer; /* Fare ile üzerine gelindiğinde işaretçi değişir */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 2;
   }
   
-  .search-icon {
+  .search-icon-transfer {
     background-image: url('../assets/images/search_icon.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
   
   .filter-button-transfer {
     position: absolute;
-    bottom:0px;
+    top: 50%;
     right: 10px;
+    transform: translateY(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* Şeffaf arka plan */
-    border: none; /* Butonun kenarlarını kaldır */
-    padding: 0; /* Ekstra boşlukları kaldır */
-    cursor: pointer; /* Fare ile üzerine gelindiğinde işaretçi değişir */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 2;
   }
   
   .filter-icon-transfer {

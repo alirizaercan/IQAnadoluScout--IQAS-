@@ -1,12 +1,19 @@
 /* ScorePredictionPage.css */
 
+/* Page Container for Header + Content + Footer */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
 /* General Page Settings */
 .score-prediction-page {
   background-color: #110555; /* Background color */
   color: white; /* Text color */
   font-family: 'Arial', sans-serif;
   padding: 20px;
-  min-height: 100vh; /* Full page height */
+  flex: 1; /* Takes available space between header and footer */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

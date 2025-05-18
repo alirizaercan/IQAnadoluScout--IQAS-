@@ -1,39 +1,194 @@
+.main-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #110555 0%, #1a0a6e 100%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
 .main-page { 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Butonları dikey olarak ortalar */
-  height: 100vh; /* Sayfa yüksekliğini kapsar */
-  box-sizing: border-box; /* Padding/margin dahil */
-  padding: 20px; /* Sayfa kenar boşlukları */
-  gap: 40px; /* Alt ve üst buton sıraları arasında boşluk */
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+  box-sizing: border-box;
+  padding: 40px 20px;
+  padding-top: 100px;
+  gap: 40px;
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  z-index: 1;
+}
+
+/* Animated background effect */
+.main-page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(64, 65, 148, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(74, 76, 173, 0.15) 0%, transparent 50%);
+  animation: pulseBackground 8s ease-in-out infinite alternate;
+  z-index: -1;
 }
 
 .button-row {
   display: flex;
-  justify-content: center; /* Butonları yatay olarak ortalar */
-  gap: 100px; /* Yatay butonlar arasındaki boşluk */
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  max-width: 1600px;
+  z-index: 2;
+  perspective: 1000px;
+  padding: 20px;
 }
 
 .custom-button {
-  width: 400px;
-  height: 320px;
-  background-color: #404194; /* Buton rengini değiştirdim */
-  border: none;
+  width: 300px;
+  height: 300px;
+  background: #404194;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  padding: 0;
+  padding: 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white; /* Buton içeriği için metin rengini beyaz yapar */
-  font-size: 18px; /* Buton yazı boyutu */
-  font-weight: bold; /* Buton yazı kalınlığı */
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
-  border-radius: 0px; /* Buton köşelerini yuvarlar */
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transform-style: preserve-3d;
+}
+
+.custom-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  border-radius: 20px;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
+.custom-button:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 8px 12px rgba(0, 0, 0, 0.15),
+    0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:hover::before {
+  opacity: 1;
+}
+
+.custom-button:active {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.15),
+    0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .custom-button img {
-  width: 290px;
-  height: 290px;
+  max-width: 80%;
+  height: auto;
   object-fit: contain;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin-bottom: 15px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.custom-button:hover img {
+  transform: scale(1.08) translateZ(20px);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes pulseBackground {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+/* Modern glass morphism effect */
+.main-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(64, 65, 148, 0.1) 0%,
+    rgba(17, 5, 85, 0.8) 100%
+  );
+  backdrop-filter: blur(20px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (max-width: 1600px) {
+  .custom-button {
+    width: 280px;
+    height: 280px;
+    padding: 25px;
+  }
+  
+  .button-row {
+    gap: 50px;
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .custom-button {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+  }
+  
+  .button-row {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-page {
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .button-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .custom-button {
+    width: 240px;
+    height: 240px;
+    padding: 25px;
+  }
 }

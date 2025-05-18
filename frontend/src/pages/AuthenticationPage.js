@@ -1,22 +1,22 @@
 /* frontend/src/pages/AuthenticationPage.js */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import '../styles/AuthenticationPage.css';
-import logoImage from '../assets/images/IQAS_auth.png';
+import { login, changePassword } from '../services/auth';
+import logoImage from '../assets/images/TYFOR_auth.gif';
 import userIcon from '../assets/images/user_icon.png';
 
 const AuthenticationPage = () => {
-  const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
     username: '',
     password: '',
-    firstname: '',
-    lastname: '',
-    email: '',
-    role: '',
-    club: '',
   });
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [showPasswordModal, setShowPasswordModal] = useState(false);
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [userId, setUserId] = useState(null);
 
   const navigate = useNavigate();
 
@@ -27,140 +27,173 @@ const AuthenticationPage = () => {
       [name]: value,
     }));
   };
+  const handlePasswordChange = async (e) => {
+    e.preventDefault();
+    if (newPassword !== confirmPassword) {
+      setError('Passwords do not match!');
+      return;
+    }
+    
+    try {      console.log('Sending password change request...');
+      const data = await changePassword(userId, newPassword);
+      console.log('Password change successful:', data);
+      setShowPasswordModal(false);
+      setError(null);
+      
+      // Successful password change
+      if (data.user?.is_admin) {
+        console.log('Navigating to admin...');
+        navigate('/admin');
+      } else {
+        console.log('Navigating to dashboard...');
+        navigate('/dashboard');
+      }
+    } catch (error) {
+      console.error('Password change failed:', error);
+      setError(error.message || 'Failed to change password');
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (isLogin) {
-      try {
-        const response = await axios.post('http://localhost:5000/api/auth/login', {
-          username: formData.username,
-          password: formData.password,
-        });
-        if (response.data.message === 'Login successful') {
+    setLoading(true);
+    setError(null);
+    
+    try {
+      const response = await login(formData);
+      setUserId(response.user.id);
+      
+      // Eğer kullanıcı access key ile giriş yaptıysa şifre değiştirme modalını göster
+      if (response.user.needs_password_change) {
+        setShowPasswordModal(true);
+      } else {
+        if (response.user.is_admin) {
+          navigate('/admin');
+        } else {
           navigate('/dashboard');
-        } else {
-          alert('Login failed');
         }
-      } catch (error) {
-        alert('Login error');
       }
-    } else {
-      try {
-        const response = await axios.post('http://localhost:5000/api/auth/register', formData);
-        if (response.data.message === 'Registration successful') {
-          setIsLogin(true);
-        } else {
-          alert('Registration failed');
-        }
-      } catch (error) {
-        alert('Registration error');
-      }
+    } catch (error) {
+      setError(error.message || 'Failed to login. Please check your credentials.');
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="auth-page">
-      <div className="logo-section">
-        <img src={logoImage} alt="IQAnadoluScout Logo" className="logo" />
-      </div>
-      <div className={`form-section ${isLogin ? 'login' : 'create-account'}`}>
-        <div className="avatar-container">
-          <div className="logo-overlay"></div>
-          <img src={userIcon} alt="Avatar" className="avatar" />
-          <h2>{isLogin ? 'Sign In' : 'Sign Up'}</h2>
+      <div className="auth-container">
+        <div className="logo-section">
+          <img src={logoImage} alt="TYFOR Logo" className="logo" />
         </div>
-        <form onSubmit={handleSubmit}>
-          {/* Create Account inputs */}
-          {!isLogin && (
-            <>
-              <div className="input-group">
-                <input
-                  type="text"
-                  id="firstname"
-                  name="firstname"
-                  value={formData.firstname}
-                  onChange={handleChange}
-                  placeholder="First Name"
-                  required
-                />
-                <input
-                  type="text"
-                  id="lastname"
-                  name="lastname"
-                  value={formData.lastname}
-                  onChange={handleChange}
-                  placeholder="Last Name"
-                  required
-                />
+        
+        <div className="form-section">
+          <div className="form-card">
+            <div className="avatar-container">
+              <div className="logo-overlay"></div>
+              <img src={userIcon} alt="Avatar" className="avatar" />
+            </div>
+            
+            <h2>Welcome Back</h2>
+            <p className="subtitle">Sign in to your account</p>
+            
+            <form onSubmit={handleSubmit}>
+              {error && (
+                <div className="error-message">
+                  <i className="error-icon">!</i>
+                  <span>{error}</span>
+                </div>
+              )}
+              
+              <div className="form-group">
+                <label htmlFor="username">Username or Access Key</label>
+                <div className="input-wrapper">
+                  <i className="input-icon user-icon"></i>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    value={formData.username}
+                    onChange={handleChange}
+                    placeholder="Enter your username or access key"
+                    required
+                  />
+                </div>
               </div>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Email"
-                required
-              />
-              <div className="input-group">
-                <input
-                  type="text"
-                  id="role"
-                  name="role"
-                  value={formData.role}
-                  onChange={handleChange}
-                  placeholder="Role"
-                  required
-                />
-                <input
-                  type="text"
-                  id="club"
-                  name="club"
-                  value={formData.club}
-                  onChange={handleChange}
-                  placeholder="Club"
-                  required
-                />
+              
+              <div className="form-group">
+                <label htmlFor="password">Password</label>
+                <div className="input-wrapper">
+                  <i className="input-icon password-icon"></i>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    value={formData.password}
+                    onChange={handleChange}
+                    placeholder="Enter your password"
+                  />
+                </div>
               </div>
-            </>
-          )}
-          
-          {/* Username and Password labels (visible only in Login) */}
-          <label htmlFor="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            value={formData.username}
-            onChange={handleChange}
-            placeholder="Username"
-            required
-          />
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-            placeholder="Password"
-            required
-          />
-          
-          <div className="button-container">
-            <button
-              type="button"
-              className="switch-button"
-              onClick={() => setIsLogin(!isLogin)}
-            >
-              {isLogin ? 'Create Account' : 'Back to Login'}
-            </button>
-            <button type="submit" className="submit-button">
-              {isLogin ? 'Log In' : 'Sign Up'}
-            </button>
+              
+              <div className="button-container">
+                <button 
+                  type="submit" 
+                  className="submit-button" 
+                  disabled={loading}
+                >
+                  {loading ? (
+                    <span className="loading-spinner"></span>
+                  ) : (
+                    'Sign In'
+                  )}
+                </button>
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
+
+      {showPasswordModal && (
+        <div className="modal-overlay">
+          <div className="password-modal">
+            <h3>Set Your New Password</h3>
+            <p>Please set a new password for your account.</p>
+            
+            <form onSubmit={handlePasswordChange}>
+              <div className="form-group">
+                <label htmlFor="newPassword">New Password</label>
+                <input
+                  type="password"
+                  id="newPassword"
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
+                  placeholder="Enter new password"
+                  required
+                />
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  placeholder="Confirm new password"
+                  required
+                />
+              </div>
+              
+              <div className="button-container">
+                <button type="submit" className="submit-button">
+                  Set Password
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

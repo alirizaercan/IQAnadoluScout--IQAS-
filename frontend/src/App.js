@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import AuthenticationPage from './pages/AuthenticationPage';
 import MainPage from './pages/MainPage';
 import YouthDevelopmentPage from './pages/YouthDevelopmentPage';
@@ -8,30 +8,85 @@ import ConditionalDevelopmentPage from './pages/ConditionalDevelopmentPage';
 import EnduranceDevelopmentPage from './pages/EnduranceDevelopmentPage';
 import ScoutingNetworkPage from './pages/ScoutingNetworkPage';
 import TransferStrategyPage from './pages/TransferStrategyPage';
-import PerformanceVisualizationPage from './pages/PerformanceVisualizationPage'
-import ScorePredictionPage from './pages/ScorePredictionPage'
-import MatchAnalysisPage from './pages/MatchAnalysisPage'
+import PerformanceVisualizationPage from './pages/PerformanceVisualizationPage';
+import ScorePredictionPage from './pages/ScorePredictionPage';
+import MatchAnalysisPage from './pages/MatchAnalysisPage';
+import AdminPanelPage from './pages/AdminPanelPage';
+import { isAuthenticated, isAdmin } from './services/auth';
+
+// Protected route component that checks if user is authenticated
+const ProtectedRoute = ({ element, requireAdmin = false }) => {
+  const authenticated = isAuthenticated();
+  const admin = isAdmin();
+  if (!authenticated) {
+    return <Navigate to="/authentication" replace />;
+  }
+
+  if (requireAdmin && !admin) {
+    return <Navigate to="/dashboard" replace />;
+  }
+
+  return element;
+};
 
 function App() {
   return (
     <Router>
-      <Routes>
-        {/* Ana rotalar */}
-        <Route path="/" element={<AuthenticationPage />} />
-        <Route path="/dashboard" element={<MainPage />} />
+      <Routes>        {/* Authentication routes */}
+        <Route path="/" element={<Navigate to="/authentication" replace />} />
+        <Route path="/authentication" element={<AuthenticationPage />} />
+        
+        {/* Admin panel route - protected and requires admin role */}
+        <Route 
+          path="/admin" 
+          element={<ProtectedRoute element={<AdminPanelPage />} requireAdmin={true} />} 
+        />
 
-        {/* Youth Development rotaları */}
-        <Route path="/youth-development" element={<YouthDevelopmentPage />} />
-        <Route path="/youth-development/physical" element={<PhysicalDevelopmentPage />} />
-        <Route path="/youth-development/conditional" element={<ConditionalDevelopmentPage />} />
-        <Route path="/youth-development/endurance" element={<EnduranceDevelopmentPage />} />
+        {/* Dashboard route - protected for any authenticated user */}
+        <Route 
+          path="/dashboard" 
+          element={<ProtectedRoute element={<MainPage />} />} 
+        />
 
-        {/* Diğer rotalar */}
-        <Route path="/scouting-network" element={<ScoutingNetworkPage />} />
-        <Route path="/performance-visualization" element={<PerformanceVisualizationPage />} />
-        <Route path="/transfer-strategy" element={<TransferStrategyPage />} />
-        <Route path="/match-analysis" element={<MatchAnalysisPage />} />
-        <Route path="/score-prediction" element={<ScorePredictionPage />} />
+        {/* Youth Development routes - protected */}
+        <Route 
+          path="/youth-development" 
+          element={<ProtectedRoute element={<YouthDevelopmentPage />} />} 
+        />
+        <Route 
+          path="/youth-development/physical" 
+          element={<ProtectedRoute element={<PhysicalDevelopmentPage />} />} 
+        />
+        <Route 
+          path="/youth-development/conditional" 
+          element={<ProtectedRoute element={<ConditionalDevelopmentPage />} />} 
+        />
+        <Route 
+          path="/youth-development/endurance" 
+          element={<ProtectedRoute element={<EnduranceDevelopmentPage />} />} 
+        />
+
+        {/* Other protected routes */}
+        <Route 
+          path="/scouting-network" 
+          element={<ProtectedRoute element={<ScoutingNetworkPage />} />} 
+        />
+        <Route 
+          path="/performance-visualization" 
+          element={<ProtectedRoute element={<PerformanceVisualizationPage />} />} 
+        />
+        <Route 
+          path="/transfer-strategy" 
+          element={<ProtectedRoute element={<TransferStrategyPage />} />} 
+        />
+        <Route 
+          path="/match-analysis" 
+          element={<ProtectedRoute element={<MatchAnalysisPage />} />} 
+        />
+        <Route 
+          path="/score-prediction" 
+          element={<ProtectedRoute element={<ScorePredictionPage />} />} 
+        />
       </Routes>
     </Router>
   );

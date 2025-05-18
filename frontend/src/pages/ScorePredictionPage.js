@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { fetchLeagues, fetchTeamsByLeague, fetchPredictions } from "../services/prediction_api";
 import "../styles/ScorePredictionPage.css";
 import scorePredictionIcon from "../assets/images/score_prediction_icon.png";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const defaultLeagueLogo = "https://tmssl.akamaized.net//images/logo/header/tr1.png?lm=1723019495"; // Placeholder for default league logo
 const defaultTeamLogo = "https://tmssl.akamaized.net/images/wappen/head/10484.png"; // Default team logo
@@ -149,10 +151,11 @@ const ScorePredictionPage = () => {
       }
     ];
   };
-
   return (
-    <div className="score-prediction-page">
-      <div className="selectors">
+    <div className="page-container">
+      <Header />
+      <div className="score-prediction-page">
+        <div className="selectors">
         <div className="handle-league-select">
           <select 
             value={selectedLeague || ""} 
@@ -288,10 +291,11 @@ const ScorePredictionPage = () => {
               </div>
             );
           })}
-        </div>
-      ) : (
+        </div>      ) : (
         <div className="no-predictions">No predictions available for the selected team.</div>
       )}
+    </div>
+      <Footer />
     </div>
   );
 };

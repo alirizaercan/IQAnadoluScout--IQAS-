@@ -6,7 +6,7 @@ TYFOR is a data-driven scouting and performance analysis platform designed to su
 The platform aims to minimize reliance on player agents, optimize scouting operations, and provide a systematic approach to youth talent development, ultimately contributing to the long-term sustainability of football clubs.
 
 ## Main Components
-IQAnadoluScout consists of **six** integrated modules:
+TYFOR consists of **six** integrated modules:
 
 ### 1. Young Talent Development Module
 This module enables clubs to **track and monitor** young players' training sessions and match performances. It provides:
