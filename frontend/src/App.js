@@ -12,6 +12,10 @@ import PerformanceVisualizationPage from './pages/PerformanceVisualizationPage';
 import ScorePredictionPage from './pages/ScorePredictionPage';
 import MatchAnalysisPage from './pages/MatchAnalysisPage';
 import AdminPanelPage from './pages/AdminPanelPage';
+import LandingPage from './pages/LandingPage';
+import TermsPage from './pages/TermsPage';
+import PrivacyPage from './pages/PrivacyPage';
+import DataPolicy from './pages/DataPolicy';
 import { isAuthenticated, isAdmin } from './services/auth';
 
 // Protected route component that checks if user is authenticated
@@ -29,11 +33,10 @@ const ProtectedRoute = ({ element, requireAdmin = false }) => {
   return element;
 };
 
-function App() {
-  return (
+function App() {  return (
     <Router>
-      <Routes>        {/* Authentication routes */}
-        <Route path="/" element={<Navigate to="/authentication" replace />} />
+      <Routes>        {/* Landing and Authentication routes */}
+        <Route path="/" element={<LandingPage />} />
         <Route path="/authentication" element={<AuthenticationPage />} />
         
         {/* Admin panel route - protected and requires admin role */}
@@ -82,11 +85,15 @@ function App() {
         <Route 
           path="/match-analysis" 
           element={<ProtectedRoute element={<MatchAnalysisPage />} />} 
-        />
-        <Route 
+        />        <Route 
           path="/score-prediction" 
           element={<ProtectedRoute element={<ScorePredictionPage />} />} 
         />
+
+        {/* Legal pages - public access */}
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/data-policy" element={<DataPolicy />} />
       </Routes>
     </Router>
   );

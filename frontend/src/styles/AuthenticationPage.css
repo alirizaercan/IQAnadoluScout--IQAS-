@@ -49,7 +49,8 @@ body {
 }
 
 .logo {
-  max-width: 500px;
+  max-width: 550px;
+  margin-right:250px;
   width: 100%;
   height: auto;
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));

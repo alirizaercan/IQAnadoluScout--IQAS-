@@ -61,19 +61,18 @@ const Footer = () => {
               <span className="contact-icon">
                 <FontAwesomeIcon icon={faEnvelope} />
               </span>
-              <a href="mailto:info@tyfor.com" className="contact-link">info@tyfor.com</a>
-            </li>
-            <li>
+              <a href="mailto:info.tyfor@gmail.com" className="contact-link">info.tyfor@gmail.com</a>
+            </li>            <li>
               <span className="contact-icon">
                 <FontAwesomeIcon icon={faPhone} />
               </span>
-              <a href="tel:+902125550123" className="contact-link">+90 (212) 555-0123</a>
+              <a href="tel:+905342402651" className="contact-link">+90 534 240 2651</a>
             </li>
             <li>
               <span className="contact-icon">
                 <FontAwesomeIcon icon={faMapMarkerAlt} />
               </span>
-              <span className="contact-text">Istanbul, Turkey</span>
+              <span className="contact-text">Turkey</span>
             </li>
           </ul>
         </div>
