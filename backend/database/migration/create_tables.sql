@@ -15,7 +15,8 @@ CREATE TABLE IF NOT EXISTS users (
     team_id INT REFERENCES football_teams(team_id),
     access_key VARCHAR(64) UNIQUE,
     is_admin BOOLEAN DEFAULT FALSE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    needs_password_change BOOLEAN DEFAULT FALSE
 );
 
 -- NOTIFICATIONS TABLE

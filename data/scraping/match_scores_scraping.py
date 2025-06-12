@@ -1,3 +1,4 @@
+# This script scrapes match scores from SofaScore for specific leagues and seasons.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
