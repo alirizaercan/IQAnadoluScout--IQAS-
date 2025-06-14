@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'http://localhost:5056/api/auth';
 
 // Create axios instance with common headers
 const adminApi = axios.create({

@@ -1,6 +1,6 @@
 /* frontend/src/services/conditional_api.js */
 
-const API_BASE_URL = "http://localhost:5000/api/conditional-development";
+const API_BASE_URL = "http://localhost:5056/api/conditional-development";
 
 // Function to fetch all leagues
 export const fetchLeagues = async () => {

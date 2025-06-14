@@ -1,5 +1,5 @@
 /* frontend/src/services/scouting_api.js */
-const API_BASE_URL = "http://localhost:5000/api/scouting";
+const API_BASE_URL = "http://localhost:5056/api/scouting";
 
 // Fetch all leagues
 export const fetchAllLeagues = async () => {

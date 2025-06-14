@@ -1,6 +1,6 @@
 /* frontend/src/services/physical_api.js */
 
-const API_BASE_URL = "http://localhost:5000/api/physical-development";
+const API_BASE_URL = "http://localhost:5056/api/physical-development";
 
 // Function to fetch all leagues
 export const fetchLeagues = async () => {

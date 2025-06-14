@@ -1,0 +1,86 @@
+# Development Dockerfile for TYFOR project
+FROM python:3.11-slim
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=development
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    libpq-dev \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgomp1 \
+    libgeos-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js for frontend development
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs
+
+# Create app directory
+WORKDIR /app
+
+# Create necessary directories
+RUN mkdir -p backend/static/graphs \
+    backend/static/team-logos \
+    backend/uploads/videos \
+    backend/uploads/processed_videos \
+    data/models \
+    data/processed_data \
+    data/raw_data
+
+# Copy and install backend dependencies
+COPY backend/requirements.txt ./backend/
+RUN pip install --no-cache-dir -r backend/requirements.txt
+
+# Copy and install frontend dependencies
+COPY frontend/package*.json ./frontend/
+WORKDIR /app/frontend
+RUN npm install
+
+# Set working directory back to app
+WORKDIR /app
+
+# Copy source code (will be overridden by volume mounts in development)
+COPY backend/ ./backend/
+COPY frontend/ ./frontend/
+COPY data/ ./data/
+
+# Copy additional files
+COPY requirements.txt ./
+COPY README.md ./
+
+# Set working directory to backend
+WORKDIR /app/backend
+
+# Create uploads directory with proper permissions
+RUN chmod -R 755 uploads/ static/
+
+# Expose ports
+EXPOSE 5056 3000
+
+# Development startup script
+COPY <<EOF /app/start-dev.sh
+#!/bin/bash
+set -e
+
+# Start frontend development server in background
+cd /app/frontend && npm start &
+
+# Start backend development server
+cd /app/backend && python app.py
+EOF
+
+RUN chmod +x /app/start-dev.sh
+
+# Run development servers
+CMD ["/app/start-dev.sh"]

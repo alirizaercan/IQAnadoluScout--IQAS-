@@ -1,5 +1,5 @@
 // frontend/src/services/prediction_api.js
-const API_BASE_URL = "http://localhost:5000/api/match-score-prediction";
+const API_BASE_URL = "http://localhost:5056/api/match-score-prediction";
 
 export const fetchLeagues = async () => {
   try {

@@ -1,6 +1,6 @@
 // src/services/match_analysis_api.js
 import axios from 'axios';
-const API_BASE_URL = "http://localhost:5000/api/match-analysis";
+const API_BASE_URL = "http://localhost:5056/api/match-analysis";
 
 export const uploadMatchVideo = async (videoFile, homeTeam, awayTeam, matchDate) => {
   const formData = new FormData();

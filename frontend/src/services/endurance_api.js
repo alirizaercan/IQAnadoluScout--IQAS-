@@ -1,6 +1,6 @@
 /* frontend/src/services/endurance_api.js */
 
-const API_BASE_URL = "http://localhost:5000/api/endurance-development";
+const API_BASE_URL = "http://localhost:5056/api/endurance-development";
 
 // Function to fetch all leagues
 export const fetchLeagues = async () => {

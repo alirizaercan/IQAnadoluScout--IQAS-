@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: tyfor_db
+      POSTGRES_USER: tyfor_user
+      POSTGRES_PASSWORD: tyfor_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/database/setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tyfor_user -d tyfor_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # TYFOR Application
+  app:
+    build: .
+    environment:
+      - DATABASE_URL=postgresql://tyfor_user:tyfor_password@db:5432/tyfor_db
+      - FLASK_ENV=production
+      - SECRET_KEY=your-secret-key-here
+    ports:
+      - "5056:5056"
+    volumes:
+      - ./backend/uploads:/app/backend/uploads
+      - ./backend/static/graphs:/app/backend/static/graphs
+      - ./data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

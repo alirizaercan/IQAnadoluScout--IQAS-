@@ -102,7 +102,7 @@ const MatchAnalysisPage = () => {
         } catch (error) {
           console.error("Failed to load video:", error);
           // Try fallback URL
-          const fallbackUrl = `http://localhost:5000/uploads/processed_videos/processed_${analysisId}.mp4?t=${Date.now()}`;
+          const fallbackUrl = `http://localhost:5056/uploads/processed_videos/processed_${analysisId}.mp4?t=${Date.now()}`;
           console.log("Trying fallback URL:", fallbackUrl);
           videoPlayerRef.current.src = fallbackUrl;
           videoPlayerRef.current.load();
