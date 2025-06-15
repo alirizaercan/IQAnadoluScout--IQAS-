@@ -6,6 +6,7 @@ from models.football_team import FootballTeam
 from models.league import League
 from models.match import Match
 from datetime import datetime, timedelta
+from sqlalchemy import or_
 import traceback
 
 match_bp = Blueprint('match_score_prediction', __name__)
@@ -46,18 +47,13 @@ def get_predictions(team_id):
         # Get current date
         today = datetime.now().date()
         
-        service = MatchService(session)
-        
-        # Find upcoming matches for next 4 weeks
+        service = MatchService(session)        # Find upcoming matches for next 4 weeks
         upcoming_matches = get_next_four_weeks_matches(session, team_id, today)
         
-        # If no upcoming matches, get the last 4 played matches
-        if not upcoming_matches:
-            upcoming_matches = get_last_four_weeks_matches(session, team_id, today)
+        predictions = []
         
-        # If we have matches, get predictions for them
         if upcoming_matches:
-            # Use the existing prediction service but extract only the matches we want
+            # Get predictions for upcoming matches
             all_predictions = service.predict_match_scores(team_id)
             
             # Filter predictions to only include our target matches
@@ -70,7 +66,15 @@ def get_predictions(team_id):
             # Take only the first 4 if we have more
             predictions = predictions[:4]
         else:
-            predictions = []
+            # If no upcoming matches, get the last 4 played matches and predict their scores
+            last_matches = get_last_four_played_matches(session, team_id, today)
+            
+            if last_matches:
+                # Generate predictions for these past matches (as if they were upcoming)
+                predictions = service.predict_specific_matches(team_id, last_matches)
+                
+                # Sort by date (most recent first for past matches)
+                predictions.sort(key=lambda x: datetime.strptime(x['date'], '%Y-%m-%d'), reverse=True)
         
         # Add league logo to each prediction
         league = session.query(League).filter_by(league_id=team.league_id).first()
@@ -113,28 +117,14 @@ def get_next_four_weeks_matches(session, team_id, today):
     # Return only up to 4 matches
     return all_matches[:4]
 
-def get_last_four_weeks_matches(session, team_id, today):
-    """Get the last 4 matches for a team if no upcoming matches are found."""
-    start_date = today - timedelta(days=28)  # 4 weeks ago
+def get_last_four_played_matches(session, team_id, today):
+    """Get the last 4 played matches for a team."""
     
-    # Get both home and away matches
-    home_matches = session.query(Match).filter(
-        Match.home_team_id == team_id,
+    # Get all matches (both home and away) for the team
+    all_matches = session.query(Match).filter(
+        or_(Match.home_team_id == team_id, Match.away_team_id == team_id),
         Match.date < today,
-        Match.date >= start_date,
         Match.is_played == True
-    ).order_by(Match.date.desc()).all()
+    ).order_by(Match.date.desc()).limit(4).all()
     
-    away_matches = session.query(Match).filter(
-        Match.away_team_id == team_id,
-        Match.date < today,
-        Match.date >= start_date,
-        Match.is_played == True
-    ).order_by(Match.date.desc()).all()
-    
-    # Combine and sort by date (most recent first)
-    all_matches = home_matches + away_matches
-    all_matches.sort(key=lambda match: match.date, reverse=True)
-    
-    # Return only up to 4 matches
-    return all_matches[:4]
+    return all_matches

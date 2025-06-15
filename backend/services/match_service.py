@@ -356,3 +356,182 @@ class MatchService:
         pred_df['away_confidence'] = np.mean(away_sims == pred_df['away_goals_pred'].values.reshape(-1, 1), axis=1)
         
         return pred_df
+
+    def predict_specific_matches(self, team_id, matches):
+        """
+        Predict scores for specific matches (can be past or future matches)
+        """
+        try:
+            predictions = []
+            team = self.session.query(FootballTeam).filter_by(team_id=team_id).first()
+            
+            if not team or not matches:
+                return predictions
+            
+            for match in matches:
+                # Determine opponent and if team is playing at home
+                if match.home_team_id == int(team_id):
+                    opponent = self.session.query(FootballTeam).filter_by(team_id=match.away_team_id).first()
+                    is_home = True
+                else:
+                    opponent = self.session.query(FootballTeam).filter_by(team_id=match.home_team_id).first()
+                    is_home = False
+                
+                if not opponent:
+                    continue
+                
+                # Get team statistics for prediction
+                team_stats = self._get_team_stats(team)
+                opponent_stats = self._get_team_stats(opponent)
+                
+                # Simple prediction logic based on team strength
+                if is_home:
+                    home_strength = team_stats.get('attack_strength', 1.0) * 1.1  # Home advantage
+                    away_strength = opponent_stats.get('attack_strength', 1.0)
+                    home_defense = team_stats.get('defense_strength', 1.0)
+                    away_defense = opponent_stats.get('defense_strength', 1.0)
+                else:
+                    home_strength = opponent_stats.get('attack_strength', 1.0) * 1.1  # Home advantage
+                    away_strength = team_stats.get('attack_strength', 1.0)
+                    home_defense = opponent_stats.get('defense_strength', 1.0)
+                    away_defense = team_stats.get('defense_strength', 1.0)                # Calculate predicted scores
+                predicted_home_score = max(0, round(home_strength / away_defense * 1.2))
+                predicted_away_score = max(0, round(away_strength / home_defense * 1.2))
+                
+                # Enhanced confidence calculation based on multiple factors
+                confidence = self._calculate_match_confidence(
+                    team_stats, opponent_stats, is_home, 
+                    predicted_home_score, predicted_away_score
+                )
+                  # Get footballer information if available
+                home_footballer_img_path = None
+                away_footballer_img_path = None
+                
+                if hasattr(match, 'home_footballer_id') and match.home_footballer_id:
+                    home_footballer = self.session.query(Footballer).filter_by(footballer_id=match.home_footballer_id).first()
+                    if home_footballer:
+                        home_footballer_img_path = home_footballer.footballer_img_path
+                
+                if hasattr(match, 'away_footballer_id') and match.away_footballer_id:
+                    away_footballer = self.session.query(Footballer).filter_by(footballer_id=match.away_footballer_id).first()
+                    if away_footballer:
+                        away_footballer_img_path = away_footballer.footballer_img_path
+                
+                prediction = {
+                    'match_id': match.match_id,
+                    'week': getattr(match, 'week', 'Week 1'),  # Default week if not available
+                    'date': match.date.strftime('%Y-%m-%d'),
+                    'home_team_id': match.home_team_id,
+                    'home_team_name': match.home_team_rel.team_name,
+                    'home_team_logo': match.home_team_rel.img_path,
+                    'away_team_id': match.away_team_id,
+                    'away_team_name': match.away_team_rel.team_name,
+                    'away_team_logo': match.away_team_rel.img_path,
+                    'predicted_home_goals': predicted_home_score,
+                    'predicted_away_goals': predicted_away_score,
+                    'confidence': confidence,
+                    'home_footballer_id': getattr(match, 'home_footballer_id', None),
+                    'away_footballer_id': getattr(match, 'away_footballer_id', None),
+                    'home_footballer_img_path': home_footballer_img_path,
+                    'away_footballer_img_path': away_footballer_img_path
+                }
+                
+                predictions.append(prediction)
+            
+            return predictions
+            
+        except Exception as e:
+            print(f"Error in predict_specific_matches: {e}")
+            return []
+    
+    def _get_team_stats(self, team):
+        """
+        Get basic team statistics for prediction
+        """
+        try:
+            # Get recent matches for the team
+            recent_matches = self.session.query(Match).filter(
+                ((Match.home_team_id == team.team_id) | (Match.away_team_id == team.team_id)),
+                Match.is_played == True
+            ).order_by(Match.date.desc()).limit(10).all()
+            
+            if not recent_matches:
+                return {'attack_strength': 1.0, 'defense_strength': 1.0}
+            
+            goals_for = 0
+            goals_against = 0
+            
+            for match in recent_matches:
+                if match.home_team_id == team.team_id:
+                    goals_for += match.home_goals or 0
+                    goals_against += match.away_goals or 0
+                else:
+                    goals_for += match.away_goals or 0
+                    goals_against += match.home_goals or 0
+            
+            matches_count = len(recent_matches)
+            avg_goals_for = goals_for / matches_count if matches_count > 0 else 1.0
+            avg_goals_against = goals_against / matches_count if matches_count > 0 else 1.0
+            
+            # Normalize values
+            attack_strength = max(0.5, min(3.0, avg_goals_for))
+            defense_strength = max(0.5, min(3.0, 3.0 - avg_goals_against))
+            
+            return {
+                'attack_strength': attack_strength,
+                'defense_strength': defense_strength
+            }
+            
+        except Exception as e:
+            print(f"Error getting team stats: {e}")
+            return {'attack_strength': 1.0, 'defense_strength': 1.0}
+    
+    def _calculate_match_confidence(self, team_stats, opponent_stats, is_home, home_score, away_score):
+        """
+        Calculate confidence score based on multiple factors
+        """
+        try:
+            # Base confidence factors
+            base_confidence = 0.4  # Start with 40%
+            
+            # Factor 1: Team strength difference
+            team_attack = team_stats.get('attack_strength', 1.0)
+            team_defense = team_stats.get('defense_strength', 1.0)
+            opp_attack = opponent_stats.get('attack_strength', 1.0)
+            opp_defense = opponent_stats.get('defense_strength', 1.0)
+            
+            # Calculate overall team strength
+            team_overall = (team_attack + team_defense) / 2
+            opp_overall = (opp_attack + opp_defense) / 2
+            
+            strength_diff = abs(team_overall - opp_overall)
+            strength_confidence = min(0.25, strength_diff * 0.15)  # Max 25% from strength diff
+            
+            # Factor 2: Score difference (larger differences = higher confidence)
+            score_diff = abs(home_score - away_score)
+            if score_diff >= 3:
+                score_confidence = 0.2  # High confidence for 3+ goal differences
+            elif score_diff == 2:
+                score_confidence = 0.15
+            elif score_diff == 1:
+                score_confidence = 0.1
+            else:
+                score_confidence = 0.05  # Low confidence for draws
+            
+            # Factor 3: Home advantage
+            home_confidence = 0.05 if is_home else 0
+            
+            # Factor 4: Randomness to add variation
+            import random
+            random.seed(hash(f"{team_stats}{opponent_stats}{home_score}{away_score}"))  # Deterministic randomness
+            randomness = random.uniform(-0.1, 0.1)  # ±10% variation
+            
+            # Combine all factors
+            total_confidence = base_confidence + strength_confidence + score_confidence + home_confidence + randomness
+            
+            # Ensure confidence is between 0.3 and 0.9
+            return max(0.3, min(0.9, total_confidence))
+            
+        except Exception as e:
+            print(f"Error calculating confidence: {e}")
+            return 0.5  # Default confidence

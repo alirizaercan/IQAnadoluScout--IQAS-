@@ -24,6 +24,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=production
+ENV PYTHONPATH=/app/backend
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -37,6 +38,8 @@ RUN apt-get update && apt-get install -y \
     libxrender-dev \
     libgomp1 \
     libgeos-dev \
+    curl \
+    postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Create app directory
@@ -53,6 +56,7 @@ RUN mkdir -p backend/static/graphs \
 
 # Copy backend requirements and install Python dependencies
 COPY backend/requirements.txt ./backend/
+RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir -r backend/requirements.txt
 
 # Copy backend source code
@@ -66,10 +70,16 @@ COPY --from=frontend-builder /app/frontend/build ./backend/frontend/build
 
 # Copy additional files
 COPY requirements.txt ./
-COPY README.md ./
+COPY init_db.sh ./
+
+# Make init script executable
+RUN chmod +x init_db.sh
 
 # Set working directory to backend
 WORKDIR /app/backend
+
+# Set Python path to include the backend directory
+ENV PYTHONPATH=/app/backend:/app
 
 # Create uploads directory with proper permissions
 RUN chmod -R 755 uploads/ static/
@@ -78,8 +88,66 @@ RUN chmod -R 755 uploads/ static/
 EXPOSE 5056
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=30s --start-period=60s --retries=3 \
     CMD curl -f http://localhost:5056/ || exit 1
 
-# Run the application with gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5056", "--workers", "4", "--timeout", "120", "app:app"]
+# Create startup script
+COPY <<EOF /app/start.sh
+#!/bin/bash
+set -e
+
+echo "Waiting for database..."
+while ! pg_isready -h db -p 5432 -U postgres; do
+  echo "Database is unavailable - sleeping"
+  sleep 2
+done
+
+echo "Database is up - executing command"
+
+# Initialize database if needed
+python3 -c "
+import os
+import sys
+sys.path.append('/app/backend')
+try:
+    # Import models in dependency order
+    import models.user
+    import models.league
+    import models.football_team
+    import models.footballer
+    import models.notification
+    import models.player
+    import models.match
+    import models.performance
+    import models.physical
+    import models.endurance
+    import models.conditional
+    import models.match_analysis
+    
+    from utils.database import Database
+    from sqlalchemy import create_engine
+    from models import Base
+    
+    # Create database tables
+    engine = create_engine(os.getenv('DATABASE_URL'))
+    Base.metadata.create_all(engine)
+    
+    db = Database()
+    session = db.connect()
+    print('✅ Database connection and tables created successfully')
+    session.close()
+except Exception as e:
+    print(f'❌ Database initialization failed: {e}')
+    import traceback
+    traceback.print_exc()
+    sys.exit(1)
+"
+
+# Start gunicorn
+exec gunicorn --bind 0.0.0.0:5056 --workers 2 --timeout 120 --preload app:app
+EOF
+
+RUN chmod +x /app/start.sh
+
+# Run the application
+CMD ["/app/start.sh"]

@@ -6,6 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=development
+ENV PYTHONPATH=/app/backend
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -20,6 +21,7 @@ RUN apt-get update && apt-get install -y \
     libgomp1 \
     libgeos-dev \
     curl \
+    postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Node.js for frontend development
@@ -40,6 +42,7 @@ RUN mkdir -p backend/static/graphs \
 
 # Copy and install backend dependencies
 COPY backend/requirements.txt ./backend/
+RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir -r backend/requirements.txt
 
 # Copy and install frontend dependencies
@@ -57,7 +60,10 @@ COPY data/ ./data/
 
 # Copy additional files
 COPY requirements.txt ./
-COPY README.md ./
+COPY init_db.sh ./
+
+# Make init script executable
+RUN chmod +x init_db.sh
 
 # Set working directory to backend
 WORKDIR /app/backend
@@ -73,10 +79,60 @@ COPY <<EOF /app/start-dev.sh
 #!/bin/bash
 set -e
 
+echo "🔄 Starting development environment..."
+
+# Wait for database
+echo "⏳ Waiting for database..."
+while ! pg_isready -h db -p 5432 -U postgres; do
+  echo "Database is unavailable - sleeping"
+  sleep 2
+done
+
+echo "✅ Database is ready!"
+
+# Initialize database and models
+echo "🔧 Initializing database..."
+python3 -c "
+import os
+import sys
+sys.path.append('/app/backend')
+try:
+    # Import models in dependency order
+    import models.user
+    import models.league
+    import models.football_team
+    import models.footballer
+    import models.notification
+    import models.player
+    import models.match
+    import models.performance
+    import models.physical
+    import models.endurance
+    import models.conditional
+    import models.match_analysis
+    
+    from utils.database import Database
+    from sqlalchemy import create_engine
+    from models import Base
+    
+    # Create database tables
+    engine = create_engine(os.getenv('DATABASE_URL'))
+    Base.metadata.create_all(engine)
+    
+    print('✅ Database tables created successfully')
+    
+except Exception as e:
+    print(f'❌ Database initialization failed: {e}')
+    import traceback
+    traceback.print_exc()
+"
+
 # Start frontend development server in background
+echo "🚀 Starting frontend development server..."
 cd /app/frontend && npm start &
 
 # Start backend development server
+echo "🚀 Starting backend development server..."
 cd /app/backend && python app.py
 EOF
 

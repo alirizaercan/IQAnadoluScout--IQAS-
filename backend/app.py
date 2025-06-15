@@ -18,12 +18,25 @@ from controllers.match_analysis_controller import match_analysis_bp
 
 # Import all models to register them with SQLAlchemy
 # This ensures the models are loaded before they're used
-import models.football_team
+# Import order is important for foreign key dependencies
+
+# First: Base tables without foreign keys
 import models.user
-import models.footballer
 import models.league
-import models.match
-import models.notification  # Add this import
+import models.football_team
+
+# Second: Tables with foreign keys to base tables
+import models.footballer  # depends on league, football_team
+import models.notification
+
+# Third: Tables with foreign keys to footballer/team
+import models.player      # depends on footballer
+import models.match       # depends on league, football_team, footballer
+import models.performance # depends on footballer
+import models.physical    # depends on footballer
+import models.endurance   # depends on footballer  
+import models.conditional # depends on footballer
+import models.match_analysis # depends on match
 
 # Log ayarlarını yapılandır
 #logging.getLogger('werkzeug').setLevel(logging.WARNING)  # Sadece warning ve üstü logları göster

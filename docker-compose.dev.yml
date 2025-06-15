@@ -1,34 +1,34 @@
 version: '3.8'
 
-services:
-  # PostgreSQL Database
+services:  # PostgreSQL Database
   db:
     image: postgres:15-alpine
     environment:
-      POSTGRES_DB: tyfor_db
-      POSTGRES_USER: tyfor_user
-      POSTGRES_PASSWORD: tyfor_password
+      POSTGRES_DB: tyfor
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./backend/database/setup.sql:/docker-entrypoint-initdb.d/setup.sql
     ports:
-      - "5432:5432"
+      - "5433:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U tyfor_user -d tyfor_db"]
+      test: ["CMD-SHELL", "pg_isready -U postgres -d tyfor"]
       interval: 10s
       timeout: 5s
       retries: 5
-
   # TYFOR Application (Development)
   app:
     build:
       context: .
       dockerfile: Dockerfile.dev
     environment:
-      - DATABASE_URL=postgresql://tyfor_user:tyfor_password@db:5432/tyfor_db
+      - DATABASE_URL=
+      - JWT_SECRET_KEY=dev_jwt_secret_key_change_in_production
       - FLASK_ENV=development
       - FLASK_DEBUG=1
-      - SECRET_KEY=dev-secret-key
+      - SECRET_KEY=dev_secret_key_change_in_production
+      - PYTHONPATH=/app/backend
     ports:
       - "5056:5056"
       - "3000:3000"  # React dev server

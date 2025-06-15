@@ -1011,8 +1011,7 @@
 
 /* Common Dropdown Styles */
 .settings-dropdown,
-.notifications-dropdown,
-.password-modal {
+.notifications-dropdown{
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
@@ -1027,18 +1026,6 @@
 
 .settings-dropdown {
   width: 420px;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 999;
-  animation: fadeIn 0.2s ease;
-  backdrop-filter: blur(2px);
 }
 
 /* Common Header Styles */
@@ -1329,146 +1316,7 @@
 }
 
 .settings-content,
-.notifications-list {
-  padding-top: 4px;
-}
-
-/* Password Change Modal */
-.modal-overlay {
-  position: absolute;
-  top: 72px;
-  right: 16px;
-  z-index: 1000;
-  animation: fadeIn 0.2s ease;
-}
-
-.password-modal {
-  background: white;
-  border-radius: 12px;
-  padding: 24px;
-  width: 380px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  position: absolute;
-  top: 0;
-  right: 0;
-  animation: fadeInDown 0.3s ease;
-  border: 1px solid #e2e8f0;
-  margin-bottom: 16px;
-}
-
-.password-modal h3 {
-  color: #1a202c;
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.password-modal p {
-  color: #718096;
-  margin-bottom: 1.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-}
-
-.password-modal .form-group {
-  margin-bottom: 1rem;
-}
-
-.password-modal label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #4a5568;
-}
-
-.password-modal input {
-  width: 100%;
-  padding: 0.625rem 0.75rem;
-  font-size: 0.875rem;
-  color: #1a202c;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
-.password-modal input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  background: white;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-.password-modal .modal-footer {
-  display: flex;
-  justify-content: flex-end;
-  gap: 8px;
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px solid #e2e8f0;
-}
-
-.password-modal .cancel-btn,
-.password-modal .save-settings-btn {
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
-.password-modal .cancel-btn {
-  background: white;
-  border: 1px solid #e2e8f0;
-  color: #64748b;
-}
-
-.password-modal .cancel-btn:hover {
-  background: #f8fafc;
-  border-color: #cbd5e1;
-  color: #475569;
-}
-
-.password-modal .save-settings-btn {
-  background: #3b82f6;
-  border: none;
-  color: white;
-  padding: 0.5rem 1.25rem;
-}
-
-.password-modal .save-settings-btn:hover:not(:disabled) {
-  background: #2563eb;
-}
-
-.password-modal .save-settings-btn:disabled {
-  background: #94a3b8;
-  cursor: not-allowed;
-}
-
-.password-modal .settings-error,
-.password-modal .settings-success {
-  margin-top: 1rem;
-  padding: 0.75rem;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.password-modal .settings-error {
-  background: #fee2e2;
-  border: 1px solid #fecaca;
-  color: #dc2626;
-}
-
-.password-modal .settings-success {
-  background: #dcfce7;
-  border: 1px solid #bbf7d0;
-  color: #16a34a;
+.notifications-list {  padding-top: 4px;
 }
 
 @keyframes fadeInDown {
@@ -1509,29 +1357,6 @@
   }
 }
 
-.password-modal .close-button {
-  background: transparent;
-  border: none;
-  color: #64748b;
-  font-size: 1.5rem;
-  line-height: 1;
-  padding: 4px 8px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
-.password-modal .close-button:hover {
-  background: #f1f5f9;
-  color: #475569;
-}
-
-.password-modal p {
-  color: #64748b;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-}
 
 .right-section {
   position: relative;
@@ -1682,60 +1507,9 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23dc2626'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-2h2v2h-2zm0-10v6h2V7h-2z'/%3E%3C/svg%3E");
 }
 
-/* Password modal positioning and styling */
-.password-modal {
-  width: 380px;
-  padding: 20px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
-  border: 1px solid #e2e8f0;
-  z-index: 1000;
-  animation: fadeInDown 0.3s ease;
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-}
-
-.password-modal .form-group {
-  margin-bottom: 16px;
-}
-
-.password-modal label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #4a5568;
-  margin-bottom: 6px;
-}
-
-.password-modal input {
-  width: 100%;
-  padding: 8px 12px;
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  transition: all 0.2s ease;
-}
-
-.password-modal input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-.password-modal .settings-footer {
-  margin-top: 20px;
-  padding-top: 16px;
-  border-top: 1px solid #e2e8f0;
-  display: flex;
-  justify-content: flex-end;
-}
-
 /* Ensure dropdowns and password modal have consistent positioning */
 .settings-dropdown,
-.notifications-dropdown,
-.password-modal {
+.notifications-dropdown {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
